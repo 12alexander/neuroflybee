@@ -445,7 +445,7 @@ pip install -e .
 python -m pytest -q        # o: make test
 ```
 
-## Principios de diseño
+## Principios de Diseño del Sistema
 
 - **SOLID**: cada módulo tiene una sola responsabilidad; los componentes dependen de
   interfaces (controladores, sensores, dron) y se extienden mediante registros.
