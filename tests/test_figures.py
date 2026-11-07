@@ -64,3 +64,14 @@ def test_v12_controller_figures(tmp_path):
                                     "--checkpoints", str(tmp_path / "sin_pesos")])
     for name in ("v12_arquitectura_hibrida.png", "v12_supervisor.png"):
         assert (tmp_path / "figures" / name).stat().st_size > 10_000
+
+
+def test_v22_significance_figure(tmp_path):
+    csv_path = tmp_path / "v22_significancia.csv"
+    csv_path.write_text(
+        "grupo,a,b,condicion,escenarios,exito_a,exito_b,diferencia,ic_inf,ic_sup,p,p_holm,h_cohen,significativa,macro\n"
+        "principal,Híbrido,A* (clásico),gps_loss,30,0.32,0.03,0.29,0.14,0.44,0.0015,0.030,0.84,1,HybAstar\n"
+        "principal,Híbrido,A* + ALV (clásico),total,180,0.57,0.62,-0.04,-0.11,0.02,0.2,1.0,-0.09,0,HybAlv\n",
+        encoding="utf-8")
+    _load("plot_significance").main(["--csv", str(csv_path), "--out", str(tmp_path / "figures")])
+    assert (tmp_path / "figures" / "v22_significancia.png").stat().st_size > 10_000

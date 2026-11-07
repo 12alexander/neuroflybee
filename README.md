@@ -355,8 +355,11 @@ inclinación del dron por el viento ni la altura del ojo (la elevación se mide 
 
 ## Significancia estadística y AUROC (v22)
 
+![Significancia](results/figures/v22_significancia.png)
+
 ```bash
-python scripts/significance.py     # tras el benchmark; ~1 s, sin PyTorch
+python scripts/significance.py        # tras el benchmark; ~1 s, sin PyTorch
+python scripts/plot_significance.py   # figura de las comparaciones (v25)
 ```
 
 Cada comparación de `configs/significance.yaml` enfrenta dos controladores sobre los
@@ -372,6 +375,13 @@ Salidas: `results/v22_significancia.csv` y `paper/tablas/v22_significancia.tex`.
 líneas base clásicas: A* + ALV supera a A* en +6 pp de éxito total (IC 95 % [+3, +10],
 p_Holm = 0,017); en «sin GPS» y «combinada» la diferencia es mayor pero, con 30 escenarios,
 todavía no significativa tras Holm.
+
+> **Por qué el p de Holm cambia entre el repositorio y el artículo.** Holm corrige sobre
+> *todas* las comparaciones de la tabla. Aquí, sólo con las líneas base clásicas, son 5
+> pruebas y A* + ALV frente a A* da p_Holm = 0,017. En el artículo, con los controladores
+> neuronales, son 20 pruebas: la misma diferencia (+6 pp) pide más evidencia y queda en
+> p_Holm = 0,065. Al agregar comparaciones la diferencia y su IC no cambian; sólo cambia
+> la exigencia. Basta con volver a correr `significance.py` y `plot_significance.py`.
 
 **AUROC macro (uno contra el resto)** de la mosca: se registra en cada época junto al F1
 macro (`training/fly.py`); mide si la red ordena bien las acciones con independencia del
