@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NeuroFly-Bee Perú — Visor</title>
+<style>
+  :root {
+    --bg: #0f1419; --panel: #172029; --panel2: #1e2a35; --line: #2c3a47; --text: #e6edf3;
+    --muted: #8b9bab; --accent: #2ecc71; --bee: #f1c40f; --fly: #e74c3c; --sup: #2ecc71;
+    --plan: #3498db; --warn: #e67e22;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.4 "Segoe UI", system-ui, sans-serif; }
+  header { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 10px 16px;
+           background: var(--panel); border-bottom: 1px solid var(--line); }
+  header h1 { font-size: 17px; margin: 0 12px 0 0; letter-spacing: .3px; }
+  header h1 span { color: var(--bee); }
+  header h1 em { color: var(--fly); font-style: normal; }
+  label.ctl { color: var(--muted); font-size: 12px; display: flex; gap: 6px; align-items: center; }
+  select, button { background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+                   border-radius: 6px; padding: 5px 9px; font: inherit; cursor: pointer; }
+  button.on { border-color: var(--accent); color: var(--accent); }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 12px; padding: 12px 16px 70px; }
+  #maps { display: grid; gap: 10px; }
+  #maps.single { grid-template-columns: 1fr; }
+  #maps.quad { grid-template-columns: 1fr 1fr; }
+  .map { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px; cursor: pointer; }
+  .map.selected { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  .map .title { display: flex; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: 4px; }
+  .map .title .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+  .map .status { font-size: 12px; color: var(--muted); min-height: 18px; }
+  .map canvas { display: block; margin: 0 auto; border-radius: 6px; aspect-ratio: 1;
+                width: min(100%, calc(100vh - 215px)); }
+  #maps.quad .map canvas { width: min(100%, calc((100vh - 290px) / 2)); }
+  aside { display: flex; flex-direction: column; gap: 10px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+  .card h3 { margin: 0 0 6px; font-size: 13px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .6px; }
+  .row { display: flex; gap: 10px; }
+  .row .card { flex: 1; }
+  canvas.sensor { width: 100%; display: block; image-rendering: pixelated; border-radius: 4px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; color: #111; }
+  .kv { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; font-size: 13px; }
+  .kv b { color: var(--muted); font-weight: 500; }
+  .bars div { display: grid; grid-template-columns: 120px 1fr 40px; gap: 6px; align-items: center; font-size: 12px; margin: 2px 0; }
+  .bars .bar { height: 9px; background: var(--panel2); border-radius: 4px; overflow: hidden; }
+  .bars .bar i { display: block; height: 100%; background: var(--fly); }
+  .bars .chosen { color: var(--text); font-weight: 700; }
+  footer { position: fixed; left: 0; right: 0; bottom: 0; display: flex; gap: 12px; align-items: center; padding: 10px 16px;
+           background: var(--panel); border-top: 1px solid var(--line); }
+  footer input[type=range] { flex: 1; accent-color: var(--accent); }
+  #tlabel { min-width: 110px; text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; color: var(--muted); }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+  .note { font-size: 11px; color: var(--muted); }
+  #live { display: none; flex-wrap: wrap; gap: 10px 14px; align-items: center; padding: 8px 16px;
+          background: #13261c; border-bottom: 1px solid #245c3b; }
+  #live.show { display: flex; }
+  body.live .map canvas { width: min(100%, calc(100vh - 290px)); }
+  body.live #maps.quad .map canvas { width: min(100%, calc((100vh - 400px) / 2)); }
+  #live .tag { color: var(--accent); font-weight: 700; letter-spacing: .4px; }
+  #live input[type=number] { width: 90px; background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+                             border-radius: 6px; padding: 5px 8px; font: inherit; }
+  #live .ctrls { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; }
+  #live .ctrls label { display: flex; gap: 4px; align-items: center; cursor: pointer; }
+  #live .ctrls i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+  #simulate { background: var(--accent); color: #0b1a12; border-color: var(--accent); font-weight: 700; }
+  #simulate:disabled { opacity: .55; cursor: wait; }
+  #livemsg { font-size: 12px; color: var(--muted); }
+  #livemsg.err { color: #ff6b6b; }
+  @media (max-width: 1000px) { main { grid-template-columns: 1fr; } #maps.quad { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>NeuroFly-Bee Perú · <span>abeja</span> + <em>mosca</em></h1>
+  <label class="ctl">Escenario <select id="scenario"></select></label>
+  <label class="ctl">Controlador <select id="controller"></select></label>
+  <button id="layout">Ver 4 lado a lado</button>
+  <div class="legend">
+    <span><i style="background:#5b6770"></i>mapa previo</span>
+    <span><i style="background:#d1495b"></i>no previsto</span>
+    <span><i style="background:#edae49"></i>móvil</span>
+    <span><i style="background:#e67e22;border-radius:50%"></i>veto del supervisor</span>
+    <span><i style="background:transparent;border:1px dashed #ff6b6b"></i>lo que el dron cree (sin GPS)</span>
+  </div>
+</header>
+<div id="live">
+  <span class="tag">● EN VIVO</span>
+  <label class="ctl">Condición <select id="lfamily"></select></label>
+  <label class="ctl">Semilla <input id="lseed" type="number"></label>
+  <button id="lrandom" title="Semilla de prueba al azar">🎲</button>
+  <div id="lctrls" class="ctrls"></div>
+  <button id="simulate">Simular</button>
+  <span id="livemsg"></span>
+</div>
+<main>
+  <section id="maps" class="single"></section>
+  <aside>
+    <div class="card"><h3>Decisión</h3><div id="decision"></div></div>
+    <div class="card"><h3>Red de la mosca · probabilidades</h3><div id="probs" class="bars"></div></div>
+    <div class="row">
+      <div class="card"><h3>Ojo de la mosca</h3><canvas id="eye" class="sensor" width="128" height="128"></canvas>
+        <div class="note">32×32 · arriba = adelante</div></div>
+      <div class="card"><h3>Rayos</h3><canvas id="radar" class="sensor" width="160" height="160"></canvas>
+        <div class="note">supervisor · frente arriba</div></div>
+    </div>
+    <div class="card"><h3>Panorama de la abeja</h3><canvas id="pano" class="sensor" width="340" height="110"></canvas>
+      <div class="note"><span style="color:#f1c40f">■</span> vista actual &nbsp; <span style="color:#1abc9c">—</span> memorizada en la base · O S E N O</div></div>
+  </aside>
+</main>
+<footer>
+  <button id="play">▶ Reproducir</button>
+  <label class="ctl">Velocidad <select id="speed"><option>0.5</option><option selected>1</option><option>2</option><option>4</option><option>8</option></select></label>
+  <input id="time" type="range" min="0" max="0" value="0">
+  <span id="tlabel">paso 0</span>
+</footer>
+<script src="datos.js"></script>
+<script>
+"use strict";
+const DATA = window.NFB_DATA;
+const SOURCE = {abeja: ["Abeja", "#f1c40f"], mosca: ["Mosca", "#e74c3c"], supervisor: ["Supervisor", "#2ecc71"],
+  planificador: ["Planificador A*", "#3498db"], reactivo: ["Reactivo", "#e67e22"], directo: ["Directo", "#9e9e9e"],
+  inicio: ["Inicio", "#8b9bab"]};
+const PHASE = {INSPECT: "Inspección", RETURN: "Regreso", LANDED: "Aterrizado"};
+const $ = (id) => document.getElementById(id);
+const state = {sc: 0, run: 0, quad: false, t: 0, playing: false, last: 0, acc: 0};
+
+// ---------------------------------------------------------------- API para plugins (v18)
+// Los plugins (viz/viewer/plugins/*.js → plugins.js) se registran con NFB.use({...}) y
+// reaccionan a eventos; así nadie más necesita editar este archivo.
+const NFB = window.NFB = {
+  plugins: [], handlers: {},
+  use(plugin) { this.plugins.push(plugin); },
+  on(event, fn) { (this.handlers[event] = this.handlers[event] || []).push(fn); },
+  emit(event, payload) { (this.handlers[event] || []).forEach(fn => { try { fn(payload); } catch (e) { console.warn("plugin", event, e); } }); },
+};
+
+function scenario() { return DATA.scenarios[state.sc]; }
+function horizon() { return Math.max(...scenario().runs.map(r => r.steps.length)) - 1; }
+function stepOf(run, t) { return run.steps[Math.min(t, run.steps.length - 1)]; }
+
+// ---------------------------------------------------------------- interfaz
+function buildSelectors() {
+  $("scenario").innerHTML = DATA.scenarios.map((s, i) => `<option value="${i}">${s.label} (semilla ${s.seed})</option>`).join("");
+  $("scenario").onchange = (e) => { state.sc = +e.target.value; state.run = 0; resetTime(); buildMaps(); };
+  $("controller").onchange = (e) => { state.run = +e.target.value; buildMaps(); };
+  $("layout").onclick = () => { state.quad = !state.quad; buildMaps(); };
+  $("play").onclick = () => { state.playing = !state.playing; if (state.t >= horizon()) state.t = 0; updatePlay(); };
+  $("time").oninput = (e) => { state.t = +e.target.value; render(); };
+}
+function updatePlay() { $("play").textContent = state.playing ? "❚❚ Pausa" : "▶ Reproducir"; }
+function resetTime() { state.t = 0; state.playing = false; updatePlay(); }
+
+function visibleRuns() {
+  const runs = scenario().runs;
+  if (!state.quad) return [state.run];
+  const order = [state.run, ...runs.map((_, i) => i).filter(i => i !== state.run)];
+  return order.slice(0, 4).sort((a, b) => a - b);
+}
+
+function buildMaps() {
+  const sc = scenario();
+  $("controller").innerHTML = sc.runs.map((r, i) => `<option value="${i}">${r.label}</option>`).join("");
+  $("controller").value = state.run;
+  $("layout").textContent = state.quad ? "Ver uno" : "Ver 4 lado a lado";
+  $("layout").classList.toggle("on", state.quad);
+  const maps = $("maps");
+  maps.className = state.quad ? "quad" : "single";
+  maps.innerHTML = visibleRuns().map(i => {
+    const r = sc.runs[i];
+    return `<div class="map ${i === state.run ? "selected" : ""}" data-run="${i}">
+      <div class="title"><span><span class="dot" style="background:${r.color}"></span>${r.label}</span>
+      <span class="note">${sc.label}</span></div>
+      <canvas width="${state.quad ? 520 : 760}" height="${state.quad ? 520 : 760}"></canvas>
+      <div class="status"></div></div>`;
+  }).join("");
+  maps.querySelectorAll(".map").forEach(el => el.onclick = () => { state.run = +el.dataset.run; buildMaps(); });
+  $("time").max = horizon();
+  NFB.emit("afterBuildMaps", {maps});
+  render();
+}
+
+// ---------------------------------------------------------------- mapa
+function drawMap(canvas, run, t) {
+  const sc = scenario(), w = sc.world, ctx = canvas.getContext("2d");
+  const S = canvas.width / w.width, Y = (y) => canvas.height - y * S, X = (x) => x * S;
+  ctx.fillStyle = "#f4f1ea"; ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.strokeStyle = "rgba(0,0,0,0.06)"; ctx.lineWidth = 1;
+  for (let g = 0; g <= w.width; g += 10) { ctx.beginPath(); ctx.moveTo(X(g), 0); ctx.lineTo(X(g), canvas.height); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(0, Y(g)); ctx.lineTo(canvas.width, Y(g)); ctx.stroke(); }
+  // ruta planificada
+  const route = [w.base, ...w.waypoints, w.base];
+  ctx.setLineDash([6, 6]); ctx.strokeStyle = "rgba(31,78,148,0.5)"; ctx.lineWidth = 1.5; ctx.beginPath();
+  route.forEach((p, i) => i ? ctx.lineTo(X(p[0]), Y(p[1])) : ctx.moveTo(X(p[0]), Y(p[1]))); ctx.stroke(); ctx.setLineDash([]);
+  // obstáculos
+  for (const o of w.obstacles) {
+    ctx.fillStyle = o.known ? "#5b6770" : "#d1495b";
+    if (o.type === "circle") { ctx.beginPath(); ctx.arc(X(o.x), Y(o.y), o.r * S, 0, 7); ctx.fill(); }
+    else ctx.fillRect(X(o.x0), Y(o.y1), (o.x1 - o.x0) * S, (o.y1 - o.y0) * S);
+  }
+  for (const d of w.dynamic) {
+    const c = d.path[Math.min(t, d.path.length - 1)];
+    ctx.fillStyle = "#edae49"; ctx.strokeStyle = "#333"; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.arc(X(c[0]), Y(c[1]), d.r * S, 0, 7); ctx.fill(); ctx.stroke();
+  }
+  const steps = run.steps.slice(0, Math.min(t, run.steps.length - 1) + 1), cur = steps[steps.length - 1];
+  // puntos de inspección (verde relleno = visitado de verdad)
+  w.waypoints.forEach((p, i) => {
+    const visited = steps.some(s => Math.hypot(s.p[0] - p[0], s.p[1] - p[1]) <= 1.5);
+    ctx.beginPath(); ctx.arc(X(p[0]), Y(p[1]), 9, 0, 7);
+    ctx.fillStyle = visited ? "#30a14e" : "#fff"; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = "#30a14e"; ctx.stroke();
+    ctx.fillStyle = visited ? "#fff" : "#30a14e"; ctx.font = "bold 11px sans-serif"; ctx.textAlign = "center";
+    ctx.textBaseline = "middle"; ctx.fillText(i + 1, X(p[0]), Y(p[1]));
+  });
+  ctx.fillStyle = "#00798c"; ctx.fillRect(X(w.base[0]) - 9, Y(w.base[1]) - 9, 18, 18);
+  ctx.fillStyle = "#fff"; ctx.font = "bold 10px sans-serif"; ctx.fillText("B", X(w.base[0]), Y(w.base[1]));
+  // estela real
+  ctx.strokeStyle = run.color; ctx.lineWidth = 3; ctx.beginPath();
+  steps.forEach((s, i) => i ? ctx.lineTo(X(s.p[0]), Y(s.p[1])) : ctx.moveTo(X(s.p[0]), Y(s.p[1]))); ctx.stroke();
+  // creencia sin GPS
+  const lost = steps.findIndex(s => !s.g && s.e);
+  if (lost >= 0) {
+    ctx.setLineDash([5, 4]); ctx.strokeStyle = "#ff6b6b"; ctx.lineWidth = 2; ctx.beginPath();
+    steps.slice(lost).forEach((s, i) => s.e && (i ? ctx.lineTo(X(s.e[0]), Y(s.e[1])) : ctx.moveTo(X(s.e[0]), Y(s.e[1]))));
+    ctx.stroke(); ctx.setLineDash([]);
+  }
+  // vetos del supervisor
+  ctx.fillStyle = "#e67e22";
+  steps.forEach(s => { if (s.v) { ctx.beginPath(); ctx.arc(X(s.p[0]), Y(s.p[1]), 3.5, 0, 7); ctx.fill(); } });
+  // rayos y área del ojo
+  const m = DATA.meta, h = cur.h, cx = X(cur.p[0]), cy = Y(cur.p[1]);
+  const n = cur.rg.length;
+  ctx.lineWidth = 1;
+  cur.rg.forEach((r, i) => {
+    const a = -Math.PI + 2 * Math.PI * i / n + h, hit = r < m.ray_range - 0.01;
+    ctx.strokeStyle = hit ? "rgba(230,126,34,0.85)" : "rgba(120,120,120,0.18)";
+    ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(a) * r * S, cy - Math.sin(a) * r * S); ctx.stroke();
+  });
+  const e = m.eye, corners = [[e.forward, e.half_width], [e.forward, -e.half_width], [-e.back, -e.half_width], [-e.back, e.half_width]];
+  ctx.strokeStyle = "rgba(31,119,180,0.7)"; ctx.fillStyle = "rgba(31,119,180,0.08)"; ctx.setLineDash([4, 4]); ctx.beginPath();
+  corners.forEach(([f, l], i) => { const x = cx + (f * Math.cos(h) - l * Math.sin(h)) * S, y = cy - (f * Math.sin(h) + l * Math.cos(h)) * S;
+    i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+  ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.setLineDash([]);
+  // dron
+  const size = Math.max(10, 1.6 * S);
+  ctx.save(); ctx.translate(cx, cy); ctx.rotate(-h);
+  ctx.fillStyle = "#111"; ctx.beginPath(); ctx.moveTo(size, 0); ctx.lineTo(-size * 0.6, size * 0.55); ctx.lineTo(-size * 0.3, 0);
+  ctx.lineTo(-size * 0.6, -size * 0.55); ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = run.color; ctx.lineWidth = 2; ctx.stroke(); ctx.restore();
+  // desenlace
+  const end = t >= run.steps.length - 1;
+  if (end && run.outcome.collided) {
+    ctx.strokeStyle = "#c0392b"; ctx.lineWidth = 5;
+    [[1, 1], [1, -1]].forEach(([a, b]) => { ctx.beginPath(); ctx.moveTo(cx - 12 * a, cy - 12 * b); ctx.lineTo(cx + 12 * a, cy + 12 * b); ctx.stroke(); });
+  }
+  // viento y GPS
+  const wm = Math.hypot(w.wind[0], w.wind[1]);
+  if (wm > 0) {
+    const ox = canvas.width - 50, oy = 40, k = 25 / wm;
+    ctx.strokeStyle = "#6c5ce7"; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(ox - w.wind[0] * k, oy + w.wind[1] * k);
+    ctx.lineTo(ox + w.wind[0] * k, oy - w.wind[1] * k); ctx.stroke();
+    ctx.beginPath(); ctx.arc(ox + w.wind[0] * k, oy - w.wind[1] * k, 4, 0, 7); ctx.fillStyle = "#6c5ce7"; ctx.fill();
+    ctx.font = "11px sans-serif"; ctx.fillText(`viento ${wm.toFixed(2)} m/s`, ox, oy + 36);
+  }
+  if (!cur.g) { ctx.fillStyle = "#c0392b"; ctx.fillRect(8, 8, 150, 24); ctx.fillStyle = "#fff"; ctx.font = "bold 12px sans-serif";
+    ctx.textAlign = "left"; ctx.fillText("SIN GPS", 16, 21); ctx.textAlign = "center"; }
+  NFB.emit("afterDrawMap", {ctx, canvas, run, t, cur, scale: S, X, Y});
+  return {cur, end};
+}
+
+// ---------------------------------------------------------------- sensores
+function drawEye(hex) {
+  const c = $("eye"), ctx = c.getContext("2d"), size = DATA.meta.eye.size, px = c.width / size;
+  ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, c.width, c.height); ctx.fillStyle = "#111";
+  for (let i = 0; i < size * size; i++) {
+    const byte = parseInt(hex.substr((i >> 3) * 2, 2), 16);
+    if ((byte >> (7 - (i & 7))) & 1) ctx.fillRect((i % size) * px, Math.floor(i / size) * px, px, px);
+  }
+  const e = DATA.meta.eye, fy = e.forward / (e.forward + e.back) * c.height;
+  ctx.fillStyle = "#1f77b4"; ctx.beginPath(); ctx.moveTo(c.width / 2, fy - 6); ctx.lineTo(c.width / 2 - 5, fy + 4);
+  ctx.lineTo(c.width / 2 + 5, fy + 4); ctx.fill();
+}
+function drawRadar(ranges) {
+  const c = $("radar"), ctx = c.getContext("2d"), R = c.width / 2 - 6, m = DATA.meta.ray_range, n = ranges.length;
+  ctx.fillStyle = "#0b1015"; ctx.fillRect(0, 0, c.width, c.height);
+  ctx.strokeStyle = "#2c3a47"; [0.25, 0.5, 0.75, 1].forEach(f => { ctx.beginPath(); ctx.arc(c.width / 2, c.height / 2, R * f, 0, 7); ctx.stroke(); });
+  ctx.fillStyle = "rgba(230,126,34,0.35)"; ctx.strokeStyle = "#e67e22"; ctx.beginPath();
+  ranges.forEach((r, i) => { const a = -Math.PI + 2 * Math.PI * i / n, x = c.width / 2 - Math.sin(a) * R * r / m,
+    y = c.height / 2 - Math.cos(a) * R * r / m; i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+  ctx.closePath(); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = "#e6edf3"; ctx.beginPath(); ctx.moveTo(c.width / 2, c.height / 2 - 7); ctx.lineTo(c.width / 2 - 5, c.height / 2 + 5);
+  ctx.lineTo(c.width / 2 + 5, c.height / 2 + 5); ctx.fill();
+}
+function drawPanorama(cur, home) {
+  const c = $("pano"), ctx = c.getContext("2d"), n = cur.length, bw = c.width / n, H = c.height - 6;
+  ctx.fillStyle = "#0b1015"; ctx.fillRect(0, 0, c.width, c.height);
+  ctx.fillStyle = "#f1c40f";
+  cur.forEach((v, i) => ctx.fillRect(i * bw, c.height - v * H * 1.6, bw - 0.5, v * H * 1.6));
+  ctx.strokeStyle = "#1abc9c"; ctx.lineWidth = 2; ctx.beginPath();
+  home.forEach((v, i) => { const y = c.height - v * H * 1.6; i ? ctx.lineTo(i * bw, y) : ctx.moveTo(i * bw, y); ctx.lineTo((i + 1) * bw, y); });
+  ctx.stroke();
+}
+function badge(src) { const [t, col] = SOURCE[src] || [src || "—", "#8b9bab"]; return `<span class="badge" style="background:${col}">${t}</span>`; }
+
+function drawPanels(run, s) {
+  const acts = DATA.meta.actions;
+  $("decision").innerHTML = `<div class="kv">
+    <b>Módulo</b><span>${badge(s.s)}${s.v ? ' <span class="badge" style="background:#e67e22">VETO</span>' : ""}</span>
+    <b>Acción</b><span>${acts[s.a]}</span>
+    <b>Fase</b><span>${PHASE[s.ph] || s.ph}</span>
+    <b>GPS</b><span>${s.g ? "disponible" : '<span style="color:#ff6b6b">perdido → integración de trayectoria</span>'}</span>
+    <b>Vetos</b><span>${run.steps.slice(0, state.t + 1).filter(x => x.v).length}</span>
+    <b>Resultado</b><span>${state.t >= run.steps.length - 1 ? run.outcome.text : "en vuelo…"}</span></div>`;
+  $("probs").innerHTML = s.pr ? s.pr.map((p, i) => `<div class="${i === s.a ? "chosen" : ""}"><span>${acts[i]}</span>
+      <span class="bar"><i style="width:${(p * 100).toFixed(0)}%"></i></span><span>${(p * 100).toFixed(0)}%</span></div>`).join("")
+    : '<div class="note">Este controlador no usa la red de la mosca.</div>';
+  drawEye(s.eye); drawRadar(s.rg); drawPanorama(s.pn, scenario().home_panorama);
+}
+
+function render() {
+  const sc = scenario();
+  document.querySelectorAll("#maps .map").forEach(el => {
+    const run = sc.runs[+el.dataset.run], {cur, end} = drawMap(el.querySelector("canvas"), run, state.t);
+    el.querySelector(".status").innerHTML = end ? `<b style="color:${run.outcome.success ? "#2ecc71" : run.outcome.collided ? "#e74c3c" : "#e67e22"}">${run.outcome.text}</b>`
+      : `${badge(cur.s)} ${DATA.meta.actions[cur.a]}`;
+  });
+  drawPanels(sc.runs[state.run], stepOf(sc.runs[state.run], state.t));
+  $("time").value = state.t; $("tlabel").textContent = `paso ${state.t} / ${horizon()}`;
+}
+
+function loop(ts) {
+  if (state.playing) {
+    state.acc += (ts - state.last) / 1000 * 12 * +$("speed").value;   // 12 pasos/s a velocidad 1
+    const k = Math.floor(state.acc);
+    if (k > 0) { state.acc -= k; state.t = Math.min(state.t + k, horizon()); render();
+      if (state.t >= horizon()) { state.playing = false; updatePlay(); } }
+  }
+  state.last = ts; requestAnimationFrame(loop);
+}
+
+// ---------------------------------------------------------------- simulación en vivo (v17)
+// Sólo se activa cuando el visor lo sirve `scripts/serve.py` (window.NFB_LIVE); abierto como
+// archivo funciona igual que antes, con las simulaciones pregrabadas en datos.js.
+const live = {catalog: null};
+function liveMessage(text, isError = false) { $("livemsg").textContent = text; $("livemsg").classList.toggle("err", isError); }
+function chosenControllers() { return [...document.querySelectorAll("#lctrls input:checked")].map(x => x.value); }
+
+async function initLive() {
+  $("live").classList.add("show"); document.body.classList.add("live"); render();
+  try {
+    const cat = live.catalog = await (await fetch("api/catalogo")).json();
+    $("lfamily").innerHTML = cat.families.map(f => `<option value="${f.id}">${f.label}</option>`).join("");
+    $("lseed").min = cat.seed_min; $("lseed").max = cat.seed_max; $("lseed").value = cat.seed_min;
+    const initial = new Set(scenario().runs.map(r => r.controller));
+    $("lctrls").innerHTML = cat.controllers.map(c => `<label title="${c.description}">
+      <input type="checkbox" value="${c.id}" ${initial.has(c.id) ? "checked" : ""}><i style="background:${c.color}"></i>${c.label}</label>`).join("");
+    $("lctrls").onchange = (e) => { if (chosenControllers().length > cat.max_controllers) { e.target.checked = false;
+      liveMessage(`Máximo ${cat.max_controllers} controladores a la vez`, true); } };
+    $("lrandom").onclick = () => { $("lseed").value = cat.seed_min + Math.floor(Math.random() * (cat.seed_max - cat.seed_min + 1)); };
+    $("simulate").onclick = simulateLive;
+    liveMessage(`${cat.controllers.length} controladores disponibles · semillas de prueba ${cat.seed_min}–${cat.seed_max}`);
+  } catch (err) { liveMessage("No se pudo leer el catálogo del servidor: " + err, true); }
+}
+
+async function simulateLive() {
+  const q = new URLSearchParams({familia: $("lfamily").value, semilla: $("lseed").value, controladores: chosenControllers().join(",")});
+  $("simulate").disabled = true; liveMessage("Simulando…");
+  try {
+    const res = await fetch("api/simular?" + q), body = await res.json();
+    if (!res.ok) { liveMessage(body.error || `Error ${res.status}`, true); return; }
+    const sc = body.scenarios[0];
+    sc.label = `${sc.label} · en vivo`;
+    DATA.scenarios.push(sc);
+    state.sc = DATA.scenarios.length - 1; state.run = 0; state.quad = sc.runs.length > 1;
+    buildSelectors(); $("scenario").value = state.sc; resetTime(); buildMaps();
+    state.playing = true; updatePlay();
+    const ok = sc.runs.filter(r => r.outcome.success).length;
+    liveMessage(`Listo en ${body.meta.elapsed_s} s · ${ok}/${sc.runs.length} controladores completaron la misión`);
+  } catch (err) { liveMessage("Error de conexión con el servidor: " + err, true); }
+  finally { $("simulate").disabled = false; }
+}
+
+if (!DATA) { document.body.innerHTML = "<p style='padding:20px'>Falta datos.js: ejecute <code>python scripts/build_viewer.py</code></p>"; }
+else {
+  Object.assign(NFB, {DATA, state, scenario, horizon, render, buildMaps, live: !!window.NFB_LIVE});
+  // init al cargar el DOM: para entonces plugins.js ya se ejecutó y registró sus plugins
+  document.addEventListener("DOMContentLoaded", () => {
+    NFB.plugins.forEach(p => { try { p.init && p.init(NFB); } catch (e) { console.warn("plugin", p.name, e); } });
+    buildSelectors(); buildMaps(); requestAnimationFrame(loop); if (window.NFB_LIVE) initLive();
+  });
+}
+</script>
+<script src="plugins.js" onerror="/* sin plugins: visor base */"></script>
+</body>
+</html>

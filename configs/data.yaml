@@ -1,0 +1,14 @@
+# Generación de datos (v7). Todos los datos salen del simulador: no hay descargas.
+seed: 0
+out_dir: data/generated
+fly:                     # imitación del experto (módulo mosca)
+  train_episodes: 400    # semillas de entrenamiento 0..399
+  val_episodes: 60       # semillas de validación 10000..10059
+  noise_eps: 0.15        # ruido de acción DART durante la recolección
+  max_steps: 400
+bee:                     # retorno visual (módulo abeja)
+  train_scenarios: 600
+  val_scenarios: 100
+  test_scenarios: 100    # v20: semillas de prueba 20000..20099 (sólo para el informe)
+  per_scenario: 64
+  max_radius: 12.0       # m alrededor de la base

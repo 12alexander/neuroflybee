@@ -1,0 +1,27 @@
+% Sección del artículo — dueño: P3 (editor). 150–250 palabras, sin citas ni ecuaciones.
+\begin{abstract}
+Los drones pequeños que inspeccionan infraestructura en quebradas, bajo puentes o en canales
+cubiertos pierden con frecuencia la señal GPS, y la función de «volver a casa» de los equipos
+comerciales depende precisamente de ella. Proponemos NeuroFly-Bee, un controlador
+bioinspirado que combina dos redes neuronales: un módulo \emph{mosca} (CNN con memoria GRU
+sobre un parche egocéntrico de ocupación de $32\times32$) que esquiva obstáculos no previstos
+y móviles, y un módulo \emph{abeja} (red siamesa 1D sobre una panorámica de 72 sectores) que
+estima la dirección de la base comparando la vista actual con la memorizada al despegar; un
+supervisor de seguridad veta las maniobras peligrosas. Ambas redes se entrenan por imitación
+de un experto con información privilegiada y DAgger, en un simulador reproducible con seis
+condiciones y particiones por semilla sin fuga. Frente a cinco líneas base clásicas evaluadas
+en \nfbEpisodiosPorCondicion{} escenarios de prueba por condición, el mejor método clásico
+completa como máximo el \nfbMejorClasicoSinGPS{} de las misiones sin GPS y el
+\nfbMejorClasicoMoviles{} con obstáculos móviles; el híbrido alcanza \nfbExitoHibridoSinGPS{}
+y \nfbExitoHibridoMoviles{}, respectivamente. El análisis de errores atribuye entre el
+\nfbErrorDerivaRango{} de los fallos clásicos a la deriva sin GPS. Una validación del
+sensor 2.5D y una ablación en la partición de prueba cuantifican cuánto aporta comparar con
+la vista de casa (\nfbAblAbejaCompleta{} de error angular con ella y \nfbAblAbejaVistaUnica{}
+sin ella).
+El código, los pesos y cada número del artículo se regeneran con un comando.
+\end{abstract}
+
+\begin{IEEEkeywords}
+navegación bioinspirada, aprendizaje por imitación, CNN-GRU, red siamesa, retorno visual,
+drones, entornos sin GPS
+\end{IEEEkeywords}

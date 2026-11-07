@@ -1,0 +1,43 @@
+% Sección del artículo — dueño: P1.
+\section{Introducción}
+Inspeccionar infraestructura con drones pequeños es barato y rápido, pero su navegación
+depende casi por completo del GNSS (GPS). Esa señal se degrada justamente en lugares
+frecuentes en la geografía peruana: en quebradas y cañones las paredes bloquean parte del
+cielo y la señal rebota en la roca~\cite{groves2013}; debajo de puentes, en túneles y en
+canales cubiertos no llega; y, por estar el Perú cerca del ecuador magnético, el centelleo
+ionosférico ecuatorial puede hacer que los receptores pierdan la señal después del
+atardecer~\cite{kintner2007}. Cuando esto ocurre, la función de «volver a casa» de los
+drones comerciales queda sin referencia y el equipo deriva.
+
+Los insectos resuelven un problema análogo con cerebros diminutos. Las abejas y hormigas
+combinan la integración de la trayectoria con instantáneas visuales del entorno para
+regresar a su nido~\cite{cartwright1983,wehner2003,srinivasan2011}, y las moscas esquivan
+obstáculos con reflejos visuales rápidos y locales. Tomamos esa división del trabajo como
+hipótesis de diseño: un módulo \emph{abeja} decide \emph{hacia dónde} ir y un módulo
+\emph{mosca} decide \emph{cómo} moverse sin chocar.
+
+Formulamos el problema como control secuencial bajo observación parcial. En cada paso el
+dron recibe un parche egocéntrico de ocupación, un anillo de distancias, una panorámica de
+baja resolución, la brújula, la odometría y, sólo mientras exista, el GPS; elige una de seis
+acciones discretas. Una misión tiene éxito si visita todos los puntos de inspección y aterriza
+a menos de 2\,m de la base sin chocar. El aprendizaje profundo es adecuado porque las
+entradas son de alta dimensión (1\,024 celdas por cuadro), la decisión depende de la historia
+reciente (obstáculos móviles, deriva) y el retorno visual exige comparar patrones
+panorámicos de forma robusta al ruido, algo que los métodos analíticos como el vector
+promedio de hitos (ALV)~\cite{lambrinos2000} hacen con errores de \nfbAlvErrorMediano{}.
+
+Las contribuciones de este trabajo son:
+\begin{itemize}
+  \item Un simulador y protocolo de evaluación reproducibles para inspección con pérdida de
+        GPS: seis condiciones, particiones por semilla sin fuga y un experto con información
+        privilegiada que resuelve el \nfbExitoExperto{} de las misiones.
+  \item Una arquitectura híbrida bioinspirada: \emph{mosca} (CNN+GRU) para el control local,
+        \emph{abeja} (red siamesa 1D con relleno circular) para el retorno visual y un
+        supervisor de seguridad independiente de las redes.
+  \item Una comparación con cinco líneas base clásicas, ablaciones de arquitectura y de
+        entrenamiento (imitación vs.\ DAgger), análisis de errores e interpretabilidad
+        (Grad-CAM e Integrated Gradients).
+  \item Una validación del sensor panorámico 2.5D frente a propiedades conocidas de los
+        panoramas reales, una ablación de la red de la abeja en la partición de prueba y
+        pruebas de significancia pareadas para cada comparación.
+\end{itemize}

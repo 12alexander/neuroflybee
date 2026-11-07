@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data/generated/
+checkpoints/
+*.pt
+!results/**/*.png
+.venv/
+# LaTeX
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.pdf
+*.egg-info/
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.synctex.gz
+neuroflybee_pesos.zip
+resultados_*.zip
+results/logs/
+results/v19_pipeline_estado.json
+paper/*.docx

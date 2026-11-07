@@ -1,0 +1,10 @@
+% Sección del artículo — dueño: P5. La tabla se genera desde results/v19_costo.csv.
+\subsection{Costo computacional}
+Todo el pipeline (datos, entrenamiento de las cuatro redes de la mosca, DAgger y la abeja con
+tres semillas, benchmark, ablaciones e interpretabilidad) se ejecuta con un comando en Google
+Colab (GPU \nfbGPU{}); consumió \nfbHorasGPU{} horas de GPU y \nfbHorasTotales{} horas en total
+(Tabla~\ref{tab:costo}). Las redes son pequeñas (\nfbParamsGRU{} parámetros la mosca), por lo
+que la inferencia tarda milisegundos por decisión en CPU, compatible con un computador de a
+bordo; el simulador y las líneas base clásicas corren sin GPU.
+
+\input{generado/tabla_costo}

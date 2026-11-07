@@ -1,0 +1,14 @@
+# Configuración base de NeuroFly-Bee Perú (todos los experimentos parten de aquí)
+world:
+  width: 60.0
+  height: 60.0
+  resolution: 0.5
+drone:
+  speed: 0.8
+  radius: 0.4
+sensors:
+  patch_size: 32
+  panorama_bins: 72
+scenario:
+  n_waypoints: [3, 5]
+  max_steps: 600

@@ -1,0 +1,31 @@
+# Integración continua (v18): corre todas las pruebas en cada push y pull request.
+# Instala PyTorch para CPU, así las pruebas de las redes (que se saltan sin PyTorch) también corren.
+name: pruebas
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install numpy matplotlib pyyaml pytest imageio
+          pip install -e .
+      - name: Pruebas (sin la grabación de video, que necesita Chromium)
+        run: python -m pytest -q --deselect tests/test_video.py
+      - name: Compilar el artículo
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: paper
+        continue-on-error: true

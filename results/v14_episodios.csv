@@ -1,0 +1,1021 @@
+grupo,etiqueta,controlador,semilla_entrenamiento,condicion,semilla_escenario,exito,choque,aterrizo,cobertura,error_retorno_m,pasos,longitud_m,latencia_ms
+principal,Directo,direct,,nominal,20000,0,1,0,0.400,38.812,77,60.48,0.016
+principal,Directo,direct,,nominal,20001,0,1,0,0.250,23.716,39,30.08,0.018
+principal,Directo,direct,,nominal,20002,0,1,0,0.000,26.374,33,26.40,0.015
+principal,Directo,direct,,nominal,20003,0,1,0,0.250,15.207,24,18.08,0.022
+principal,Directo,direct,,nominal,20004,0,1,0,0.333,25.125,45,34.88,0.015
+principal,Directo,direct,,nominal,20005,0,1,0,0.250,24.859,41,31.68,0.015
+principal,Directo,direct,,nominal,20006,0,1,0,0.000,30.400,38,30.40,0.016
+principal,Directo,direct,,nominal,20007,0,1,0,1.000,11.402,131,101.44,0.030
+principal,Directo,direct,,nominal,20008,0,1,0,1.000,11.531,96,73.44,0.034
+principal,Directo,direct,,nominal,20009,0,1,0,0.250,15.897,20,16.00,0.019
+principal,Directo,direct,,nominal,20010,0,1,0,0.000,7.200,9,7.20,0.017
+principal,Directo,direct,,nominal,20011,0,1,0,0.200,11.836,21,14.56,0.021
+principal,Directo,direct,,nominal,20012,0,1,0,0.200,23.229,33,25.84,0.018
+principal,Directo,direct,,nominal,20013,1,0,1,1.000,0.470,121,94.56,0.016
+principal,Directo,direct,,nominal,20014,0,1,0,0.667,33.244,58,44.72,0.017
+principal,Directo,direct,,nominal,20015,0,1,0,0.750,20.047,93,71.60,0.014
+principal,Directo,direct,,nominal,20016,0,1,0,0.250,15.512,60,46.32,0.016
+principal,Directo,direct,,nominal,20017,0,1,0,0.667,13.332,97,74.80,0.015
+principal,Directo,direct,,nominal,20018,0,1,0,0.333,15.723,38,29.28,0.017
+principal,Directo,direct,,nominal,20019,1,0,1,1.000,1.118,163,124.80,0.019
+principal,Directo,direct,,nominal,20020,0,1,0,0.400,32.211,50,38.32,0.014
+principal,Directo,direct,,nominal,20021,0,1,0,0.333,15.131,53,40.72,0.028
+principal,Directo,direct,,nominal,20022,0,1,0,0.250,25.254,37,29.04,0.022
+principal,Directo,direct,,nominal,20023,0,1,0,0.667,18.194,115,89.20,0.016
+principal,Directo,direct,,nominal,20024,0,1,0,0.600,35.799,81,62.56,0.014
+principal,Directo,direct,,nominal,20025,0,1,0,0.200,20.386,37,28.48,0.020
+principal,Directo,direct,,nominal,20026,0,1,0,0.750,29.178,113,86.48,0.015
+principal,Directo,direct,,nominal,20027,0,1,0,0.000,6.400,8,6.40,0.017
+principal,Directo,direct,,nominal,20028,0,1,0,0.000,8.000,10,8.00,0.017
+principal,Directo,direct,,nominal,20029,0,1,0,0.800,33.990,113,85.36,0.017
+principal,Directo,direct,,unknown_obstacles,20000,0,1,0,0.000,8.800,11,8.80,0.016
+principal,Directo,direct,,unknown_obstacles,20001,0,1,0,0.000,8.000,10,8.00,0.019
+principal,Directo,direct,,unknown_obstacles,20002,0,1,0,0.000,12.800,16,12.80,0.018
+principal,Directo,direct,,unknown_obstacles,20003,0,1,0,0.000,5.600,7,5.60,0.022
+principal,Directo,direct,,unknown_obstacles,20004,0,1,0,0.250,10.705,24,17.52,0.017
+principal,Directo,direct,,unknown_obstacles,20005,0,1,0,0.000,6.400,8,6.40,0.019
+principal,Directo,direct,,unknown_obstacles,20006,0,1,0,0.400,31.653,64,48.96,0.015
+principal,Directo,direct,,unknown_obstacles,20007,0,1,0,0.000,5.600,7,5.60,0.028
+principal,Directo,direct,,unknown_obstacles,20008,0,1,0,0.000,5.600,7,5.60,0.022
+principal,Directo,direct,,unknown_obstacles,20009,0,1,0,0.000,4.800,6,4.80,0.020
+principal,Directo,direct,,unknown_obstacles,20010,0,1,0,0.000,5.600,7,5.60,0.019
+principal,Directo,direct,,unknown_obstacles,20011,0,1,0,0.000,15.200,19,15.20,0.019
+principal,Directo,direct,,unknown_obstacles,20012,0,1,0,0.000,8.000,10,8.00,0.019
+principal,Directo,direct,,unknown_obstacles,20013,0,1,0,0.000,4.800,6,4.80,0.019
+principal,Directo,direct,,unknown_obstacles,20014,0,1,0,0.200,26.040,34,26.64,0.017
+principal,Directo,direct,,unknown_obstacles,20015,0,1,0,0.000,5.600,7,5.60,0.019
+principal,Directo,direct,,unknown_obstacles,20016,0,1,0,0.250,14.310,36,27.12,0.019
+principal,Directo,direct,,unknown_obstacles,20017,0,1,0,0.000,14.400,18,14.40,0.017
+principal,Directo,direct,,unknown_obstacles,20018,0,1,0,0.000,4.000,5,4.00,0.018
+principal,Directo,direct,,unknown_obstacles,20019,0,1,0,0.000,6.400,8,6.40,0.021
+principal,Directo,direct,,unknown_obstacles,20020,0,1,0,0.000,8.000,10,8.00,0.016
+principal,Directo,direct,,unknown_obstacles,20021,0,1,0,0.400,31.856,46,36.24,0.016
+principal,Directo,direct,,unknown_obstacles,20022,0,1,0,0.000,16.000,20,16.00,0.028
+principal,Directo,direct,,unknown_obstacles,20023,0,1,0,0.200,33.467,44,34.64,0.020
+principal,Directo,direct,,unknown_obstacles,20024,0,1,0,0.500,39.601,71,54.56,0.015
+principal,Directo,direct,,unknown_obstacles,20025,0,1,0,0.750,29.758,68,52.72,0.017
+principal,Directo,direct,,unknown_obstacles,20026,0,1,0,0.000,21.600,27,21.60,0.016
+principal,Directo,direct,,unknown_obstacles,20027,0,1,0,0.250,23.809,49,37.52,0.015
+principal,Directo,direct,,unknown_obstacles,20028,0,1,0,0.000,6.400,8,6.40,0.015
+principal,Directo,direct,,unknown_obstacles,20029,0,1,0,0.000,12.000,15,12.00,0.026
+principal,Directo,direct,,dynamic,20000,0,1,0,1.000,9.407,123,95.60,0.023
+principal,Directo,direct,,dynamic,20001,0,1,0,0.750,13.583,93,70.48,0.020
+principal,Directo,direct,,dynamic,20002,0,1,0,0.333,6.651,42,31.36,0.020
+principal,Directo,direct,,dynamic,20003,0,1,0,0.250,28.761,43,33.28,0.020
+principal,Directo,direct,,dynamic,20004,0,1,0,0.200,16.524,30,22.88,0.021
+principal,Directo,direct,,dynamic,20005,0,1,0,0.667,20.929,58,44.72,0.028
+principal,Directo,direct,,dynamic,20006,0,1,0,0.000,11.200,14,11.20,0.022
+principal,Directo,direct,,dynamic,20007,0,1,0,0.600,38.503,80,60.08,0.022
+principal,Directo,direct,,dynamic,20008,0,1,0,0.000,9.600,12,9.60,0.021
+principal,Directo,direct,,dynamic,20009,0,1,0,0.000,4.000,5,4.00,0.019
+principal,Directo,direct,,dynamic,20010,0,1,0,0.200,29.786,38,30.40,0.021
+principal,Directo,direct,,dynamic,20011,0,1,0,0.750,27.263,87,67.36,0.019
+principal,Directo,direct,,dynamic,20012,0,1,0,0.000,6.400,8,6.40,0.031
+principal,Directo,direct,,dynamic,20013,0,1,0,0.000,0.800,1,0.80,0.027
+principal,Directo,direct,,dynamic,20014,0,1,0,0.000,4.800,6,4.80,0.031
+principal,Directo,direct,,dynamic,20015,0,1,0,0.000,7.200,9,7.20,0.020
+principal,Directo,direct,,dynamic,20016,0,1,0,0.000,5.600,7,5.60,0.022
+principal,Directo,direct,,dynamic,20017,0,1,0,0.400,44.096,58,45.84,0.022
+principal,Directo,direct,,dynamic,20018,0,1,0,0.000,7.200,9,7.20,0.026
+principal,Directo,direct,,dynamic,20019,0,1,0,0.000,9.600,12,9.60,0.019
+principal,Directo,direct,,dynamic,20020,0,1,0,0.000,10.400,13,10.40,0.024
+principal,Directo,direct,,dynamic,20021,0,1,0,0.000,7.200,9,7.20,0.021
+principal,Directo,direct,,dynamic,20022,0,1,0,0.000,6.400,8,6.40,0.021
+principal,Directo,direct,,dynamic,20023,0,1,0,0.500,26.602,51,38.56,0.023
+principal,Directo,direct,,dynamic,20024,0,1,0,0.000,4.800,6,4.80,0.025
+principal,Directo,direct,,dynamic,20025,0,1,0,0.000,7.200,9,7.20,0.030
+principal,Directo,direct,,dynamic,20026,0,1,0,0.400,33.344,66,51.12,0.025
+principal,Directo,direct,,dynamic,20027,0,1,0,0.000,6.400,8,6.40,0.040
+principal,Directo,direct,,dynamic,20028,0,1,0,0.000,5.600,7,5.60,0.050
+principal,Directo,direct,,dynamic,20029,0,1,0,0.500,30.231,66,51.12,0.022
+principal,Directo,direct,,wind,20000,0,1,0,0.250,13.160,38,30.12,0.015
+principal,Directo,direct,,wind,20001,0,1,0,0.200,14.923,38,29.68,0.017
+principal,Directo,direct,,wind,20002,0,1,0,0.667,43.066,113,80.74,0.017
+principal,Directo,direct,,wind,20003,0,1,0,0.667,28.028,65,52.97,0.015
+principal,Directo,direct,,wind,20004,0,1,0,0.800,26.645,104,82.73,0.015
+principal,Directo,direct,,wind,20005,0,1,0,0.500,11.695,56,42.88,0.015
+principal,Directo,direct,,wind,20006,0,1,0,0.000,13.501,13,13.55,0.017
+principal,Directo,direct,,wind,20007,0,1,0,0.000,12.616,20,12.82,0.016
+principal,Directo,direct,,wind,20008,0,1,0,0.250,13.168,21,14.80,0.029
+principal,Directo,direct,,wind,20009,0,1,0,0.600,26.667,74,57.76,0.018
+principal,Directo,direct,,wind,20010,0,1,0,0.200,12.689,24,18.32,0.019
+principal,Directo,direct,,wind,20011,0,1,0,0.600,25.514,111,80.98,0.016
+principal,Directo,direct,,wind,20012,0,1,0,0.750,33.088,97,77.95,0.015
+principal,Directo,direct,,wind,20013,1,0,1,1.000,1.141,125,91.68,0.016
+principal,Directo,direct,,wind,20014,0,1,0,0.000,16.944,27,17.14,0.020
+principal,Directo,direct,,wind,20015,0,1,0,0.000,10.575,17,10.60,0.022
+principal,Directo,direct,,wind,20016,0,1,0,1.000,24.546,141,110.36,0.016
+principal,Directo,direct,,wind,20017,0,1,0,0.333,23.673,40,29.28,0.018
+principal,Directo,direct,,wind,20018,0,1,0,1.000,11.108,100,71.91,0.018
+principal,Directo,direct,,wind,20019,0,1,0,0.200,26.116,35,26.70,0.018
+principal,Directo,direct,,wind,20020,0,1,0,1.000,24.180,110,85.95,0.021
+principal,Directo,direct,,wind,20021,0,1,0,0.750,34.180,141,97.90,0.017
+principal,Directo,direct,,wind,20022,0,1,0,1.000,13.785,137,101.62,0.016
+principal,Directo,direct,,wind,20023,1,0,1,1.000,0.438,197,148.84,0.015
+principal,Directo,direct,,wind,20024,1,0,1,1.000,1.004,173,125.59,0.017
+principal,Directo,direct,,wind,20025,0,1,0,0.667,22.059,49,41.10,0.018
+principal,Directo,direct,,wind,20026,0,1,0,0.500,26.837,61,37.66,0.017
+principal,Directo,direct,,wind,20027,0,1,0,0.200,24.957,36,26.35,0.014
+principal,Directo,direct,,wind,20028,0,1,0,0.000,10.932,19,11.04,0.018
+principal,Directo,direct,,wind,20029,1,0,1,1.000,1.210,194,140.07,0.014
+principal,Directo,direct,,gps_loss,20000,0,1,0,1.000,14.052,110,84.71,0.014
+principal,Directo,direct,,gps_loss,20001,0,1,0,0.750,22.267,80,62.29,0.016
+principal,Directo,direct,,gps_loss,20002,0,1,0,0.000,7.317,9,7.32,0.017
+principal,Directo,direct,,gps_loss,20003,0,1,0,0.250,25.559,48,34.36,0.015
+principal,Directo,direct,,gps_loss,20004,0,1,0,0.200,19.674,44,31.99,0.017
+principal,Directo,direct,,gps_loss,20005,0,1,0,0.200,18.157,27,20.19,0.017
+principal,Directo,direct,,gps_loss,20006,0,1,0,0.400,29.199,68,51.59,0.017
+principal,Directo,direct,,gps_loss,20007,0,1,0,1.000,8.836,126,95.59,0.014
+principal,Directo,direct,,gps_loss,20008,0,1,0,0.600,45.424,69,57.88,0.017
+principal,Directo,direct,,gps_loss,20009,0,1,0,1.000,25.092,109,86.16,0.014
+principal,Directo,direct,,gps_loss,20010,0,1,0,0.250,30.601,47,35.65,0.018
+principal,Directo,direct,,gps_loss,20011,0,1,0,1.000,17.397,119,92.20,0.019
+principal,Directo,direct,,gps_loss,20012,0,1,0,0.000,8.491,10,8.50,0.018
+principal,Directo,direct,,gps_loss,20013,0,1,0,0.750,19.702,127,98.35,0.015
+principal,Directo,direct,,gps_loss,20014,0,0,1,1.000,4.361,143,112.43,0.017
+principal,Directo,direct,,gps_loss,20015,0,0,1,1.000,6.911,204,153.86,0.015
+principal,Directo,direct,,gps_loss,20016,0,1,0,1.000,22.218,133,102.76,0.015
+principal,Directo,direct,,gps_loss,20017,0,1,0,0.000,32.028,36,32.05,0.015
+principal,Directo,direct,,gps_loss,20018,0,1,0,0.333,22.786,34,27.71,0.015
+principal,Directo,direct,,gps_loss,20019,0,1,0,0.000,4.944,7,4.95,0.020
+principal,Directo,direct,,gps_loss,20020,0,1,0,0.000,5.986,8,5.99,0.017
+principal,Directo,direct,,gps_loss,20021,0,1,0,0.000,8.860,12,8.90,0.017
+principal,Directo,direct,,gps_loss,20022,0,0,1,1.000,2.904,123,95.38,0.014
+principal,Directo,direct,,gps_loss,20023,0,1,0,0.000,13.861,18,13.92,0.016
+principal,Directo,direct,,gps_loss,20024,0,1,0,0.667,33.787,79,55.23,0.015
+principal,Directo,direct,,gps_loss,20025,0,1,0,0.000,7.362,8,7.37,0.017
+principal,Directo,direct,,gps_loss,20026,0,1,0,0.000,11.521,15,11.55,0.017
+principal,Directo,direct,,gps_loss,20027,0,1,0,0.800,21.319,92,66.66,0.015
+principal,Directo,direct,,gps_loss,20028,0,1,0,0.000,10.494,12,10.50,0.016
+principal,Directo,direct,,gps_loss,20029,0,1,0,0.333,20.082,26,22.64,0.018
+principal,Directo,direct,,combined,20000,0,1,0,0.000,6.126,9,6.13,0.024
+principal,Directo,direct,,combined,20001,0,1,0,0.800,26.855,110,79.48,0.018
+principal,Directo,direct,,combined,20002,0,1,0,0.667,31.476,65,46.59,0.018
+principal,Directo,direct,,combined,20003,0,1,0,0.000,7.659,11,7.67,0.024
+principal,Directo,direct,,combined,20004,0,1,0,0.250,13.337,34,24.36,0.024
+principal,Directo,direct,,combined,20005,0,1,0,0.000,7.991,10,7.99,0.021
+principal,Directo,direct,,combined,20006,0,1,0,0.500,35.445,76,56.97,0.020
+principal,Directo,direct,,combined,20007,0,1,0,0.000,6.324,9,6.33,0.020
+principal,Directo,direct,,combined,20008,0,1,0,0.500,31.905,47,38.35,0.033
+principal,Directo,direct,,combined,20009,0,1,0,0.250,25.029,36,31.43,0.035
+principal,Directo,direct,,combined,20010,0,1,0,0.000,13.195,14,13.20,0.033
+principal,Directo,direct,,combined,20011,0,1,0,0.000,6.857,8,6.86,0.025
+principal,Directo,direct,,combined,20012,0,1,0,0.000,11.188,13,11.19,0.026
+principal,Directo,direct,,combined,20013,0,1,0,0.000,7.980,9,7.98,0.023
+principal,Directo,direct,,combined,20014,0,1,0,0.600,30.816,85,62.32,0.022
+principal,Directo,direct,,combined,20015,0,1,0,0.400,42.958,73,61.66,0.018
+principal,Directo,direct,,combined,20016,0,1,0,0.000,6.583,8,6.58,0.024
+principal,Directo,direct,,combined,20017,0,1,0,0.000,11.521,14,11.55,0.020
+principal,Directo,direct,,combined,20018,0,1,0,0.250,19.857,39,26.27,0.021
+principal,Directo,direct,,combined,20019,0,1,0,0.000,15.509,17,15.52,0.021
+principal,Directo,direct,,combined,20020,0,1,0,0.000,8.489,12,8.50,0.022
+principal,Directo,direct,,combined,20021,0,1,0,0.000,12.923,14,12.93,0.024
+principal,Directo,direct,,combined,20022,0,1,0,0.400,20.200,48,38.90,0.024
+principal,Directo,direct,,combined,20023,0,1,0,0.200,21.569,35,26.55,0.020
+principal,Directo,direct,,combined,20024,0,1,0,0.250,15.315,25,18.48,0.021
+principal,Directo,direct,,combined,20025,0,1,0,0.200,26.177,67,47.16,0.030
+principal,Directo,direct,,combined,20026,0,1,0,0.000,15.552,22,15.56,0.035
+principal,Directo,direct,,combined,20027,0,1,0,0.000,18.485,20,18.49,0.035
+principal,Directo,direct,,combined,20028,0,1,0,0.000,9.842,11,9.85,0.027
+principal,Directo,direct,,combined,20029,0,1,0,0.000,3.987,6,4.00,0.023
+principal,Campos de potencial,potential_field,,nominal,20000,1,0,1,1.000,0.314,205,147.76,0.052
+principal,Campos de potencial,potential_field,,nominal,20001,1,0,1,1.000,0.043,592,264.16,0.065
+principal,Campos de potencial,potential_field,,nominal,20002,1,0,1,1.000,0.365,232,156.48,0.052
+principal,Campos de potencial,potential_field,,nominal,20003,0,0,0,1.000,16.770,600,215.12,0.054
+principal,Campos de potencial,potential_field,,nominal,20004,1,0,1,1.000,0.834,143,109.36,0.049
+principal,Campos de potencial,potential_field,,nominal,20005,0,0,0,1.000,17.328,600,226.88,0.052
+principal,Campos de potencial,potential_field,,nominal,20006,0,0,0,1.000,9.697,600,262.72,0.047
+principal,Campos de potencial,potential_field,,nominal,20007,0,0,0,0.333,21.781,600,161.92,0.049
+principal,Campos de potencial,potential_field,,nominal,20008,1,0,1,1.000,0.187,114,86.16,0.046
+principal,Campos de potencial,potential_field,,nominal,20009,0,0,0,0.250,16.851,600,208.40,0.047
+principal,Campos de potencial,potential_field,,nominal,20010,1,0,1,1.000,0.143,194,137.84,0.049
+principal,Campos de potencial,potential_field,,nominal,20011,1,0,1,1.000,0.162,205,151.68,0.049
+principal,Campos de potencial,potential_field,,nominal,20012,1,0,1,1.000,0.534,196,147.28,0.049
+principal,Campos de potencial,potential_field,,nominal,20013,1,0,1,1.000,0.470,121,94.56,0.048
+principal,Campos de potencial,potential_field,,nominal,20014,1,0,1,1.000,0.900,167,120.16,0.049
+principal,Campos de potencial,potential_field,,nominal,20015,1,0,1,1.000,0.375,167,122.40,0.045
+principal,Campos de potencial,potential_field,,nominal,20016,0,0,0,0.250,26.232,600,218.48,0.046
+principal,Campos de potencial,potential_field,,nominal,20017,1,0,1,1.000,0.376,189,138.32,0.046
+principal,Campos de potencial,potential_field,,nominal,20018,1,0,1,1.000,0.463,114,82.80,0.044
+principal,Campos de potencial,potential_field,,nominal,20019,1,0,1,1.000,0.603,167,125.20,0.048
+principal,Campos de potencial,potential_field,,nominal,20020,1,0,1,1.000,0.283,185,139.04,0.048
+principal,Campos de potencial,potential_field,,nominal,20021,1,0,1,1.000,0.016,171,126.16,0.044
+principal,Campos de potencial,potential_field,,nominal,20022,1,0,1,1.000,0.098,169,126.80,0.044
+principal,Campos de potencial,potential_field,,nominal,20023,1,0,1,1.000,0.555,192,146.32,0.047
+principal,Campos de potencial,potential_field,,nominal,20024,1,0,1,1.000,0.772,189,137.20,0.045
+principal,Campos de potencial,potential_field,,nominal,20025,1,0,1,1.000,0.742,193,144.88,0.063
+principal,Campos de potencial,potential_field,,nominal,20026,1,0,1,1.000,0.841,181,133.60,0.044
+principal,Campos de potencial,potential_field,,nominal,20027,1,0,1,1.000,0.368,159,114.32,0.053
+principal,Campos de potencial,potential_field,,nominal,20028,0,0,0,0.000,11.277,600,214.56,0.057
+principal,Campos de potencial,potential_field,,nominal,20029,1,0,1,1.000,0.311,189,136.64,0.053
+principal,Campos de potencial,potential_field,,unknown_obstacles,20000,0,0,0,0.250,31.521,600,188.24,0.054
+principal,Campos de potencial,potential_field,,unknown_obstacles,20001,0,0,0,1.000,18.590,600,205.60,0.049
+principal,Campos de potencial,potential_field,,unknown_obstacles,20002,1,0,1,1.000,0.289,159,111.52,0.048
+principal,Campos de potencial,potential_field,,unknown_obstacles,20003,0,0,0,0.000,7.770,600,165.28,0.061
+principal,Campos de potencial,potential_field,,unknown_obstacles,20004,1,0,1,1.000,0.184,235,135.92,0.052
+principal,Campos de potencial,potential_field,,unknown_obstacles,20005,0,0,0,1.000,8.621,600,290.72,0.048
+principal,Campos de potencial,potential_field,,unknown_obstacles,20006,0,0,0,0.400,24.641,600,189.36,0.049
+principal,Campos de potencial,potential_field,,unknown_obstacles,20007,0,0,0,0.800,33.702,600,242.00,0.050
+principal,Campos de potencial,potential_field,,unknown_obstacles,20008,0,0,0,0.750,31.308,600,191.04,0.051
+principal,Campos de potencial,potential_field,,unknown_obstacles,20009,0,0,0,0.250,9.282,600,176.48,0.049
+principal,Campos de potencial,potential_field,,unknown_obstacles,20010,1,0,1,1.000,0.605,177,121.44,0.044
+principal,Campos de potencial,potential_field,,unknown_obstacles,20011,1,0,1,1.000,0.227,169,118.96,0.046
+principal,Campos de potencial,potential_field,,unknown_obstacles,20012,1,0,1,1.000,0.405,355,183.20,0.047
+principal,Campos de potencial,potential_field,,unknown_obstacles,20013,1,0,1,1.000,0.150,242,146.56,0.047
+principal,Campos de potencial,potential_field,,unknown_obstacles,20014,0,0,0,0.200,23.443,600,161.36,0.048
+principal,Campos de potencial,potential_field,,unknown_obstacles,20015,0,0,0,1.000,24.395,600,264.40,0.048
+principal,Campos de potencial,potential_field,,unknown_obstacles,20016,1,0,1,1.000,0.782,174,112.88,0.052
+principal,Campos de potencial,potential_field,,unknown_obstacles,20017,1,0,1,1.000,0.246,160,104.48,0.056
+principal,Campos de potencial,potential_field,,unknown_obstacles,20018,1,0,1,1.000,0.474,206,146.88,0.055
+principal,Campos de potencial,potential_field,,unknown_obstacles,20019,0,0,0,1.000,9.312,600,233.04,0.059
+principal,Campos de potencial,potential_field,,unknown_obstacles,20020,0,0,0,0.667,21.702,600,192.16,0.050
+principal,Campos de potencial,potential_field,,unknown_obstacles,20021,1,0,1,1.000,0.742,260,165.44,0.083
+principal,Campos de potencial,potential_field,,unknown_obstacles,20022,1,0,1,1.000,0.152,192,129.52,0.068
+principal,Campos de potencial,potential_field,,unknown_obstacles,20023,1,0,1,1.000,0.150,193,134.80,0.082
+principal,Campos de potencial,potential_field,,unknown_obstacles,20024,1,0,1,1.000,0.433,219,152.80,0.055
+principal,Campos de potencial,potential_field,,unknown_obstacles,20025,1,0,1,1.000,0.812,145,102.56,0.066
+principal,Campos de potencial,potential_field,,unknown_obstacles,20026,1,0,1,1.000,0.749,226,152.80,0.052
+principal,Campos de potencial,potential_field,,unknown_obstacles,20027,0,0,0,1.000,10.791,600,246.48,0.052
+principal,Campos de potencial,potential_field,,unknown_obstacles,20028,1,0,1,1.000,0.263,260,183.36,0.053
+principal,Campos de potencial,potential_field,,unknown_obstacles,20029,1,0,1,1.000,0.437,139,103.36,0.049
+principal,Campos de potencial,potential_field,,dynamic,20000,0,0,0,1.000,10.128,600,211.76,0.070
+principal,Campos de potencial,potential_field,,dynamic,20001,1,0,1,1.000,0.047,198,138.24,0.064
+principal,Campos de potencial,potential_field,,dynamic,20002,1,0,1,1.000,0.323,170,110.80,0.067
+principal,Campos de potencial,potential_field,,dynamic,20003,1,0,1,1.000,0.337,233,168.48,0.066
+principal,Campos de potencial,potential_field,,dynamic,20004,1,0,1,1.000,0.652,249,166.72,0.069
+principal,Campos de potencial,potential_field,,dynamic,20005,1,0,1,1.000,0.349,120,90.40,0.062
+principal,Campos de potencial,potential_field,,dynamic,20006,0,0,0,1.000,18.443,600,240.32,0.072
+principal,Campos de potencial,potential_field,,dynamic,20007,1,0,1,1.000,0.254,210,155.68,0.064
+principal,Campos de potencial,potential_field,,dynamic,20008,1,0,1,1.000,0.074,210,150.08,0.077
+principal,Campos de potencial,potential_field,,dynamic,20009,1,0,1,1.000,0.391,209,147.60,0.070
+principal,Campos de potencial,potential_field,,dynamic,20010,1,0,1,1.000,0.285,184,132.08,0.070
+principal,Campos de potencial,potential_field,,dynamic,20011,1,0,1,1.000,0.259,162,113.92,0.073
+principal,Campos de potencial,potential_field,,dynamic,20012,0,0,0,0.400,19.258,600,226.88,0.078
+principal,Campos de potencial,potential_field,,dynamic,20013,0,1,0,0.000,0.800,1,0.80,0.109
+principal,Campos de potencial,potential_field,,dynamic,20014,1,0,1,1.000,0.165,139,100.56,0.062
+principal,Campos de potencial,potential_field,,dynamic,20015,0,0,0,0.500,31.348,600,189.36,0.083
+principal,Campos de potencial,potential_field,,dynamic,20016,1,0,1,1.000,0.280,239,174.96,0.069
+principal,Campos de potencial,potential_field,,dynamic,20017,0,0,0,0.400,43.546,600,201.68,0.071
+principal,Campos de potencial,potential_field,,dynamic,20018,1,0,1,1.000,0.216,188,134.16,0.070
+principal,Campos de potencial,potential_field,,dynamic,20019,1,0,1,1.000,0.285,265,187.92,0.065
+principal,Campos de potencial,potential_field,,dynamic,20020,1,0,1,1.000,0.126,209,153.20,0.064
+principal,Campos de potencial,potential_field,,dynamic,20021,1,0,1,1.000,0.411,244,148.72,0.069
+principal,Campos de potencial,potential_field,,dynamic,20022,1,0,1,1.000,0.298,296,188.64,0.088
+principal,Campos de potencial,potential_field,,dynamic,20023,1,0,1,1.000,0.254,157,112.72,0.060
+principal,Campos de potencial,potential_field,,dynamic,20024,1,0,1,1.000,0.177,211,141.36,0.061
+principal,Campos de potencial,potential_field,,dynamic,20025,1,0,1,1.000,0.494,224,157.92,0.060
+principal,Campos de potencial,potential_field,,dynamic,20026,1,0,1,1.000,0.207,184,133.76,0.061
+principal,Campos de potencial,potential_field,,dynamic,20027,0,0,0,0.800,29.683,600,205.60,0.062
+principal,Campos de potencial,potential_field,,dynamic,20028,1,0,1,1.000,0.150,217,158.48,0.063
+principal,Campos de potencial,potential_field,,dynamic,20029,1,0,1,1.000,0.811,182,136.64,0.059
+principal,Campos de potencial,potential_field,,wind,20000,1,0,1,1.000,0.161,218,153.48,0.047
+principal,Campos de potencial,potential_field,,wind,20001,0,0,0,0.600,23.156,600,224.37,0.048
+principal,Campos de potencial,potential_field,,wind,20002,1,0,1,1.000,0.732,325,180.03,0.047
+principal,Campos de potencial,potential_field,,wind,20003,1,0,1,1.000,0.563,133,93.50,0.049
+principal,Campos de potencial,potential_field,,wind,20004,1,0,1,1.000,0.723,311,185.21,0.047
+principal,Campos de potencial,potential_field,,wind,20005,0,0,0,0.750,27.739,600,222.70,0.065
+principal,Campos de potencial,potential_field,,wind,20006,1,0,1,1.000,0.997,165,119.61,0.058
+principal,Campos de potencial,potential_field,,wind,20007,1,0,1,1.000,0.872,197,136.14,0.049
+principal,Campos de potencial,potential_field,,wind,20008,1,0,1,1.000,0.562,256,174.56,0.055
+principal,Campos de potencial,potential_field,,wind,20009,1,0,1,1.000,0.422,231,166.44,0.048
+principal,Campos de potencial,potential_field,,wind,20010,0,0,0,0.600,27.077,600,205.04,0.048
+principal,Campos de potencial,potential_field,,wind,20011,1,0,1,1.000,0.967,221,152.98,0.045
+principal,Campos de potencial,potential_field,,wind,20012,1,0,1,1.000,0.163,250,170.89,0.048
+principal,Campos de potencial,potential_field,,wind,20013,1,0,1,1.000,0.579,127,92.86,0.053
+principal,Campos de potencial,potential_field,,wind,20014,1,0,1,1.000,0.955,202,145.69,0.045
+principal,Campos de potencial,potential_field,,wind,20015,0,0,0,0.000,8.405,600,178.33,0.048
+principal,Campos de potencial,potential_field,,wind,20016,1,0,1,1.000,0.456,181,136.79,0.046
+principal,Campos de potencial,potential_field,,wind,20017,1,0,1,1.000,0.299,197,140.66,0.045
+principal,Campos de potencial,potential_field,,wind,20018,1,0,1,1.000,0.479,122,87.42,0.049
+principal,Campos de potencial,potential_field,,wind,20019,0,0,0,0.200,24.314,600,176.98,0.049
+principal,Campos de potencial,potential_field,,wind,20020,1,0,1,1.000,0.257,151,113.43,0.050
+principal,Campos de potencial,potential_field,,wind,20021,1,0,1,1.000,1.076,214,148.63,0.050
+principal,Campos de potencial,potential_field,,wind,20022,0,0,0,0.750,22.738,600,223.94,0.061
+principal,Campos de potencial,potential_field,,wind,20023,1,0,1,1.000,0.912,204,152.97,0.048
+principal,Campos de potencial,potential_field,,wind,20024,1,0,1,1.000,0.982,173,126.16,0.050
+principal,Campos de potencial,potential_field,,wind,20025,1,0,1,1.000,0.651,111,72.94,0.057
+principal,Campos de potencial,potential_field,,wind,20026,1,0,1,1.000,0.968,208,138.15,0.058
+principal,Campos de potencial,potential_field,,wind,20027,1,0,1,1.000,0.948,194,139.02,0.065
+principal,Campos de potencial,potential_field,,wind,20028,1,0,1,1.000,1.393,203,144.34,0.061
+principal,Campos de potencial,potential_field,,wind,20029,1,0,1,1.000,0.795,203,143.98,0.054
+principal,Campos de potencial,potential_field,,gps_loss,20000,0,0,1,1.000,6.430,130,97.38,0.057
+principal,Campos de potencial,potential_field,,gps_loss,20001,0,0,1,1.000,3.526,173,128.00,0.059
+principal,Campos de potencial,potential_field,,gps_loss,20002,0,0,1,1.000,4.967,144,108.04,0.047
+principal,Campos de potencial,potential_field,,gps_loss,20003,0,0,0,1.000,9.904,600,284.36,0.063
+principal,Campos de potencial,potential_field,,gps_loss,20004,0,0,1,1.000,3.408,168,120.43,0.053
+principal,Campos de potencial,potential_field,,gps_loss,20005,0,0,1,1.000,2.341,409,207.11,0.046
+principal,Campos de potencial,potential_field,,gps_loss,20006,0,0,1,1.000,7.822,229,171.70,0.105
+principal,Campos de potencial,potential_field,,gps_loss,20007,0,0,1,1.000,4.506,151,109.05,0.046
+principal,Campos de potencial,potential_field,,gps_loss,20008,0,0,1,1.000,7.287,227,167.62,0.054
+principal,Campos de potencial,potential_field,,gps_loss,20009,0,0,1,1.000,9.281,190,120.61,0.055
+principal,Campos de potencial,potential_field,,gps_loss,20010,0,0,0,0.750,39.448,600,228.08,0.049
+principal,Campos de potencial,potential_field,,gps_loss,20011,0,0,1,1.000,5.890,160,115.52,0.050
+principal,Campos de potencial,potential_field,,gps_loss,20012,0,0,1,1.000,7.653,220,155.22,0.049
+principal,Campos de potencial,potential_field,,gps_loss,20013,0,0,1,1.000,3.496,165,123.12,0.045
+principal,Campos de potencial,potential_field,,gps_loss,20014,0,0,1,1.000,4.472,145,113.46,0.044
+principal,Campos de potencial,potential_field,,gps_loss,20015,0,0,1,1.000,6.911,204,153.86,0.045
+principal,Campos de potencial,potential_field,,gps_loss,20016,0,0,1,1.000,5.174,165,126.96,0.044
+principal,Campos de potencial,potential_field,,gps_loss,20017,0,0,1,1.000,9.036,218,159.97,0.047
+principal,Campos de potencial,potential_field,,gps_loss,20018,0,0,1,1.000,8.088,125,85.16,0.046
+principal,Campos de potencial,potential_field,,gps_loss,20019,0,0,1,1.000,7.861,229,164.33,0.058
+principal,Campos de potencial,potential_field,,gps_loss,20020,0,0,0,0.500,37.593,600,211.28,0.047
+principal,Campos de potencial,potential_field,,gps_loss,20021,0,0,1,1.000,5.720,169,117.67,0.050
+principal,Campos de potencial,potential_field,,gps_loss,20022,0,0,1,1.000,2.579,128,98.33,0.049
+principal,Campos de potencial,potential_field,,gps_loss,20023,0,0,0,0.000,11.207,600,174.47,0.048
+principal,Campos de potencial,potential_field,,gps_loss,20024,0,0,0,0.667,31.846,600,198.74,0.049
+principal,Campos de potencial,potential_field,,gps_loss,20025,0,0,0,0.200,14.976,600,181.48,0.047
+principal,Campos de potencial,potential_field,,gps_loss,20026,0,0,1,1.000,6.669,233,155.10,0.047
+principal,Campos de potencial,potential_field,,gps_loss,20027,0,0,1,1.000,4.861,170,126.79,0.053
+principal,Campos de potencial,potential_field,,gps_loss,20028,0,1,0,0.000,16.845,38,22.06,0.052
+principal,Campos de potencial,potential_field,,gps_loss,20029,0,0,1,1.000,7.277,161,117.94,0.079
+principal,Campos de potencial,potential_field,,combined,20000,0,1,0,0.800,21.761,131,85.46,0.066
+principal,Campos de potencial,potential_field,,combined,20001,0,0,0,0.800,22.006,600,226.72,0.065
+principal,Campos de potencial,potential_field,,combined,20002,0,0,1,1.000,3.090,178,125.84,0.064
+principal,Campos de potencial,potential_field,,combined,20003,0,0,1,1.000,5.846,165,111.65,0.061
+principal,Campos de potencial,potential_field,,combined,20004,0,0,1,1.000,6.217,198,138.68,0.064
+principal,Campos de potencial,potential_field,,combined,20005,0,1,0,0.667,35.663,95,67.16,0.065
+principal,Campos de potencial,potential_field,,combined,20006,0,0,1,1.000,4.173,235,166.84,0.065
+principal,Campos de potencial,potential_field,,combined,20007,0,0,0,1.000,12.629,600,239.85,0.061
+principal,Campos de potencial,potential_field,,combined,20008,0,0,1,1.000,5.928,199,133.52,0.062
+principal,Campos de potencial,potential_field,,combined,20009,0,0,1,1.000,8.651,231,146.55,0.064
+principal,Campos de potencial,potential_field,,combined,20010,0,0,1,1.000,9.366,206,137.58,0.071
+principal,Campos de potencial,potential_field,,combined,20011,0,0,0,0.000,4.467,600,174.47,0.065
+principal,Campos de potencial,potential_field,,combined,20012,0,0,1,1.000,4.566,246,167.49,0.060
+principal,Campos de potencial,potential_field,,combined,20013,0,1,0,0.000,16.675,45,26.30,0.069
+principal,Campos de potencial,potential_field,,combined,20014,0,0,1,1.000,3.038,198,138.96,0.064
+principal,Campos de potencial,potential_field,,combined,20015,0,0,1,1.000,11.995,242,158.11,0.057
+principal,Campos de potencial,potential_field,,combined,20016,0,1,0,0.667,15.812,102,55.00,0.061
+principal,Campos de potencial,potential_field,,combined,20017,0,0,0,0.750,35.893,600,222.92,0.059
+principal,Campos de potencial,potential_field,,combined,20018,0,0,0,0.250,16.681,600,193.20,0.056
+principal,Campos de potencial,potential_field,,combined,20019,0,0,1,1.000,7.790,241,158.09,0.061
+principal,Campos de potencial,potential_field,,combined,20020,0,0,1,1.000,5.171,151,94.09,0.063
+principal,Campos de potencial,potential_field,,combined,20021,0,0,0,0.667,42.867,600,213.67,0.070
+principal,Campos de potencial,potential_field,,combined,20022,0,0,1,1.000,11.480,202,133.90,0.063
+principal,Campos de potencial,potential_field,,combined,20023,0,0,1,1.000,8.369,227,161.50,0.059
+principal,Campos de potencial,potential_field,,combined,20024,0,0,0,0.750,22.237,600,224.47,0.058
+principal,Campos de potencial,potential_field,,combined,20025,0,0,1,1.000,16.563,309,182.96,0.065
+principal,Campos de potencial,potential_field,,combined,20026,0,0,0,1.000,9.749,600,268.92,0.062
+principal,Campos de potencial,potential_field,,combined,20027,0,0,1,1.000,9.817,214,142.08,0.057
+principal,Campos de potencial,potential_field,,combined,20028,0,0,0,0.400,31.747,600,196.15,0.057
+principal,Campos de potencial,potential_field,,combined,20029,0,0,0,1.000,14.025,600,222.93,0.058
+principal,A* (clásico),astar,,nominal,20000,1,0,1,1.000,0.442,191,144.40,0.289
+principal,A* (clásico),astar,,nominal,20001,1,0,1,1.000,0.296,223,166.64,0.480
+principal,A* (clásico),astar,,nominal,20002,1,0,1,1.000,0.460,189,144.48,0.406
+principal,A* (clásico),astar,,nominal,20003,1,0,1,1.000,0.763,176,129.60,0.332
+principal,A* (clásico),astar,,nominal,20004,1,0,1,1.000,0.369,151,114.64,0.281
+principal,A* (clásico),astar,,nominal,20005,1,0,1,1.000,0.594,181,132.48,0.464
+principal,A* (clásico),astar,,nominal,20006,1,0,1,1.000,0.704,201,144.56,0.466
+principal,A* (clásico),astar,,nominal,20007,1,0,1,1.000,0.103,169,123.44,0.342
+principal,A* (clásico),astar,,nominal,20008,1,0,1,1.000,0.394,121,88.96,0.210
+principal,A* (clásico),astar,,nominal,20009,1,0,1,1.000,0.633,153,112.32,0.283
+principal,A* (clásico),astar,,nominal,20010,1,0,1,1.000,0.057,177,131.52,0.383
+principal,A* (clásico),astar,,nominal,20011,1,0,1,1.000,0.821,204,153.12,0.321
+principal,A* (clásico),astar,,nominal,20012,1,0,1,1.000,0.681,196,150.08,0.282
+principal,A* (clásico),astar,,nominal,20013,1,0,1,1.000,0.499,131,99.20,0.270
+principal,A* (clásico),astar,,nominal,20014,1,0,1,1.000,0.360,160,118.48,0.370
+principal,A* (clásico),astar,,nominal,20015,1,0,1,1.000,0.300,169,125.12,0.349
+principal,A* (clásico),astar,,nominal,20016,1,0,1,1.000,0.326,229,169.76,0.405
+principal,A* (clásico),astar,,nominal,20017,1,0,1,1.000,0.434,198,143.28,0.471
+principal,A* (clásico),astar,,nominal,20018,1,0,1,1.000,0.231,116,83.84,0.288
+principal,A* (clásico),astar,,nominal,20019,1,0,1,1.000,0.295,170,127.04,0.316
+principal,A* (clásico),astar,,nominal,20020,1,0,1,1.000,0.221,192,140.16,0.354
+principal,A* (clásico),astar,,nominal,20021,1,0,1,1.000,0.657,167,123.52,0.291
+principal,A* (clásico),astar,,nominal,20022,1,0,1,1.000,0.042,170,128.72,0.294
+principal,A* (clásico),astar,,nominal,20023,1,0,1,1.000,0.055,202,150.40,0.346
+principal,A* (clásico),astar,,nominal,20024,1,0,1,1.000,0.462,187,138.96,0.292
+principal,A* (clásico),astar,,nominal,20025,1,0,1,1.000,0.462,197,146.40,0.293
+principal,A* (clásico),astar,,nominal,20026,1,0,1,1.000,0.250,179,133.12,0.317
+principal,A* (clásico),astar,,nominal,20027,1,0,1,1.000,0.373,154,113.12,0.296
+principal,A* (clásico),astar,,nominal,20028,1,0,1,1.000,0.138,161,118.16,0.350
+principal,A* (clásico),astar,,nominal,20029,1,0,1,1.000,0.117,181,134.16,0.280
+principal,A* (clásico),astar,,unknown_obstacles,20000,1,0,1,1.000,0.294,174,131.36,0.364
+principal,A* (clásico),astar,,unknown_obstacles,20001,1,0,1,1.000,0.031,142,106.88,0.685
+principal,A* (clásico),astar,,unknown_obstacles,20002,1,0,1,1.000,0.149,144,110.16,0.309
+principal,A* (clásico),astar,,unknown_obstacles,20003,1,0,1,1.000,0.256,170,125.36,0.307
+principal,A* (clásico),astar,,unknown_obstacles,20004,1,0,1,1.000,0.212,150,109.92,0.402
+principal,A* (clásico),astar,,unknown_obstacles,20005,1,0,1,1.000,0.113,241,179.92,0.497
+principal,A* (clásico),astar,,unknown_obstacles,20006,0,1,0,0.400,30.238,80,56.72,0.394
+principal,A* (clásico),astar,,unknown_obstacles,20007,1,0,1,1.000,0.306,198,143.28,0.426
+principal,A* (clásico),astar,,unknown_obstacles,20008,1,0,1,1.000,0.238,181,126.88,0.373
+principal,A* (clásico),astar,,unknown_obstacles,20009,1,0,1,1.000,0.350,152,114.32,0.352
+principal,A* (clásico),astar,,unknown_obstacles,20010,1,0,1,1.000,0.346,156,114.16,0.314
+principal,A* (clásico),astar,,unknown_obstacles,20011,1,0,1,1.000,0.256,165,119.68,0.315
+principal,A* (clásico),astar,,unknown_obstacles,20012,1,0,1,1.000,0.359,204,145.84,0.337
+principal,A* (clásico),astar,,unknown_obstacles,20013,1,0,1,1.000,0.099,178,132.32,0.366
+principal,A* (clásico),astar,,unknown_obstacles,20014,1,0,1,1.000,0.431,184,139.36,0.313
+principal,A* (clásico),astar,,unknown_obstacles,20015,1,0,1,1.000,0.283,201,150.16,0.364
+principal,A* (clásico),astar,,unknown_obstacles,20016,1,0,1,1.000,0.245,138,102.56,0.260
+principal,A* (clásico),astar,,unknown_obstacles,20017,1,0,1,1.000,0.046,131,96.40,0.356
+principal,A* (clásico),astar,,unknown_obstacles,20018,1,0,1,1.000,0.194,185,140.16,0.444
+principal,A* (clásico),astar,,unknown_obstacles,20019,1,0,1,1.000,0.369,188,136.96,0.402
+principal,A* (clásico),astar,,unknown_obstacles,20020,1,0,1,1.000,1.278,171,122.80,0.395
+principal,A* (clásico),astar,,unknown_obstacles,20021,1,0,1,1.000,0.524,206,150.80,0.384
+principal,A* (clásico),astar,,unknown_obstacles,20022,1,0,1,1.000,0.470,162,120.64,0.347
+principal,A* (clásico),astar,,unknown_obstacles,20023,1,0,1,1.000,0.358,181,131.92,0.375
+principal,A* (clásico),astar,,unknown_obstacles,20024,1,0,1,1.000,0.368,201,150.72,0.305
+principal,A* (clásico),astar,,unknown_obstacles,20025,1,0,1,1.000,0.191,136,100.96,0.313
+principal,A* (clásico),astar,,unknown_obstacles,20026,1,0,1,1.000,0.561,195,143.68,0.415
+principal,A* (clásico),astar,,unknown_obstacles,20027,1,0,1,1.000,0.103,219,162.88,0.433
+principal,A* (clásico),astar,,unknown_obstacles,20028,1,0,1,1.000,0.673,235,175.68,0.335
+principal,A* (clásico),astar,,unknown_obstacles,20029,1,0,1,1.000,0.575,163,119.76,0.477
+principal,A* (clásico),astar,,dynamic,20000,1,0,1,1.000,0.173,145,108.72,0.342
+principal,A* (clásico),astar,,dynamic,20001,0,1,0,0.750,17.254,100,73.28,0.644
+principal,A* (clásico),astar,,dynamic,20002,0,1,0,0.000,8.525,12,9.04,0.315
+principal,A* (clásico),astar,,dynamic,20003,0,1,0,0.500,26.045,75,50.48,0.463
+principal,A* (clásico),astar,,dynamic,20004,1,0,1,1.000,0.225,226,161.76,0.370
+principal,A* (clásico),astar,,dynamic,20005,0,1,0,0.667,24.899,65,46.40,0.358
+principal,A* (clásico),astar,,dynamic,20006,0,1,0,0.500,11.980,69,50.16,0.488
+principal,A* (clásico),astar,,dynamic,20007,1,0,1,1.000,0.359,240,174.64,0.450
+principal,A* (clásico),astar,,dynamic,20008,1,0,1,1.000,0.063,213,153.60,0.309
+principal,A* (clásico),astar,,dynamic,20009,1,0,1,1.000,0.100,202,147.60,0.372
+principal,A* (clásico),astar,,dynamic,20010,1,0,1,1.000,0.335,181,132.48,0.327
+principal,A* (clásico),astar,,dynamic,20011,0,1,0,0.750,24.751,96,70.08,0.340
+principal,A* (clásico),astar,,dynamic,20012,0,1,0,0.000,8.921,14,10.08,0.347
+principal,A* (clásico),astar,,dynamic,20013,0,1,0,0.000,0.240,1,0.24,0.984
+principal,A* (clásico),astar,,dynamic,20014,1,0,1,1.000,0.506,136,99.28,0.336
+principal,A* (clásico),astar,,dynamic,20015,0,1,0,0.000,7.145,9,7.20,0.335
+principal,A* (clásico),astar,,dynamic,20016,0,1,0,0.000,7.103,9,7.20,0.444
+principal,A* (clásico),astar,,dynamic,20017,0,1,0,0.600,54.807,101,74.08,0.354
+principal,A* (clásico),astar,,dynamic,20018,0,1,0,0.500,19.410,88,60.88,0.449
+principal,A* (clásico),astar,,dynamic,20019,0,1,0,0.000,11.175,17,11.92,0.384
+principal,A* (clásico),astar,,dynamic,20020,0,1,0,0.000,11.920,18,13.28,0.571
+principal,A* (clásico),astar,,dynamic,20021,0,1,0,0.000,7.212,11,7.68,0.322
+principal,A* (clásico),astar,,dynamic,20022,1,0,1,1.000,0.156,245,179.76,0.401
+principal,A* (clásico),astar,,dynamic,20023,1,0,1,1.000,0.230,161,120.40,0.495
+principal,A* (clásico),astar,,dynamic,20024,0,1,0,0.333,20.330,34,24.40,0.385
+principal,A* (clásico),astar,,dynamic,20025,1,0,1,1.000,0.386,215,158.00,0.415
+principal,A* (clásico),astar,,dynamic,20026,0,1,0,0.000,8.863,15,10.88,0.472
+principal,A* (clásico),astar,,dynamic,20027,1,0,1,1.000,0.504,206,151.36,0.376
+principal,A* (clásico),astar,,dynamic,20028,0,1,0,1.000,14.683,212,151.68,0.416
+principal,A* (clásico),astar,,dynamic,20029,1,0,1,1.000,0.728,186,137.60,0.383
+principal,A* (clásico),astar,,wind,20000,1,0,1,1.000,0.709,217,152.07,0.409
+principal,A* (clásico),astar,,wind,20001,1,0,1,1.000,1.317,238,167.95,0.426
+principal,A* (clásico),astar,,wind,20002,1,0,1,1.000,0.653,201,144.59,0.481
+principal,A* (clásico),astar,,wind,20003,1,0,1,1.000,0.831,130,90.07,0.455
+principal,A* (clásico),astar,,wind,20004,0,0,1,0.800,0.682,219,157.46,0.328
+principal,A* (clásico),astar,,wind,20005,1,0,1,1.000,1.087,217,152.44,0.523
+principal,A* (clásico),astar,,wind,20006,1,0,1,1.000,1.351,172,121.60,0.376
+principal,A* (clásico),astar,,wind,20007,1,0,1,1.000,0.795,188,132.58,0.359
+principal,A* (clásico),astar,,wind,20008,1,0,1,1.000,0.261,234,166.13,0.425
+principal,A* (clásico),astar,,wind,20009,1,0,1,1.000,0.742,230,167.26,0.410
+principal,A* (clásico),astar,,wind,20010,1,0,1,1.000,0.704,205,141.80,0.327
+principal,A* (clásico),astar,,wind,20011,1,0,1,1.000,0.700,205,149.23,0.332
+principal,A* (clásico),astar,,wind,20012,1,0,1,1.000,0.594,216,160.70,0.392
+principal,A* (clásico),astar,,wind,20013,1,0,1,1.000,0.566,138,96.59,0.227
+principal,A* (clásico),astar,,wind,20014,1,0,1,1.000,0.883,208,147.14,0.299
+principal,A* (clásico),astar,,wind,20015,1,0,1,1.000,0.620,254,182.41,0.401
+principal,A* (clásico),astar,,wind,20016,1,0,1,1.000,0.248,200,140.31,0.331
+principal,A* (clásico),astar,,wind,20017,1,0,1,1.000,0.618,192,138.30,0.341
+principal,A* (clásico),astar,,wind,20018,1,0,1,1.000,0.706,123,87.02,0.477
+principal,A* (clásico),astar,,wind,20019,1,0,1,1.000,0.364,215,157.46,0.479
+principal,A* (clásico),astar,,wind,20020,1,0,1,1.000,0.277,152,114.05,0.460
+principal,A* (clásico),astar,,wind,20021,1,0,1,1.000,0.283,212,147.31,0.366
+principal,A* (clásico),astar,,wind,20022,1,0,1,1.000,0.340,171,120.89,0.423
+principal,A* (clásico),astar,,wind,20023,1,0,1,1.000,1.078,215,154.59,0.567
+principal,A* (clásico),astar,,wind,20024,1,0,1,1.000,0.911,201,135.46,0.271
+principal,A* (clásico),astar,,wind,20025,1,0,1,1.000,0.757,98,69.19,0.240
+principal,A* (clásico),astar,,wind,20026,0,0,1,0.750,0.660,193,134.39,0.218
+principal,A* (clásico),astar,,wind,20027,1,0,1,1.000,0.872,203,142.58,0.305
+principal,A* (clásico),astar,,wind,20028,1,0,1,1.000,1.340,203,144.67,0.297
+principal,A* (clásico),astar,,wind,20029,1,0,1,1.000,0.249,215,148.09,0.313
+principal,A* (clásico),astar,,gps_loss,20000,0,0,1,1.000,6.648,142,103.35,0.325
+principal,A* (clásico),astar,,gps_loss,20001,0,0,1,1.000,3.486,169,127.19,0.314
+principal,A* (clásico),astar,,gps_loss,20002,0,0,1,1.000,5.273,143,108.41,0.241
+principal,A* (clásico),astar,,gps_loss,20003,0,1,0,1.000,11.536,225,167.73,0.392
+principal,A* (clásico),astar,,gps_loss,20004,0,0,1,1.000,3.025,164,121.28,0.230
+principal,A* (clásico),astar,,gps_loss,20005,1,0,1,1.000,1.945,206,151.08,0.321
+principal,A* (clásico),astar,,gps_loss,20006,0,0,1,1.000,9.175,225,171.18,0.263
+principal,A* (clásico),astar,,gps_loss,20007,0,0,1,1.000,4.021,151,111.34,0.268
+principal,A* (clásico),astar,,gps_loss,20008,0,0,1,1.000,7.846,233,169.73,0.430
+principal,A* (clásico),astar,,gps_loss,20009,0,1,0,1.000,4.996,165,118.32,0.400
+principal,A* (clásico),astar,,gps_loss,20010,0,0,1,1.000,3.831,182,133.89,0.385
+principal,A* (clásico),astar,,gps_loss,20011,0,0,1,1.000,4.510,160,114.73,0.384
+principal,A* (clásico),astar,,gps_loss,20012,0,0,1,1.000,5.822,210,150.97,0.287
+principal,A* (clásico),astar,,gps_loss,20013,0,0,1,1.000,2.580,173,128.16,0.333
+principal,A* (clásico),astar,,gps_loss,20014,0,0,1,1.000,5.282,158,116.86,0.267
+principal,A* (clásico),astar,,gps_loss,20015,0,0,1,1.000,7.862,223,160.72,0.317
+principal,A* (clásico),astar,,gps_loss,20016,0,0,1,1.000,5.511,178,131.62,0.322
+principal,A* (clásico),astar,,gps_loss,20017,0,0,1,1.000,8.518,209,158.18,0.355
+principal,A* (clásico),astar,,gps_loss,20018,0,0,1,1.000,7.716,113,81.22,0.289
+principal,A* (clásico),astar,,gps_loss,20019,0,0,1,1.000,7.106,222,162.36,0.369
+principal,A* (clásico),astar,,gps_loss,20020,0,0,1,1.000,3.406,187,139.66,0.321
+principal,A* (clásico),astar,,gps_loss,20021,0,0,1,1.000,5.622,158,114.31,0.242
+principal,A* (clásico),astar,,gps_loss,20022,0,0,1,1.000,3.277,139,101.05,0.334
+principal,A* (clásico),astar,,gps_loss,20023,0,0,1,1.000,6.955,180,125.82,0.329
+principal,A* (clásico),astar,,gps_loss,20024,0,0,1,1.000,8.605,173,127.59,0.368
+principal,A* (clásico),astar,,gps_loss,20025,0,0,1,1.000,4.937,154,112.31,0.248
+principal,A* (clásico),astar,,gps_loss,20026,0,0,1,1.000,5.300,192,143.75,0.317
+principal,A* (clásico),astar,,gps_loss,20027,0,0,1,1.000,5.474,178,129.82,0.313
+principal,A* (clásico),astar,,gps_loss,20028,0,0,1,1.000,3.253,171,125.57,0.343
+principal,A* (clásico),astar,,gps_loss,20029,0,0,1,1.000,7.896,158,117.08,0.389
+principal,A* (clásico),astar,,combined,20000,0,0,1,1.000,4.472,187,136.33,0.328
+principal,A* (clásico),astar,,combined,20001,0,0,1,1.000,6.623,232,166.14,0.361
+principal,A* (clásico),astar,,combined,20002,0,0,1,1.000,2.857,168,124.22,0.426
+principal,A* (clásico),astar,,combined,20003,0,0,1,1.000,6.300,147,105.96,0.384
+principal,A* (clásico),astar,,combined,20004,0,1,0,1.000,7.699,197,140.26,0.547
+principal,A* (clásico),astar,,combined,20005,0,1,0,0.000,8.617,11,8.75,0.312
+principal,A* (clásico),astar,,combined,20006,0,0,1,1.000,3.806,215,161.99,0.386
+principal,A* (clásico),astar,,combined,20007,0,1,0,0.333,17.133,36,24.48,0.386
+principal,A* (clásico),astar,,combined,20008,0,0,1,1.000,4.486,171,126.12,0.352
+principal,A* (clásico),astar,,combined,20009,0,0,1,1.000,10.152,195,142.70,0.443
+principal,A* (clásico),astar,,combined,20010,0,1,0,0.000,12.877,16,14.12,1.106
+principal,A* (clásico),astar,,combined,20011,0,0,1,1.000,6.301,215,157.38,0.434
+principal,A* (clásico),astar,,combined,20012,0,1,0,0.000,12.553,18,13.29,0.369
+principal,A* (clásico),astar,,combined,20013,0,0,1,1.000,4.209,217,162.63,0.401
+principal,A* (clásico),astar,,combined,20014,0,0,1,1.000,2.854,186,135.11,0.332
+principal,A* (clásico),astar,,combined,20015,0,0,1,1.000,9.032,215,156.18,0.370
+principal,A* (clásico),astar,,combined,20016,0,0,1,1.000,2.386,128,93.38,0.427
+principal,A* (clásico),astar,,combined,20017,0,0,1,1.000,8.514,172,127.90,0.400
+principal,A* (clásico),astar,,combined,20018,0,0,1,1.000,9.523,200,143.93,0.372
+principal,A* (clásico),astar,,combined,20019,0,0,1,1.000,8.796,247,178.45,0.421
+principal,A* (clásico),astar,,combined,20020,0,1,0,0.000,10.501,19,13.24,0.621
+principal,A* (clásico),astar,,combined,20021,0,1,0,0.333,34.855,61,49.31,0.408
+principal,A* (clásico),astar,,combined,20022,0,0,1,1.000,7.180,167,122.66,0.327
+principal,A* (clásico),astar,,combined,20023,0,0,1,1.000,8.564,215,159.15,0.328
+principal,A* (clásico),astar,,combined,20024,0,0,1,1.000,5.428,195,142.37,0.339
+principal,A* (clásico),astar,,combined,20025,0,0,1,1.000,9.588,224,163.13,0.325
+principal,A* (clásico),astar,,combined,20026,0,1,0,1.000,6.685,222,162.66,0.591
+principal,A* (clásico),astar,,combined,20027,0,0,1,1.000,9.626,182,139.39,0.464
+principal,A* (clásico),astar,,combined,20028,0,0,1,1.000,7.674,232,170.34,0.455
+principal,A* (clásico),astar,,combined,20029,0,0,1,1.000,3.423,191,137.12,0.384
+principal,A* + ALV (clásico),astar_alv,,nominal,20000,1,0,1,1.000,0.442,191,144.40,0.309
+principal,A* + ALV (clásico),astar_alv,,nominal,20001,1,0,1,1.000,0.296,223,166.64,0.500
+principal,A* + ALV (clásico),astar_alv,,nominal,20002,1,0,1,1.000,0.460,189,144.48,0.445
+principal,A* + ALV (clásico),astar_alv,,nominal,20003,1,0,1,1.000,0.763,176,129.60,0.308
+principal,A* + ALV (clásico),astar_alv,,nominal,20004,1,0,1,1.000,0.369,151,114.64,0.296
+principal,A* + ALV (clásico),astar_alv,,nominal,20005,1,0,1,1.000,0.594,181,132.48,0.401
+principal,A* + ALV (clásico),astar_alv,,nominal,20006,1,0,1,1.000,0.704,201,144.56,0.476
+principal,A* + ALV (clásico),astar_alv,,nominal,20007,1,0,1,1.000,0.103,169,123.44,0.381
+principal,A* + ALV (clásico),astar_alv,,nominal,20008,1,0,1,1.000,0.394,121,88.96,0.204
+principal,A* + ALV (clásico),astar_alv,,nominal,20009,1,0,1,1.000,0.633,153,112.32,0.278
+principal,A* + ALV (clásico),astar_alv,,nominal,20010,1,0,1,1.000,0.057,177,131.52,0.379
+principal,A* + ALV (clásico),astar_alv,,nominal,20011,1,0,1,1.000,0.821,204,153.12,0.315
+principal,A* + ALV (clásico),astar_alv,,nominal,20012,1,0,1,1.000,0.681,196,150.08,0.284
+principal,A* + ALV (clásico),astar_alv,,nominal,20013,1,0,1,1.000,0.499,131,99.20,0.254
+principal,A* + ALV (clásico),astar_alv,,nominal,20014,1,0,1,1.000,0.360,160,118.48,0.341
+principal,A* + ALV (clásico),astar_alv,,nominal,20015,1,0,1,1.000,0.300,169,125.12,0.305
+principal,A* + ALV (clásico),astar_alv,,nominal,20016,1,0,1,1.000,0.326,229,169.76,0.365
+principal,A* + ALV (clásico),astar_alv,,nominal,20017,1,0,1,1.000,0.434,198,143.28,0.416
+principal,A* + ALV (clásico),astar_alv,,nominal,20018,1,0,1,1.000,0.231,116,83.84,0.265
+principal,A* + ALV (clásico),astar_alv,,nominal,20019,1,0,1,1.000,0.295,170,127.04,0.279
+principal,A* + ALV (clásico),astar_alv,,nominal,20020,1,0,1,1.000,0.221,192,140.16,0.352
+principal,A* + ALV (clásico),astar_alv,,nominal,20021,1,0,1,1.000,0.657,167,123.52,0.302
+principal,A* + ALV (clásico),astar_alv,,nominal,20022,1,0,1,1.000,0.042,170,128.72,0.313
+principal,A* + ALV (clásico),astar_alv,,nominal,20023,1,0,1,1.000,0.055,202,150.40,0.462
+principal,A* + ALV (clásico),astar_alv,,nominal,20024,1,0,1,1.000,0.462,187,138.96,0.345
+principal,A* + ALV (clásico),astar_alv,,nominal,20025,1,0,1,1.000,0.462,197,146.40,0.300
+principal,A* + ALV (clásico),astar_alv,,nominal,20026,1,0,1,1.000,0.250,179,133.12,0.292
+principal,A* + ALV (clásico),astar_alv,,nominal,20027,1,0,1,1.000,0.373,154,113.12,0.288
+principal,A* + ALV (clásico),astar_alv,,nominal,20028,1,0,1,1.000,0.138,161,118.16,0.302
+principal,A* + ALV (clásico),astar_alv,,nominal,20029,1,0,1,1.000,0.117,181,134.16,0.253
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20000,1,0,1,1.000,0.294,174,131.36,0.339
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20001,1,0,1,1.000,0.031,142,106.88,0.377
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20002,1,0,1,1.000,0.149,144,110.16,0.310
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20003,1,0,1,1.000,0.256,170,125.36,0.307
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20004,1,0,1,1.000,0.212,150,109.92,0.335
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20005,1,0,1,1.000,0.113,241,179.92,0.489
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20006,0,1,0,0.400,30.238,80,56.72,0.366
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20007,1,0,1,1.000,0.306,198,143.28,0.341
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20008,1,0,1,1.000,0.238,181,126.88,0.437
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20009,1,0,1,1.000,0.350,152,114.32,0.366
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20010,1,0,1,1.000,0.346,156,114.16,0.336
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20011,1,0,1,1.000,0.256,165,119.68,0.315
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20012,1,0,1,1.000,0.359,204,145.84,0.328
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20013,1,0,1,1.000,0.099,178,132.32,0.390
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20014,1,0,1,1.000,0.431,184,139.36,0.349
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20015,1,0,1,1.000,0.283,201,150.16,0.428
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20016,1,0,1,1.000,0.245,138,102.56,0.293
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20017,1,0,1,1.000,0.046,131,96.40,0.344
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20018,1,0,1,1.000,0.194,185,140.16,0.438
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20019,1,0,1,1.000,0.369,188,136.96,0.498
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20020,1,0,1,1.000,1.278,171,122.80,0.536
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20021,1,0,1,1.000,0.524,206,150.80,0.405
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20022,1,0,1,1.000,0.470,162,120.64,0.337
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20023,1,0,1,1.000,0.358,181,131.92,0.313
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20024,1,0,1,1.000,0.368,201,150.72,0.288
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20025,1,0,1,1.000,0.191,136,100.96,0.299
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20026,1,0,1,1.000,0.561,195,143.68,0.416
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20027,1,0,1,1.000,0.103,219,162.88,0.428
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20028,1,0,1,1.000,0.673,235,175.68,0.323
+principal,A* + ALV (clásico),astar_alv,,unknown_obstacles,20029,1,0,1,1.000,0.575,163,119.76,0.353
+principal,A* + ALV (clásico),astar_alv,,dynamic,20000,1,0,1,1.000,0.173,145,108.72,0.305
+principal,A* + ALV (clásico),astar_alv,,dynamic,20001,0,1,0,0.750,17.254,100,73.28,0.507
+principal,A* + ALV (clásico),astar_alv,,dynamic,20002,0,1,0,0.000,8.525,12,9.04,0.274
+principal,A* + ALV (clásico),astar_alv,,dynamic,20003,0,1,0,0.500,26.045,75,50.48,0.343
+principal,A* + ALV (clásico),astar_alv,,dynamic,20004,1,0,1,1.000,0.225,226,161.76,0.344
+principal,A* + ALV (clásico),astar_alv,,dynamic,20005,0,1,0,0.667,24.899,65,46.40,0.348
+principal,A* + ALV (clásico),astar_alv,,dynamic,20006,0,1,0,0.500,11.980,69,50.16,0.485
+principal,A* + ALV (clásico),astar_alv,,dynamic,20007,1,0,1,1.000,0.359,240,174.64,0.450
+principal,A* + ALV (clásico),astar_alv,,dynamic,20008,1,0,1,1.000,0.063,213,153.60,0.307
+principal,A* + ALV (clásico),astar_alv,,dynamic,20009,1,0,1,1.000,0.100,202,147.60,0.423
+principal,A* + ALV (clásico),astar_alv,,dynamic,20010,1,0,1,1.000,0.335,181,132.48,0.306
+principal,A* + ALV (clásico),astar_alv,,dynamic,20011,0,1,0,0.750,24.751,96,70.08,0.358
+principal,A* + ALV (clásico),astar_alv,,dynamic,20012,0,1,0,0.000,8.921,14,10.08,0.483
+principal,A* + ALV (clásico),astar_alv,,dynamic,20013,0,1,0,0.000,0.240,1,0.24,0.893
+principal,A* + ALV (clásico),astar_alv,,dynamic,20014,1,0,1,1.000,0.506,136,99.28,0.303
+principal,A* + ALV (clásico),astar_alv,,dynamic,20015,0,1,0,0.000,7.145,9,7.20,0.277
+principal,A* + ALV (clásico),astar_alv,,dynamic,20016,0,1,0,0.000,7.103,9,7.20,0.407
+principal,A* + ALV (clásico),astar_alv,,dynamic,20017,0,1,0,0.600,54.807,101,74.08,0.327
+principal,A* + ALV (clásico),astar_alv,,dynamic,20018,0,1,0,0.500,19.410,88,60.88,0.664
+principal,A* + ALV (clásico),astar_alv,,dynamic,20019,0,1,0,0.000,11.175,17,11.92,0.409
+principal,A* + ALV (clásico),astar_alv,,dynamic,20020,0,1,0,0.000,11.920,18,13.28,0.508
+principal,A* + ALV (clásico),astar_alv,,dynamic,20021,0,1,0,0.000,7.212,11,7.68,0.305
+principal,A* + ALV (clásico),astar_alv,,dynamic,20022,1,0,1,1.000,0.156,245,179.76,0.351
+principal,A* + ALV (clásico),astar_alv,,dynamic,20023,1,0,1,1.000,0.230,161,120.40,0.345
+principal,A* + ALV (clásico),astar_alv,,dynamic,20024,0,1,0,0.333,20.330,34,24.40,0.338
+principal,A* + ALV (clásico),astar_alv,,dynamic,20025,1,0,1,1.000,0.386,215,158.00,0.382
+principal,A* + ALV (clásico),astar_alv,,dynamic,20026,0,1,0,0.000,8.863,15,10.88,0.410
+principal,A* + ALV (clásico),astar_alv,,dynamic,20027,1,0,1,1.000,0.504,206,151.36,0.370
+principal,A* + ALV (clásico),astar_alv,,dynamic,20028,0,1,0,1.000,14.683,212,151.68,0.395
+principal,A* + ALV (clásico),astar_alv,,dynamic,20029,1,0,1,1.000,0.728,186,137.60,0.286
+principal,A* + ALV (clásico),astar_alv,,wind,20000,1,0,1,1.000,0.709,217,152.07,0.340
+principal,A* + ALV (clásico),astar_alv,,wind,20001,1,0,1,1.000,1.317,238,167.95,0.349
+principal,A* + ALV (clásico),astar_alv,,wind,20002,1,0,1,1.000,0.653,201,144.59,0.364
+principal,A* + ALV (clásico),astar_alv,,wind,20003,1,0,1,1.000,0.831,130,90.07,0.274
+principal,A* + ALV (clásico),astar_alv,,wind,20004,0,0,1,0.800,0.682,219,157.46,0.316
+principal,A* + ALV (clásico),astar_alv,,wind,20005,1,0,1,1.000,1.087,217,152.44,0.364
+principal,A* + ALV (clásico),astar_alv,,wind,20006,1,0,1,1.000,1.351,172,121.60,0.275
+principal,A* + ALV (clásico),astar_alv,,wind,20007,1,0,1,1.000,0.795,188,132.58,0.329
+principal,A* + ALV (clásico),astar_alv,,wind,20008,1,0,1,1.000,0.261,234,166.13,0.519
+principal,A* + ALV (clásico),astar_alv,,wind,20009,1,0,1,1.000,0.742,230,167.26,0.333
+principal,A* + ALV (clásico),astar_alv,,wind,20010,1,0,1,1.000,0.704,205,141.80,0.355
+principal,A* + ALV (clásico),astar_alv,,wind,20011,1,0,1,1.000,0.700,205,149.23,0.316
+principal,A* + ALV (clásico),astar_alv,,wind,20012,1,0,1,1.000,0.594,216,160.70,0.316
+principal,A* + ALV (clásico),astar_alv,,wind,20013,1,0,1,1.000,0.566,138,96.59,0.241
+principal,A* + ALV (clásico),astar_alv,,wind,20014,1,0,1,1.000,0.883,208,147.14,0.292
+principal,A* + ALV (clásico),astar_alv,,wind,20015,1,0,1,1.000,0.620,254,182.41,0.393
+principal,A* + ALV (clásico),astar_alv,,wind,20016,1,0,1,1.000,0.248,200,140.31,0.351
+principal,A* + ALV (clásico),astar_alv,,wind,20017,1,0,1,1.000,0.618,192,138.30,0.337
+principal,A* + ALV (clásico),astar_alv,,wind,20018,1,0,1,1.000,0.706,123,87.02,0.291
+principal,A* + ALV (clásico),astar_alv,,wind,20019,1,0,1,1.000,0.364,215,157.46,0.385
+principal,A* + ALV (clásico),astar_alv,,wind,20020,1,0,1,1.000,0.277,152,114.05,0.341
+principal,A* + ALV (clásico),astar_alv,,wind,20021,1,0,1,1.000,0.283,212,147.31,0.313
+principal,A* + ALV (clásico),astar_alv,,wind,20022,1,0,1,1.000,0.340,171,120.89,0.328
+principal,A* + ALV (clásico),astar_alv,,wind,20023,1,0,1,1.000,1.078,215,154.59,0.347
+principal,A* + ALV (clásico),astar_alv,,wind,20024,1,0,1,1.000,0.911,201,135.46,0.290
+principal,A* + ALV (clásico),astar_alv,,wind,20025,1,0,1,1.000,0.757,98,69.19,0.244
+principal,A* + ALV (clásico),astar_alv,,wind,20026,0,0,1,0.750,0.660,193,134.39,0.244
+principal,A* + ALV (clásico),astar_alv,,wind,20027,1,0,1,1.000,0.872,203,142.58,0.295
+principal,A* + ALV (clásico),astar_alv,,wind,20028,1,0,1,1.000,1.340,203,144.67,0.327
+principal,A* + ALV (clásico),astar_alv,,wind,20029,1,0,1,1.000,0.249,215,148.09,0.311
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20000,0,1,0,1.000,10.037,218,126.37,0.433
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20001,1,0,1,1.000,0.305,174,129.01,0.332
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20002,1,0,1,1.000,0.338,197,120.12,0.258
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20003,0,1,0,1.000,11.285,368,245.84,0.595
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20004,0,0,1,1.000,6.889,292,161.10,0.237
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20005,0,0,1,1.000,11.866,284,181.73,0.371
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20006,0,0,1,1.000,13.093,323,209.32,0.247
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20007,0,0,1,1.000,12.110,275,153.01,0.254
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20008,1,0,1,1.000,1.842,261,179.31,0.494
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20009,0,0,1,1.000,24.154,303,156.27,0.357
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20010,1,0,1,1.000,0.408,229,148.81,0.357
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20011,0,0,1,1.000,8.794,226,146.43,0.327
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20012,0,0,1,1.000,25.613,304,194.60,0.340
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20013,1,0,1,1.000,0.368,206,137.64,0.346
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20014,0,0,1,1.000,9.109,223,145.29,0.264
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20015,0,0,1,1.000,22.410,372,204.52,0.303
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20016,0,0,1,1.000,7.007,317,168.05,0.281
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20017,0,0,1,1.000,24.734,343,200.33,0.304
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20018,0,0,1,1.000,21.127,256,120.11,0.329
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20019,0,0,1,1.000,15.076,372,206.47,0.360
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20020,0,0,1,1.000,9.180,328,181.02,0.286
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20021,0,0,1,1.000,21.842,275,156.77,0.235
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20022,0,0,1,1.000,10.257,284,142.92,0.328
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20023,0,0,1,1.000,5.538,247,150.23,0.322
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20024,0,0,1,1.000,15.318,260,162.93,0.415
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20025,0,0,1,1.000,29.944,295,151.58,0.305
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20026,0,0,1,1.000,16.096,328,179.75,0.412
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20027,0,0,1,1.000,15.091,244,157.97,0.305
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20028,0,0,1,1.000,2.299,237,149.89,0.318
+principal,A* + ALV (clásico),astar_alv,,gps_loss,20029,0,0,1,1.000,13.231,271,159.63,0.379
+principal,A* + ALV (clásico),astar_alv,,combined,20000,0,0,1,1.000,23.806,324,177.38,0.326
+principal,A* + ALV (clásico),astar_alv,,combined,20001,1,0,1,1.000,0.491,227,159.82,0.449
+principal,A* + ALV (clásico),astar_alv,,combined,20002,0,0,1,1.000,14.775,308,163.17,0.419
+principal,A* + ALV (clásico),astar_alv,,combined,20003,0,0,1,1.000,18.291,337,179.89,0.381
+principal,A* + ALV (clásico),astar_alv,,combined,20004,0,0,1,1.000,5.938,284,171.96,0.500
+principal,A* + ALV (clásico),astar_alv,,combined,20005,0,1,0,0.000,8.617,11,8.75,0.299
+principal,A* + ALV (clásico),astar_alv,,combined,20006,1,0,1,1.000,0.619,280,183.72,0.358
+principal,A* + ALV (clásico),astar_alv,,combined,20007,0,1,0,0.333,17.133,36,24.48,0.372
+principal,A* + ALV (clásico),astar_alv,,combined,20008,0,0,1,1.000,7.118,236,147.61,0.328
+principal,A* + ALV (clásico),astar_alv,,combined,20009,0,0,1,1.000,21.915,307,180.78,0.337
+principal,A* + ALV (clásico),astar_alv,,combined,20010,0,1,0,0.000,12.877,16,14.12,1.166
+principal,A* + ALV (clásico),astar_alv,,combined,20011,0,0,1,1.000,22.450,317,195.17,0.456
+principal,A* + ALV (clásico),astar_alv,,combined,20012,0,1,0,0.000,12.553,18,13.29,0.401
+principal,A* + ALV (clásico),astar_alv,,combined,20013,1,0,1,1.000,0.292,221,161.51,0.487
+principal,A* + ALV (clásico),astar_alv,,combined,20014,0,0,1,1.000,19.832,335,188.82,0.350
+principal,A* + ALV (clásico),astar_alv,,combined,20015,0,0,1,1.000,24.356,339,193.68,0.356
+principal,A* + ALV (clásico),astar_alv,,combined,20016,1,0,1,1.000,0.065,133,92.87,0.367
+principal,A* + ALV (clásico),astar_alv,,combined,20017,0,0,1,1.000,14.452,286,170.04,0.366
+principal,A* + ALV (clásico),astar_alv,,combined,20018,1,0,1,1.000,0.541,196,135.60,0.379
+principal,A* + ALV (clásico),astar_alv,,combined,20019,0,0,1,1.000,12.265,366,212.96,0.425
+principal,A* + ALV (clásico),astar_alv,,combined,20020,0,1,0,0.000,10.501,19,13.24,0.742
+principal,A* + ALV (clásico),astar_alv,,combined,20021,0,1,0,0.333,34.855,61,49.31,0.458
+principal,A* + ALV (clásico),astar_alv,,combined,20022,0,0,1,1.000,21.488,285,165.21,0.427
+principal,A* + ALV (clásico),astar_alv,,combined,20023,0,0,1,1.000,17.291,302,189.08,0.382
+principal,A* + ALV (clásico),astar_alv,,combined,20024,1,0,1,1.000,0.699,197,143.03,0.350
+principal,A* + ALV (clásico),astar_alv,,combined,20025,0,1,0,1.000,8.487,222,153.29,0.354
+principal,A* + ALV (clásico),astar_alv,,combined,20026,1,0,1,1.000,0.355,222,158.03,0.476
+principal,A* + ALV (clásico),astar_alv,,combined,20027,0,0,1,1.000,15.829,301,181.08,0.371
+principal,A* + ALV (clásico),astar_alv,,combined,20028,0,1,0,1.000,9.376,337,207.38,0.370
+principal,A* + ALV (clásico),astar_alv,,combined,20029,0,0,1,1.000,4.395,282,170.40,0.334
+principal,A* + supervisor,astar_supervised,,nominal,20000,1,0,1,1.000,0.442,191,144.40,0.332
+principal,A* + supervisor,astar_supervised,,nominal,20001,1,0,1,1.000,0.296,223,166.64,0.516
+principal,A* + supervisor,astar_supervised,,nominal,20002,1,0,1,1.000,0.460,189,144.48,0.442
+principal,A* + supervisor,astar_supervised,,nominal,20003,1,0,1,1.000,0.388,175,128.80,0.357
+principal,A* + supervisor,astar_supervised,,nominal,20004,1,0,1,1.000,0.369,151,114.64,0.311
+principal,A* + supervisor,astar_supervised,,nominal,20005,1,0,1,1.000,0.594,181,132.48,0.541
+principal,A* + supervisor,astar_supervised,,nominal,20006,1,0,1,1.000,0.456,202,144.80,0.530
+principal,A* + supervisor,astar_supervised,,nominal,20007,1,0,1,1.000,0.275,168,123.76,0.426
+principal,A* + supervisor,astar_supervised,,nominal,20008,1,0,1,1.000,0.394,121,88.96,0.287
+principal,A* + supervisor,astar_supervised,,nominal,20009,1,0,1,1.000,0.633,153,112.32,0.347
+principal,A* + supervisor,astar_supervised,,nominal,20010,1,0,1,1.000,0.010,179,132.00,0.486
+principal,A* + supervisor,astar_supervised,,nominal,20011,1,0,1,1.000,0.528,214,155.52,0.394
+principal,A* + supervisor,astar_supervised,,nominal,20012,1,0,1,1.000,0.681,196,150.08,0.311
+principal,A* + supervisor,astar_supervised,,nominal,20013,1,0,1,1.000,0.499,131,99.20,0.327
+principal,A* + supervisor,astar_supervised,,nominal,20014,1,0,1,1.000,0.877,161,118.72,0.395
+principal,A* + supervisor,astar_supervised,,nominal,20015,1,0,1,1.000,0.300,169,125.12,0.354
+principal,A* + supervisor,astar_supervised,,nominal,20016,1,0,1,1.000,0.326,229,169.76,0.460
+principal,A* + supervisor,astar_supervised,,nominal,20017,1,0,1,1.000,0.434,198,143.28,0.454
+principal,A* + supervisor,astar_supervised,,nominal,20018,1,0,1,1.000,0.253,116,84.96,0.367
+principal,A* + supervisor,astar_supervised,,nominal,20019,1,0,1,1.000,0.295,170,127.04,0.365
+principal,A* + supervisor,astar_supervised,,nominal,20020,1,0,1,1.000,0.221,192,140.16,0.359
+principal,A* + supervisor,astar_supervised,,nominal,20021,1,0,1,1.000,0.699,162,122.32,0.313
+principal,A* + supervisor,astar_supervised,,nominal,20022,1,0,1,1.000,0.042,170,128.72,0.345
+principal,A* + supervisor,astar_supervised,,nominal,20023,1,0,1,1.000,0.055,202,150.40,0.425
+principal,A* + supervisor,astar_supervised,,nominal,20024,1,0,1,1.000,0.138,191,139.36,0.360
+principal,A* + supervisor,astar_supervised,,nominal,20025,1,0,1,1.000,0.462,197,146.40,0.337
+principal,A* + supervisor,astar_supervised,,nominal,20026,1,0,1,1.000,0.250,179,133.12,0.401
+principal,A* + supervisor,astar_supervised,,nominal,20027,1,0,1,1.000,0.373,154,113.12,0.368
+principal,A* + supervisor,astar_supervised,,nominal,20028,1,0,1,1.000,0.138,161,118.16,0.362
+principal,A* + supervisor,astar_supervised,,nominal,20029,1,0,1,1.000,0.117,181,134.16,0.323
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20000,1,0,1,1.000,0.294,174,131.36,0.480
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20001,1,0,1,1.000,0.031,142,106.88,0.430
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20002,1,0,1,1.000,0.149,144,110.16,0.364
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20003,1,0,1,1.000,0.256,170,125.36,0.377
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20004,1,0,1,1.000,0.121,153,110.08,0.350
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20005,1,0,1,1.000,0.643,240,180.80,0.540
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20006,1,0,1,1.000,0.808,205,150.00,0.378
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20007,1,0,1,1.000,0.381,226,165.12,0.443
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20008,1,0,1,1.000,0.238,181,126.88,0.413
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20009,1,0,1,1.000,0.294,151,113.52,0.396
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20010,1,0,1,1.000,0.346,156,114.16,0.375
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20011,1,0,1,1.000,0.169,162,118.40,0.377
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20012,1,0,1,1.000,0.359,204,145.84,0.389
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20013,1,0,1,1.000,0.099,178,132.32,0.450
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20014,1,0,1,1.000,0.431,184,139.36,0.356
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20015,1,0,1,1.000,0.176,207,150.48,0.397
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20016,1,0,1,1.000,0.245,138,102.56,0.330
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20017,1,0,1,1.000,0.332,130,96.72,0.402
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20018,1,0,1,1.000,0.194,185,140.16,0.474
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20019,1,0,1,1.000,0.799,188,137.52,0.442
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20020,1,0,1,1.000,0.852,170,123.12,0.481
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20021,1,0,1,1.000,0.453,200,150.48,0.422
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20022,1,0,1,1.000,0.470,162,120.64,0.382
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20023,1,0,1,1.000,0.358,181,131.92,0.350
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20024,1,0,1,1.000,0.368,201,150.72,0.348
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20025,1,0,1,1.000,0.191,136,100.96,0.334
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20026,1,0,1,1.000,0.561,195,143.68,0.757
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20027,1,0,1,1.000,0.103,219,162.88,0.572
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20028,1,0,1,1.000,0.673,235,175.68,0.400
+principal,A* + supervisor,astar_supervised,,unknown_obstacles,20029,1,0,1,1.000,0.163,166,121.04,0.451
+principal,A* + supervisor,astar_supervised,,dynamic,20000,1,0,1,1.000,0.320,144,109.04,0.364
+principal,A* + supervisor,astar_supervised,,dynamic,20001,1,0,1,1.000,0.120,187,135.92,0.523
+principal,A* + supervisor,astar_supervised,,dynamic,20002,0,1,0,0.000,7.827,12,8.24,0.353
+principal,A* + supervisor,astar_supervised,,dynamic,20003,0,1,0,0.500,29.605,114,71.92,0.567
+principal,A* + supervisor,astar_supervised,,dynamic,20004,1,0,1,1.000,0.225,226,161.76,0.414
+principal,A* + supervisor,astar_supervised,,dynamic,20005,0,1,0,0.667,24.899,65,46.40,0.406
+principal,A* + supervisor,astar_supervised,,dynamic,20006,0,1,0,0.000,12.911,24,15.60,0.494
+principal,A* + supervisor,astar_supervised,,dynamic,20007,1,0,1,1.000,0.518,240,175.76,0.491
+principal,A* + supervisor,astar_supervised,,dynamic,20008,0,1,0,0.400,31.164,96,67.60,0.458
+principal,A* + supervisor,astar_supervised,,dynamic,20009,1,0,1,1.000,0.210,209,148.32,0.438
+principal,A* + supervisor,astar_supervised,,dynamic,20010,1,0,1,1.000,0.335,181,132.48,0.394
+principal,A* + supervisor,astar_supervised,,dynamic,20011,1,0,1,1.000,0.470,171,112.96,0.364
+principal,A* + supervisor,astar_supervised,,dynamic,20012,1,0,1,1.000,0.337,274,202.40,0.500
+principal,A* + supervisor,astar_supervised,,dynamic,20013,0,1,0,0.000,0.000,1,0.00,1.083
+principal,A* + supervisor,astar_supervised,,dynamic,20014,1,0,1,1.000,0.506,136,99.28,0.361
+principal,A* + supervisor,astar_supervised,,dynamic,20015,0,1,0,0.000,7.145,9,7.20,0.325
+principal,A* + supervisor,astar_supervised,,dynamic,20016,1,0,1,1.000,0.867,258,186.24,0.456
+principal,A* + supervisor,astar_supervised,,dynamic,20017,0,1,0,0.600,55.505,101,73.84,0.351
+principal,A* + supervisor,astar_supervised,,dynamic,20018,1,0,1,1.000,0.689,198,141.04,0.435
+principal,A* + supervisor,astar_supervised,,dynamic,20019,0,1,0,0.000,8.876,15,9.52,0.397
+principal,A* + supervisor,astar_supervised,,dynamic,20020,1,0,1,1.000,0.280,213,156.96,0.444
+principal,A* + supervisor,astar_supervised,,dynamic,20021,0,1,0,0.750,8.425,167,112.88,0.664
+principal,A* + supervisor,astar_supervised,,dynamic,20022,0,0,0,0.000,7.376,600,7.68,0.738
+principal,A* + supervisor,astar_supervised,,dynamic,20023,1,0,1,1.000,0.230,161,120.40,0.465
+principal,A* + supervisor,astar_supervised,,dynamic,20024,0,1,0,0.333,20.119,34,24.40,0.412
+principal,A* + supervisor,astar_supervised,,dynamic,20025,1,0,1,1.000,0.531,222,160.24,0.464
+principal,A* + supervisor,astar_supervised,,dynamic,20026,0,1,0,0.400,28.741,90,64.24,0.464
+principal,A* + supervisor,astar_supervised,,dynamic,20027,1,0,1,1.000,0.504,206,151.36,0.433
+principal,A* + supervisor,astar_supervised,,dynamic,20028,0,1,0,0.800,34.153,138,96.72,0.434
+principal,A* + supervisor,astar_supervised,,dynamic,20029,1,0,1,1.000,0.728,186,137.60,0.343
+principal,A* + supervisor,astar_supervised,,wind,20000,1,0,1,1.000,0.709,217,152.02,0.413
+principal,A* + supervisor,astar_supervised,,wind,20001,1,0,1,1.000,1.210,239,167.92,0.392
+principal,A* + supervisor,astar_supervised,,wind,20002,1,0,1,1.000,0.653,201,144.59,0.411
+principal,A* + supervisor,astar_supervised,,wind,20003,1,0,1,1.000,0.831,130,90.07,0.321
+principal,A* + supervisor,astar_supervised,,wind,20004,0,0,1,0.800,0.682,219,157.46,0.365
+principal,A* + supervisor,astar_supervised,,wind,20005,1,0,1,1.000,1.087,217,152.44,0.434
+principal,A* + supervisor,astar_supervised,,wind,20006,1,0,1,1.000,1.252,172,121.36,0.317
+principal,A* + supervisor,astar_supervised,,wind,20007,1,0,1,1.000,0.491,192,133.63,0.390
+principal,A* + supervisor,astar_supervised,,wind,20008,1,0,1,1.000,0.261,234,166.13,0.370
+principal,A* + supervisor,astar_supervised,,wind,20009,1,0,1,1.000,0.779,229,167.35,0.384
+principal,A* + supervisor,astar_supervised,,wind,20010,1,0,1,1.000,0.704,205,141.80,0.346
+principal,A* + supervisor,astar_supervised,,wind,20011,1,0,1,1.000,0.700,205,149.23,0.394
+principal,A* + supervisor,astar_supervised,,wind,20012,1,0,1,1.000,0.594,216,160.70,0.389
+principal,A* + supervisor,astar_supervised,,wind,20013,1,0,1,1.000,0.566,138,96.59,0.256
+principal,A* + supervisor,astar_supervised,,wind,20014,1,0,1,1.000,0.635,208,146.45,0.301
+principal,A* + supervisor,astar_supervised,,wind,20015,1,0,1,1.000,0.603,256,181.40,0.429
+principal,A* + supervisor,astar_supervised,,wind,20016,1,0,1,1.000,0.248,200,140.31,0.360
+principal,A* + supervisor,astar_supervised,,wind,20017,1,0,1,1.000,0.618,192,138.30,0.351
+principal,A* + supervisor,astar_supervised,,wind,20018,1,0,1,1.000,0.706,123,87.02,0.313
+principal,A* + supervisor,astar_supervised,,wind,20019,1,0,1,1.000,0.364,215,157.49,0.373
+principal,A* + supervisor,astar_supervised,,wind,20020,1,0,1,1.000,0.624,154,112.70,0.339
+principal,A* + supervisor,astar_supervised,,wind,20021,1,0,1,1.000,0.283,212,147.31,0.359
+principal,A* + supervisor,astar_supervised,,wind,20022,1,0,1,1.000,0.340,171,120.89,0.404
+principal,A* + supervisor,astar_supervised,,wind,20023,1,0,1,1.000,1.078,215,154.59,0.343
+principal,A* + supervisor,astar_supervised,,wind,20024,1,0,1,1.000,0.911,201,135.46,0.384
+principal,A* + supervisor,astar_supervised,,wind,20025,1,0,1,1.000,0.788,97,68.93,0.264
+principal,A* + supervisor,astar_supervised,,wind,20026,0,0,1,0.750,0.660,193,134.39,0.241
+principal,A* + supervisor,astar_supervised,,wind,20027,1,0,1,1.000,0.872,203,142.58,0.443
+principal,A* + supervisor,astar_supervised,,wind,20028,1,0,1,1.000,1.536,201,143.89,0.336
+principal,A* + supervisor,astar_supervised,,wind,20029,1,0,1,1.000,0.249,215,148.09,0.370
+principal,A* + supervisor,astar_supervised,,gps_loss,20000,0,0,1,1.000,8.314,159,109.42,0.410
+principal,A* + supervisor,astar_supervised,,gps_loss,20001,0,0,1,1.000,3.486,169,127.19,0.370
+principal,A* + supervisor,astar_supervised,,gps_loss,20002,0,0,1,1.000,5.273,143,108.41,0.290
+principal,A* + supervisor,astar_supervised,,gps_loss,20003,0,1,0,1.000,11.311,230,168.01,0.411
+principal,A* + supervisor,astar_supervised,,gps_loss,20004,0,0,1,1.000,3.502,161,120.16,0.265
+principal,A* + supervisor,astar_supervised,,gps_loss,20005,1,0,1,1.000,1.945,206,151.08,0.360
+principal,A* + supervisor,astar_supervised,,gps_loss,20006,0,0,1,1.000,9.175,225,171.18,0.298
+principal,A* + supervisor,astar_supervised,,gps_loss,20007,0,0,1,1.000,4.159,152,111.63,0.505
+principal,A* + supervisor,astar_supervised,,gps_loss,20008,0,0,1,1.000,7.846,233,169.73,0.383
+principal,A* + supervisor,astar_supervised,,gps_loss,20009,0,0,1,1.000,8.938,214,141.67,0.847
+principal,A* + supervisor,astar_supervised,,gps_loss,20010,0,0,1,1.000,3.761,181,134.76,0.378
+principal,A* + supervisor,astar_supervised,,gps_loss,20011,0,0,1,1.000,4.295,159,114.41,0.296
+principal,A* + supervisor,astar_supervised,,gps_loss,20012,0,0,1,1.000,5.978,212,151.42,0.333
+principal,A* + supervisor,astar_supervised,,gps_loss,20013,0,0,1,1.000,2.580,173,128.16,0.368
+principal,A* + supervisor,astar_supervised,,gps_loss,20014,0,0,1,1.000,5.282,158,116.86,0.291
+principal,A* + supervisor,astar_supervised,,gps_loss,20015,0,0,1,1.000,7.862,223,160.72,0.399
+principal,A* + supervisor,astar_supervised,,gps_loss,20016,0,0,1,1.000,5.397,177,131.38,0.400
+principal,A* + supervisor,astar_supervised,,gps_loss,20017,0,0,1,1.000,8.518,209,158.18,0.459
+principal,A* + supervisor,astar_supervised,,gps_loss,20018,0,0,1,1.000,7.612,115,81.32,0.391
+principal,A* + supervisor,astar_supervised,,gps_loss,20019,0,1,0,1.000,5.497,224,159.06,0.421
+principal,A* + supervisor,astar_supervised,,gps_loss,20020,0,0,1,1.000,2.923,182,139.18,0.429
+principal,A* + supervisor,astar_supervised,,gps_loss,20021,0,0,1,1.000,5.444,157,114.00,0.292
+principal,A* + supervisor,astar_supervised,,gps_loss,20022,0,0,1,1.000,3.277,139,101.05,0.406
+principal,A* + supervisor,astar_supervised,,gps_loss,20023,0,0,1,1.000,6.804,178,126.77,0.409
+principal,A* + supervisor,astar_supervised,,gps_loss,20024,0,0,1,1.000,8.605,173,127.58,0.527
+principal,A* + supervisor,astar_supervised,,gps_loss,20025,0,0,1,1.000,5.254,154,113.61,0.364
+principal,A* + supervisor,astar_supervised,,gps_loss,20026,0,0,1,1.000,5.300,192,143.75,0.379
+principal,A* + supervisor,astar_supervised,,gps_loss,20027,0,0,1,1.000,5.474,178,129.82,0.377
+principal,A* + supervisor,astar_supervised,,gps_loss,20028,0,0,1,1.000,3.253,171,125.57,0.391
+principal,A* + supervisor,astar_supervised,,gps_loss,20029,0,0,1,1.000,7.896,158,117.08,0.408
+principal,A* + supervisor,astar_supervised,,combined,20000,0,1,0,0.800,15.083,115,80.74,0.383
+principal,A* + supervisor,astar_supervised,,combined,20001,0,0,1,1.000,6.710,232,166.14,0.425
+principal,A* + supervisor,astar_supervised,,combined,20002,0,0,1,1.000,3.071,168,123.07,0.504
+principal,A* + supervisor,astar_supervised,,combined,20003,0,0,1,1.000,6.842,143,105.77,0.482
+principal,A* + supervisor,astar_supervised,,combined,20004,0,0,1,1.000,7.357,197,139.53,0.629
+principal,A* + supervisor,astar_supervised,,combined,20005,0,1,0,0.000,8.667,11,8.76,0.553
+principal,A* + supervisor,astar_supervised,,combined,20006,0,0,1,1.000,3.806,215,161.99,0.433
+principal,A* + supervisor,astar_supervised,,combined,20007,0,1,0,1.000,25.047,100,62.45,0.432
+principal,A* + supervisor,astar_supervised,,combined,20008,0,0,1,1.000,4.403,167,125.88,0.420
+principal,A* + supervisor,astar_supervised,,combined,20009,0,0,1,1.000,9.222,189,138.79,0.447
+principal,A* + supervisor,astar_supervised,,combined,20010,0,0,1,1.000,7.728,186,133.46,0.472
+principal,A* + supervisor,astar_supervised,,combined,20011,0,0,1,1.000,6.155,215,157.40,0.518
+principal,A* + supervisor,astar_supervised,,combined,20012,0,0,1,1.000,5.150,234,166.03,0.476
+principal,A* + supervisor,astar_supervised,,combined,20013,0,1,0,1.000,5.274,229,163.17,0.479
+principal,A* + supervisor,astar_supervised,,combined,20014,0,0,1,1.000,2.854,186,135.11,0.329
+principal,A* + supervisor,astar_supervised,,combined,20015,0,0,1,1.000,9.032,215,156.18,0.412
+principal,A* + supervisor,astar_supervised,,combined,20016,0,0,1,1.000,2.769,129,94.25,0.394
+principal,A* + supervisor,astar_supervised,,combined,20017,0,0,1,1.000,8.766,172,125.51,0.399
+principal,A* + supervisor,astar_supervised,,combined,20018,0,0,1,1.000,8.875,200,143.32,0.404
+principal,A* + supervisor,astar_supervised,,combined,20019,0,0,1,1.000,7.832,257,177.65,0.464
+principal,A* + supervisor,astar_supervised,,combined,20020,0,1,0,0.000,11.719,22,14.90,0.672
+principal,A* + supervisor,astar_supervised,,combined,20021,0,1,0,0.333,34.653,61,49.28,0.457
+principal,A* + supervisor,astar_supervised,,combined,20022,0,0,1,1.000,6.908,166,122.87,0.454
+principal,A* + supervisor,astar_supervised,,combined,20023,0,0,1,1.000,10.466,220,160.91,0.453
+principal,A* + supervisor,astar_supervised,,combined,20024,0,0,1,1.000,5.481,196,143.52,0.419
+principal,A* + supervisor,astar_supervised,,combined,20025,0,0,1,1.000,9.809,224,163.73,0.459
+principal,A* + supervisor,astar_supervised,,combined,20026,0,1,0,1.000,6.622,231,162.75,0.638
+principal,A* + supervisor,astar_supervised,,combined,20027,0,0,1,1.000,9.626,182,139.39,0.647
+principal,A* + supervisor,astar_supervised,,combined,20028,0,0,1,1.000,7.671,248,174.66,0.509
+principal,A* + supervisor,astar_supervised,,combined,20029,0,0,1,1.000,4.341,191,137.89,0.433
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20000,0,0,1,1.000,6.648,142,103.35,0.325
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20001,0,0,1,1.000,3.486,169,127.19,0.314
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20002,0,0,1,1.000,5.273,143,108.41,0.241
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20003,0,1,0,1.000,11.536,225,167.73,0.392
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20004,0,0,1,1.000,3.025,164,121.28,0.230
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20005,1,0,1,1.000,1.945,206,151.08,0.321
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20006,0,0,1,1.000,9.175,225,171.18,0.263
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20007,0,0,1,1.000,4.021,151,111.34,0.268
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20008,0,0,1,1.000,7.846,233,169.73,0.430
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20009,0,1,0,1.000,4.996,165,118.32,0.400
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20010,0,0,1,1.000,3.831,182,133.89,0.385
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20011,0,0,1,1.000,4.510,160,114.73,0.384
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20012,0,0,1,1.000,5.822,210,150.97,0.287
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20013,0,0,1,1.000,2.580,173,128.16,0.333
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20014,0,0,1,1.000,5.282,158,116.86,0.267
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20015,0,0,1,1.000,7.862,223,160.72,0.317
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20016,0,0,1,1.000,5.511,178,131.62,0.322
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20017,0,0,1,1.000,8.518,209,158.18,0.355
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20018,0,0,1,1.000,7.716,113,81.22,0.289
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20019,0,0,1,1.000,7.106,222,162.36,0.369
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20020,0,0,1,1.000,3.406,187,139.66,0.321
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20021,0,0,1,1.000,5.622,158,114.31,0.242
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20022,0,0,1,1.000,3.277,139,101.05,0.334
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20023,0,0,1,1.000,6.955,180,125.82,0.329
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20024,0,0,1,1.000,8.605,173,127.59,0.368
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20025,0,0,1,1.000,4.937,154,112.31,0.248
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20026,0,0,1,1.000,5.300,192,143.75,0.317
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20027,0,0,1,1.000,5.474,178,129.82,0.313
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20028,0,0,1,1.000,3.253,171,125.57,0.343
+Retorno sin GPS,A* sin retorno visual,astar,,gps_loss,20029,0,0,1,1.000,7.896,158,117.08,0.389
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20000,0,0,1,1.000,4.472,187,136.33,0.328
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20001,0,0,1,1.000,6.623,232,166.14,0.361
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20002,0,0,1,1.000,2.857,168,124.22,0.426
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20003,0,0,1,1.000,6.300,147,105.96,0.384
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20004,0,1,0,1.000,7.699,197,140.26,0.547
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20005,0,1,0,0.000,8.617,11,8.75,0.312
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20006,0,0,1,1.000,3.806,215,161.99,0.386
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20007,0,1,0,0.333,17.133,36,24.48,0.386
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20008,0,0,1,1.000,4.486,171,126.12,0.352
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20009,0,0,1,1.000,10.152,195,142.70,0.443
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20010,0,1,0,0.000,12.877,16,14.12,1.106
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20011,0,0,1,1.000,6.301,215,157.38,0.434
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20012,0,1,0,0.000,12.553,18,13.29,0.369
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20013,0,0,1,1.000,4.209,217,162.63,0.401
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20014,0,0,1,1.000,2.854,186,135.11,0.332
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20015,0,0,1,1.000,9.032,215,156.18,0.370
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20016,0,0,1,1.000,2.386,128,93.38,0.427
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20017,0,0,1,1.000,8.514,172,127.90,0.400
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20018,0,0,1,1.000,9.523,200,143.93,0.372
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20019,0,0,1,1.000,8.796,247,178.45,0.421
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20020,0,1,0,0.000,10.501,19,13.24,0.621
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20021,0,1,0,0.333,34.855,61,49.31,0.408
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20022,0,0,1,1.000,7.180,167,122.66,0.327
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20023,0,0,1,1.000,8.564,215,159.15,0.328
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20024,0,0,1,1.000,5.428,195,142.37,0.339
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20025,0,0,1,1.000,9.588,224,163.13,0.325
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20026,0,1,0,1.000,6.685,222,162.66,0.591
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20027,0,0,1,1.000,9.626,182,139.39,0.464
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20028,0,0,1,1.000,7.674,232,170.34,0.455
+Retorno sin GPS,A* sin retorno visual,astar,,combined,20029,0,0,1,1.000,3.423,191,137.12,0.384
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20000,0,1,0,1.000,10.037,218,126.37,0.433
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20001,1,0,1,1.000,0.305,174,129.01,0.332
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20002,1,0,1,1.000,0.338,197,120.12,0.258
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20003,0,1,0,1.000,11.285,368,245.84,0.595
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20004,0,0,1,1.000,6.889,292,161.10,0.237
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20005,0,0,1,1.000,11.866,284,181.73,0.371
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20006,0,0,1,1.000,13.093,323,209.32,0.247
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20007,0,0,1,1.000,12.110,275,153.01,0.254
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20008,1,0,1,1.000,1.842,261,179.31,0.494
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20009,0,0,1,1.000,24.154,303,156.27,0.357
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20010,1,0,1,1.000,0.408,229,148.81,0.357
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20011,0,0,1,1.000,8.794,226,146.43,0.327
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20012,0,0,1,1.000,25.613,304,194.60,0.340
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20013,1,0,1,1.000,0.368,206,137.64,0.346
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20014,0,0,1,1.000,9.109,223,145.29,0.264
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20015,0,0,1,1.000,22.410,372,204.52,0.303
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20016,0,0,1,1.000,7.007,317,168.05,0.281
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20017,0,0,1,1.000,24.734,343,200.33,0.304
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20018,0,0,1,1.000,21.127,256,120.11,0.329
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20019,0,0,1,1.000,15.076,372,206.47,0.360
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20020,0,0,1,1.000,9.180,328,181.02,0.286
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20021,0,0,1,1.000,21.842,275,156.77,0.235
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20022,0,0,1,1.000,10.257,284,142.92,0.328
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20023,0,0,1,1.000,5.538,247,150.23,0.322
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20024,0,0,1,1.000,15.318,260,162.93,0.415
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20025,0,0,1,1.000,29.944,295,151.58,0.305
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20026,0,0,1,1.000,16.096,328,179.75,0.412
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20027,0,0,1,1.000,15.091,244,157.97,0.305
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20028,0,0,1,1.000,2.299,237,149.89,0.318
+Retorno sin GPS,A* + ALV clásico,astar_alv,,gps_loss,20029,0,0,1,1.000,13.231,271,159.63,0.379
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20000,0,0,1,1.000,23.806,324,177.38,0.326
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20001,1,0,1,1.000,0.491,227,159.82,0.449
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20002,0,0,1,1.000,14.775,308,163.17,0.419
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20003,0,0,1,1.000,18.291,337,179.89,0.381
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20004,0,0,1,1.000,5.938,284,171.96,0.500
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20005,0,1,0,0.000,8.617,11,8.75,0.299
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20006,1,0,1,1.000,0.619,280,183.72,0.358
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20007,0,1,0,0.333,17.133,36,24.48,0.372
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20008,0,0,1,1.000,7.118,236,147.61,0.328
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20009,0,0,1,1.000,21.915,307,180.78,0.337
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20010,0,1,0,0.000,12.877,16,14.12,1.166
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20011,0,0,1,1.000,22.450,317,195.17,0.456
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20012,0,1,0,0.000,12.553,18,13.29,0.401
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20013,1,0,1,1.000,0.292,221,161.51,0.487
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20014,0,0,1,1.000,19.832,335,188.82,0.350
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20015,0,0,1,1.000,24.356,339,193.68,0.356
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20016,1,0,1,1.000,0.065,133,92.87,0.367
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20017,0,0,1,1.000,14.452,286,170.04,0.366
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20018,1,0,1,1.000,0.541,196,135.60,0.379
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20019,0,0,1,1.000,12.265,366,212.96,0.425
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20020,0,1,0,0.000,10.501,19,13.24,0.742
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20021,0,1,0,0.333,34.855,61,49.31,0.458
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20022,0,0,1,1.000,21.488,285,165.21,0.427
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20023,0,0,1,1.000,17.291,302,189.08,0.382
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20024,1,0,1,1.000,0.699,197,143.03,0.350
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20025,0,1,0,1.000,8.487,222,153.29,0.354
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20026,1,0,1,1.000,0.355,222,158.03,0.476
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20027,0,0,1,1.000,15.829,301,181.08,0.371
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20028,0,1,0,1.000,9.376,337,207.38,0.370
+Retorno sin GPS,A* + ALV clásico,astar_alv,,combined,20029,0,0,1,1.000,4.395,282,170.40,0.334

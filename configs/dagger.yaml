@@ -1,0 +1,10 @@
+# DAgger (v10): la mosca vuela, el experto etiqueta los estados que ELLA visita y se reentrena.
+model: fly_cnn_gru
+seeds: [0, 1, 2]               # parte de los checkpoints de la v9 con la misma semilla
+iterations: 3
+episodes_per_iteration: 120     # escenarios NUEVOS de entrenamiento (semillas 400, 520, 640, …)
+first_new_seed: 400             # las semillas 0–399 ya se usaron en la v7
+betas: [0.5, 0.25, 0.0]         # prob. de que actúe el experto en cada iteración
+epochs_per_iteration: 5         # continúa desde los pesos anteriores
+eval_families: [nominal, unknown_obstacles, dynamic, wind]
+eval_episodes_per_family: 10    # semillas de VALIDACIÓN 10000–10009

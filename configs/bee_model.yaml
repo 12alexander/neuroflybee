@@ -1,0 +1,9 @@
+# Red de la abeja (v11). Ver src/neuroflybee/models/bee_spec.py
+bins: 72
+c1: 16
+c2: 32
+c3: 32
+fusion_channels: 64
+hidden: 128
+dropout: 0.1
+land_distance: 0.7

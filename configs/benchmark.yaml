@@ -1,0 +1,32 @@
+# Benchmark final (v14). Sólo semillas de PRUEBA (20000…): nunca se usaron para entrenar ni elegir nada.
+families: [nominal, unknown_obstacles, dynamic, wind, gps_loss, combined]
+episodes_per_family: 30          # semillas 20000–20029 por condición
+classical: [direct, potential_field, astar, astar_alv, astar_supervised]
+neural: [fly, bee, hybrid]       # se evalúan con cada semilla de entrenamiento si hay pesos
+neural_seeds: [0, 1, 2]
+
+ablations:
+  - name: Arquitectura de la mosca (imitación, sin DAgger)
+    families: [nominal, unknown_obstacles, dynamic, wind]
+    variants:
+      - {label: MLP, controller: fly, fly_model: fly_mlp, dagger: false}
+      - {label: CNN, controller: fly, fly_model: fly_cnn, dagger: false}
+      - {label: CNN + GRU, controller: fly, fly_model: fly_cnn_gru, dagger: false}
+      - {label: CNN + Transformer, controller: fly, fly_model: fly_cnn_transformer, dagger: false}
+  - name: Imitación vs DAgger (CNN + GRU)
+    families: [nominal, unknown_obstacles, dynamic, wind]
+    variants:
+      - {label: Imitación, controller: fly, dagger: false}
+      - {label: Imitación + DAgger, controller: fly, dagger: true}
+  - name: Retorno sin GPS
+    families: [gps_loss, combined]
+    variants:
+      - {label: A* sin retorno visual, controller: astar}
+      - {label: A* + ALV clásico, controller: astar_alv}
+      - {label: A* + red de la abeja, controller: bee}
+  - name: Aporte de cada módulo
+    families: [dynamic, gps_loss, combined]
+    variants:
+      - {label: Sólo mosca, controller: fly}
+      - {label: Abeja + mosca, controller: hybrid_no_supervisor}
+      - {label: Abeja + mosca + supervisor, controller: hybrid}

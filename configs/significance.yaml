@@ -1,0 +1,27 @@
+# Significancia estadística (v22). Ver evaluation/significance.py.
+# Cada comparación usa los MISMOS escenarios de prueba para A y B (análisis pareado).
+# `grupo` y las etiquetas son las de results/v14_episodios.csv; `macro` (opcional, sólo
+# letras) genera \nfbSig<macro><Condición>Dif y ...P para citarlas en el artículo.
+n_bootstrap: 10000
+n_permutaciones: 20000
+alfa: 0.05
+semilla: 0
+comparaciones:
+  # --- Tabla principal: ¿el híbrido mejora a las líneas base?
+  - {grupo: principal, a: "Híbrido abeja+mosca", b: "A* + ALV (clásico)", condiciones: [total, dynamic, gps_loss, combined], macro: HibridoAlv}
+  - {grupo: principal, a: "Híbrido abeja+mosca", b: "A* (clásico)", condiciones: [total, dynamic, gps_loss], macro: HibridoAstar}
+  - {grupo: principal, a: "Híbrido abeja+mosca", b: "A* + supervisor", condiciones: [total]}
+  # --- ¿aporta cada módulo neuronal frente a su contraparte clásica?
+  - {grupo: principal, a: "Abeja (red siamesa)", b: "A* + ALV (clásico)", condiciones: [total, gps_loss, combined], macro: AbejaAlv}
+  - {grupo: principal, a: "Mosca (CNN+GRU)", b: "A* (clásico)", condiciones: [total, dynamic], macro: MoscaAstar}
+  - {grupo: principal, a: "Híbrido abeja+mosca", b: "Mosca (CNN+GRU)", condiciones: [total]}
+  - {grupo: principal, a: "Híbrido abeja+mosca", b: "Abeja (red siamesa)", condiciones: [total]}
+  # --- Entre líneas base clásicas (se pueden calcular sin entrenar redes)
+  - {grupo: principal, a: "A* + ALV (clásico)", b: "A* (clásico)", condiciones: [total, gps_loss, combined], macro: AlvAstar}
+  - {grupo: principal, a: "A* + supervisor", b: "A* (clásico)", condiciones: [total, dynamic], macro: SupAstar}
+  # --- Ablaciones del benchmark (v14)
+  - {grupo: "Arquitectura de la mosca (imitación, sin DAgger)", a: "CNN + GRU", b: "CNN", condiciones: [total, dynamic], macro: GruCnn}
+  - {grupo: "Arquitectura de la mosca (imitación, sin DAgger)", a: "CNN + GRU", b: "CNN + Transformer", condiciones: [total]}
+  - {grupo: "Imitación vs DAgger (CNN + GRU)", a: "Imitación + DAgger", b: "Imitación", condiciones: [total], macro: Dagger}
+  - {grupo: "Retorno sin GPS", a: "A* + red de la abeja", b: "A* + ALV clásico", condiciones: [total]}
+  - {grupo: "Aporte de cada módulo", a: "Abeja + mosca + supervisor", b: "Abeja + mosca", condiciones: [total], macro: Supervisor}

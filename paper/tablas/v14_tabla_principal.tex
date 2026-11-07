@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Éxito de misión en la partición de prueba (media $\pm$ d.e. entre semillas de entrenamiento para los controladores neuronales) y tasa total de choques.}
+\label{tab:principal}
+\begin{tabular}{lcccccccc}
+\toprule
+Controlador & Nominal & No previstos & Móviles & Viento & Sin GPS & Combinado & Total & Choques \\
+\midrule
+Directo & 7\% & 0\% & 0\% & 13\% & 0\% & 0\% & 3\% & 95\% \\
+Campos de potencial & 77\% & 57\% & 77\% & 80\% & 0\% & 0\% & 48\% & 3\% \\
+A* (clásico) & 100\% & 97\% & 40\% & 93\% & 3\% & 0\% & 56\% & 16\% \\
+A* + ALV (clásico) & 100\% & 97\% & 40\% & 93\% & 17\% & 23\% & \textbf{62\%} & 16\% \\
+A* + supervisor & 100\% & 100\% & 53\% & 93\% & 3\% & 0\% & 58\% & 12\% \\
+\bottomrule
+\end{tabular}
+\end{table*}

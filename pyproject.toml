@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuroflybee"
+version = "0.24.0"
+description = "NeuroFly-Bee Perú: navegación autónoma bioinspirada (abeja + mosca) con redes neuronales profundas"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "matplotlib>=3.7", "pyyaml>=6.0"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.2"]
+web = ["fastapi>=0.110", "uvicorn>=0.29"]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

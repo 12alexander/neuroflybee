@@ -1,0 +1,19 @@
+# Ablación de la red de la abeja (v20).
+# Cada variante cambia UNA decisión de diseño respecto de la red de v11 (configs/bee_model.yaml).
+# Todas usan los mismos datos, semillas e hiperparámetros (configs/train_bee.yaml) y se
+# evalúan en la partición de PRUEBA, que nunca se usó para elegir épocas.
+test_scenarios: 100        # semillas de prueba 20000..20099 (data/generated/bee_test.npz)
+per_scenario: 64           # vistas por escenario → 6 400 vistas de prueba
+variants:
+  - name: completa
+    label: "Siamesa (v11)"
+    reuse_v11: true        # es la red principal: se reutilizan checkpoints/bee_s<semilla>.pt
+  - name: vista_unica
+    label: "Sólo vista actual"
+    overrides: {fusion: vista_unica}       # ¿hace falta la vista memorizada en casa?
+  - name: sin_diferencia
+    label: "Siamesa sin resta"
+    overrides: {fusion: sin_diferencia}    # ¿aporta la resta explícita f_actual − f_base?
+  - name: compacta
+    label: "Siamesa + lectura vectorial"
+    overrides: {head: vectorial}           # ¿hacen falta 148 000 parámetros en la cabeza?

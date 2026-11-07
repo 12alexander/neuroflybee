@@ -1,0 +1,10 @@
+# Entrenamiento de la abeja (v11): regresión de dirección y distancia a la base.
+epochs: 30
+batch_size: 512
+lr: 0.001
+weight_decay: 0.0001
+patience: 6              # sobre el error angular mediano de validación
+grad_clip: 1.0
+num_workers: 2
+seeds: [0, 1, 2]
+device: auto

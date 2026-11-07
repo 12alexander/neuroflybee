@@ -1,0 +1,56 @@
+% =====================================================================
+%  NeuroFly-Bee Perú — Artículo IEEE (máx. 12 páginas)
+%  MIA-203 Redes Neuronales y Aprendizaje Profundo — UNI FIIS
+%  Desde v18 cada sección vive en secciones/ y tiene un dueño (ver CODEOWNERS):
+%  así cinco personas escriben a la vez sin conflictos de merge.
+%  Compilar: pdflatex main && bibtex main && pdflatex main && pdflatex main
+% =====================================================================
+\documentclass[conference]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\babelprovide[import, main]{spanish}   % funciona con o sin spanish.ldf (TeX Live mínimo u Overleaf)
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{xcolor}
+% Números generados desde results/ (scripts/collect_results.py); lo que falta sale en rojo.
+\newcommand{\pendiente}[1]{\textcolor{red}{\textbf{[pendiente: #1]}}}
+\input{generado/numeros}
+\graphicspath{{figures/}{../results/figures/}}
+
+% Salto de fila en el bloque de autores (5 autores: 3 + 2), como en la plantilla del curso.
+\makeatletter
+\newcommand{\linebreakand}{%
+  \end{@IEEEauthorhalign}\hfill\mbox{}\par\mbox{}\hfill\begin{@IEEEauthorhalign}}
+\makeatother
+
+\begin{document}
+
+\title{NeuroFly-Bee Perú: navegación bioinspirada en abejas y moscas con redes
+neuronales profundas para inspeccionar y regresar sin GPS}
+
+\input{secciones/00_autores}
+
+\maketitle
+
+\input{secciones/01_resumen}
+\input{secciones/02_introduccion}
+\input{secciones/03_trabajos_relacionados}
+\input{secciones/04a_datos}
+\input{secciones/04b_lineas_base}
+\input{secciones/04c_arquitectura}
+\input{secciones/04d_entrenamiento}
+\input{secciones/05a_resultados}
+\input{secciones/05b_interpretabilidad}
+\input{secciones/05c_costo}
+\input{secciones/06_discusion}
+\input{secciones/07_conclusiones}
+\input{secciones/08_contribuciones}
+\input{secciones/09_disponibilidad}
+
+\IfFileExists{IEEEtran.bst}{\bibliographystyle{IEEEtran}}{\bibliographystyle{ieeetr}}   % IEEEtran en Overleaf/TeX Live completo
+\bibliography{refs}
+
+\end{document}

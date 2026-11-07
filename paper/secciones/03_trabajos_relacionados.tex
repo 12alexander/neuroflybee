@@ -1,0 +1,77 @@
+% Sección del artículo — dueño: P2.
+\section{Trabajos relacionados}
+\textbf{Arquitecturas del curso.} Las redes convolucionales~\cite{lecun1998} extraen patrones
+locales con pocos parámetros gracias al peso compartido; las redes recurrentes con compuertas,
+LSTM~\cite{hochreiter1997} y GRU~\cite{cho2014}, integran información en el tiempo; y el
+Transformer~\cite{vaswani2017} reemplaza la recurrencia por autoatención. Usamos las tres
+familias sobre la misma entrada para medir cuánto aporta la memoria temporal.
+
+\textbf{Control de drones aprendido.} El aprendizaje extremo a extremo de la conducción a
+partir de imágenes~\cite{bojarski2016} y DroNet~\cite{loquercio2018}, que aprende a volar
+por calles imitando datos de autos y bicicletas, muestran que una CNN puede producir
+comandos de control directamente. A diferencia de ellos, nuestro módulo de control local
+recibe un parche de ocupación egocéntrico (no imágenes RGB), incorpora memoria GRU para
+obstáculos móviles y se combina con un módulo separado de retorno.
+
+\textbf{Navegación de insectos y retorno visual.} El modelo de instantáneas de las
+abejas~\cite{cartwright1983}, su versión robótica con el vector promedio de hitos
+(ALV)~\cite{lambrinos2000} y el estudio de las áreas de captura de panorámicas
+reales~\cite{zeil2003} muestran que comparar la vista actual con la memorizada basta para
+volver a casa; la integración de la trayectoria de las hormigas del desierto~\cite{wehner2003}
+y la revisión de Srinivasan~\cite{srinivasan2011} inspiran la combinación de ambas
+estrategias. Nosotros reemplazamos la regla analítica del ALV por una red siamesa entrenada,
+y usamos el ALV como línea base.
+
+\textbf{Retorno visual aprendido y modelos de la mosca.} Firlefyn
+et~al.~\cite{firlefyn2024} entrenan una CNN compacta que predice el vector hacia el nido a
+partir de una sola vista omnidireccional, con datos de un bosque simulado y validación en dos
+bosques reales. Bee-Nav~\cite{ou2026} lleva la idea a drones reales: tras un vuelo de
+aprendizaje alrededor de la base, redes de 868 y 10\,820 parámetros estiman dirección y
+distancia a casa usando la odometría como objetivo, en interiores y en un vuelo exterior de
+más de 600\,m. En el lado de la mosca, FlyVis~\cite{lappalainen2024} es un modelo del sistema
+visual restringido por el conectoma y entrenado con videos sintéticos para estimar flujo
+óptico; describe la percepción, no una política de control. La Tabla~\ref{tab:origenes}
+resume con qué datos se entrenó cada trabajo: entrenar en simulación es la práctica habitual
+de esta línea, y ninguno de ellos usa un conjunto público común de navegación de drones con
+el que comparar directamente.
+
+\begin{table}[t]
+\caption{Datos de entrenamiento de los trabajos más cercanos y de este trabajo}\label{tab:origenes}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+Trabajo & Datos de entrenamiento & Tipo & Métrica principal \\
+\midrule
+Bee-Nav~\cite{ou2026} & panoramas del vuelo de aprendizaje & real & éxito del regreso \\
+Firlefyn et al.~\cite{firlefyn2024} & bosque simulado (+ 2 bosques reales) & sint.\ y real & error angular \\
+FlyVis~\cite{lappalainen2024} & videos Sintel en el ojo hexagonal & sintético & error de flujo óptico \\
+Este trabajo (abeja) & siluetas de 72 sectores del simulador & sintético & error angular \\
+Este trabajo (mosca) & ojo $32\times32$ + acciones del experto & sintético & F1 macro, éxito \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\textbf{Planificación clásica.} A*~\cite{hart1968} sobre una rejilla de ocupación y los
+campos de potencial~\cite{khatib1986} son las referencias clásicas de planificación y de
+evasión reactiva; ambos son líneas base de este trabajo.
+
+\textbf{Aprendizaje por imitación.} La clonación de comportamiento sufre desplazamiento de
+distribución: pequeños errores llevan a estados que el experto nunca visitó.
+DAgger~\cite{ross2011} lo corrige agregando datos etiquetados por el experto en los estados
+que visita la política aprendida, y DART~\cite{laskey2017} lo hace inyectando ruido en las
+demostraciones. Usamos DAgger porque el experto del simulador puede etiquetar cualquier estado.
+
+\textbf{Interpretabilidad.} Grad-CAM~\cite{selvaraju2017} localiza las regiones de la
+entrada que más influyen en una clase, e Integrated Gradients~\cite{sundararajan2017}
+atribuye la salida a cada entrada respecto de una referencia; los aplicamos a la mosca y a
+la abeja, respectivamente.
+
+\textbf{Diferencia con este trabajo.} Ninguno de los trabajos anteriores combina, en un mismo
+controlador evaluado con pérdida de GPS, un módulo convolucional-recurrente de control local,
+un módulo siamés de retorno visual y un supervisor de seguridad, ni los compara de forma
+controlada contra planificación clásica en condiciones con obstáculos no previstos, móviles,
+viento y GPS perdido. A diferencia de los trabajos de retorno visual aprendido, la abeja
+compara dentro de la red la vista actual con la memorizada en la base (en lugar de aprender
+un entorno concreto a partir de una sola vista), y una ablación en la partición de prueba
+mide cuánto aporta esa comparación.

@@ -1,0 +1,5 @@
+modelo,descripcion,parametros_entrenables,usa_secuencia
+fly_mlp,"MLP (sin convolución, 1 cuadro)",306118,False
+fly_cnn,CNN (1 cuadro),165542,False
+fly_cnn_gru,CNN + GRU (secuencia) — propuesta,264614,True
+fly_cnn_transformer,CNN + Transformer (secuencia),431526,True

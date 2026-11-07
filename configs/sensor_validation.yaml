@@ -1,0 +1,13 @@
+# Validación del sensor panorámico de la abeja (v21). Ver evaluation/sensor_validation.py.
+# Se usan escenarios de PRUEBA (semillas 20000+) y el mismo sensor y ruido que ven las redes.
+scenarios: 30
+families: [nominal, unknown_obstacles]
+radii: [0.0, 0.25, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0, 8.0, 10.0, 12.0]   # m desde la base
+directions: 16          # puntos por anillo
+noise_draws: 8          # lecturas ruidosas por punto
+rotation_radii: [1.0, 2.0, 4.0]   # m: ¿se recupera el rumbo girando el panorama?
+field_step: 1.5         # m entre puntos del campo del ALV
+field_radius: 10.0
+min_clearance: 0.5      # m libres alrededor de cada punto (como los datos de la abeja)
+arrive_rms: 0.03        # umbral de llegada del ALV (control/homing.py)
+seed: 0

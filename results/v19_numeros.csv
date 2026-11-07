@@ -1,0 +1,170 @@
+macro,valor,fuente
+\nfbAbejaErrorMediano,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbAbejaReduccionParams,7,configs/bee_ablation.yaml
+\nfbAblAbejaAlv,55.4\textdegree,v20_ablacion_abeja_resumen.csv
+\nfbAblAbejaCompacta,\pendiente{ablación de la abeja: correr run\_bee\_ablation.py},pendiente
+\nfbAblAbejaCompactaTreinta,\pendiente{ablación de la abeja},pendiente
+\nfbAblAbejaCompleta,\pendiente{ablación de la abeja: correr run\_bee\_ablation.py},pendiente
+\nfbAblAbejaCompletaTreinta,\pendiente{ablación de la abeja},pendiente
+\nfbAblAbejaSinResta,\pendiente{ablación de la abeja: correr run\_bee\_ablation.py},pendiente
+\nfbAblAbejaSinRestaTreinta,\pendiente{ablación de la abeja},pendiente
+\nfbAblAbejaVistaUnica,\pendiente{ablación de la abeja: correr run\_bee\_ablation.py},pendiente
+\nfbAblAbejaVistaUnicaTreinta,\pendiente{ablación de la abeja},pendiente
+\nfbAlvCaptura,"74\,\%",v21_validacion_resumen.json
+\nfbAlvErrorCampo,53.8\textdegree,v21_validacion_resumen.json
+\nfbAlvErrorMediano,51.4\textdegree,v11_abeja_validacion.csv
+\nfbAlvFraccionTreinta,"32\,\%",v11_abeja_validacion.csv
+\nfbAurocCNN,\pendiente{AUROC: entrenar en Colab},pendiente
+\nfbAurocGRU,\pendiente{AUROC: entrenar en Colab},pendiente
+\nfbAurocMLP,\pendiente{AUROC: entrenar en Colab},pendiente
+\nfbAurocTransformer,\pendiente{AUROC: entrenar en Colab},pendiente
+\nfbChoquesAstar,"16\,\%",v14_tabla_principal.csv
+\nfbChoquesAstarAlv,"16\,\%",v14_tabla_principal.csv
+\nfbChoquesAstarSup,"12\,\%",v14_tabla_principal.csv
+\nfbChoquesCampos,"3\,\%",v14_tabla_principal.csv
+\nfbChoquesDirecto,"95\,\%",v14_tabla_principal.csv
+\nfbChoquesDirectoFijos,"100\,\%",v12_supervisor.csv
+\nfbChoquesDirectoSupFijos,"0\,\%",v12_supervisor.csv
+\nfbDaggerExitoFinal,\pendiente{DAgger: entrenar},pendiente
+\nfbDaggerExitoInicial,\pendiente{DAgger: entrenar},pendiente
+\nfbEpisodiosAbejaTest,100,v7_datasets.csv
+\nfbEpisodiosAbejaTrain,600,v7_datasets.csv
+\nfbEpisodiosAbejaVal,100,v7_datasets.csv
+\nfbEpisodiosExperto,72,v7_experto.csv
+\nfbEpisodiosMoscaTrain,400,v7_datasets.csv
+\nfbEpisodiosMoscaVal,60,v7_datasets.csv
+\nfbEpisodiosPorCondicion,30,v14_tabla_principal.csv
+\nfbErrorDerivaRango,"21--28\,\%",v15_errores.csv
+\nfbErrorMovilRango,"9--14\,\%",v15_errores.csv
+\nfbExitoAbejaCombinado,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbExitoAbejaDesconocidos,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbExitoAbejaMoviles,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbExitoAbejaNominal,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbExitoAbejaSinGPS,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbExitoAbejaTotal,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbExitoAbejaViento,\pendiente{abeja: entrenar en Colab},pendiente
+\nfbExitoAstarAlvCombinado,"23\,\%",v14_tabla_principal.csv
+\nfbExitoAstarAlvDesconocidos,"97\,\%",v14_tabla_principal.csv
+\nfbExitoAstarAlvMoviles,"40\,\%",v14_tabla_principal.csv
+\nfbExitoAstarAlvNominal,"100\,\%",v14_tabla_principal.csv
+\nfbExitoAstarAlvSinGPS,"17\,\%",v14_tabla_principal.csv
+\nfbExitoAstarAlvTotal,"62\,\%",v14_tabla_principal.csv
+\nfbExitoAstarAlvViento,"93\,\%",v14_tabla_principal.csv
+\nfbExitoAstarCombinado,"0\,\%",v14_tabla_principal.csv
+\nfbExitoAstarDesconocidos,"97\,\%",v14_tabla_principal.csv
+\nfbExitoAstarMoviles,"40\,\%",v14_tabla_principal.csv
+\nfbExitoAstarNominal,"100\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSinGPS,"3\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSupCombinado,"0\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSupDesconocidos,"100\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSupMoviles,"53\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSupNominal,"100\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSupSinGPS,"3\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSupTotal,"58\,\%",v14_tabla_principal.csv
+\nfbExitoAstarSupViento,"93\,\%",v14_tabla_principal.csv
+\nfbExitoAstarTotal,"56\,\%",v14_tabla_principal.csv
+\nfbExitoAstarViento,"93\,\%",v14_tabla_principal.csv
+\nfbExitoCamposCombinado,"0\,\%",v14_tabla_principal.csv
+\nfbExitoCamposDesconocidos,"57\,\%",v14_tabla_principal.csv
+\nfbExitoCamposMoviles,"77\,\%",v14_tabla_principal.csv
+\nfbExitoCamposNominal,"77\,\%",v14_tabla_principal.csv
+\nfbExitoCamposSinGPS,"0\,\%",v14_tabla_principal.csv
+\nfbExitoCamposTotal,"48\,\%",v14_tabla_principal.csv
+\nfbExitoCamposViento,"80\,\%",v14_tabla_principal.csv
+\nfbExitoDirectoCombinado,"0\,\%",v14_tabla_principal.csv
+\nfbExitoDirectoDesconocidos,"0\,\%",v14_tabla_principal.csv
+\nfbExitoDirectoMoviles,"0\,\%",v14_tabla_principal.csv
+\nfbExitoDirectoNominal,"7\,\%",v14_tabla_principal.csv
+\nfbExitoDirectoSinGPS,"0\,\%",v14_tabla_principal.csv
+\nfbExitoDirectoTotal,"3\,\%",v14_tabla_principal.csv
+\nfbExitoDirectoViento,"13\,\%",v14_tabla_principal.csv
+\nfbExitoExperto,"100\,\%",v7_experto.csv
+\nfbExitoHibridoCombinado,\pendiente{híbrido abeja+mosca: entrenar en Colab},pendiente
+\nfbExitoHibridoDesconocidos,\pendiente{híbrido abeja+mosca: entrenar en Colab},pendiente
+\nfbExitoHibridoMoviles,\pendiente{híbrido abeja+mosca: entrenar en Colab},pendiente
+\nfbExitoHibridoNominal,\pendiente{híbrido abeja+mosca: entrenar en Colab},pendiente
+\nfbExitoHibridoSinGPS,\pendiente{híbrido abeja+mosca: entrenar en Colab},pendiente
+\nfbExitoHibridoTotal,\pendiente{híbrido abeja+mosca: entrenar en Colab},pendiente
+\nfbExitoHibridoViento,\pendiente{híbrido abeja+mosca: entrenar en Colab},pendiente
+\nfbExitoMoscaCombinado,\pendiente{mosca: entrenar en Colab},pendiente
+\nfbExitoMoscaDesconocidos,\pendiente{mosca: entrenar en Colab},pendiente
+\nfbExitoMoscaMoviles,\pendiente{mosca: entrenar en Colab},pendiente
+\nfbExitoMoscaNominal,\pendiente{mosca: entrenar en Colab},pendiente
+\nfbExitoMoscaSinGPS,\pendiente{mosca: entrenar en Colab},pendiente
+\nfbExitoMoscaTotal,\pendiente{mosca: entrenar en Colab},pendiente
+\nfbExitoMoscaViento,\pendiente{mosca: entrenar en Colab},pendiente
+\nfbFUnoCNN,\pendiente{F1 macro: entrenar en Colab},pendiente
+\nfbFUnoGRU,\pendiente{F1 macro: entrenar en Colab},pendiente
+\nfbFUnoMLP,\pendiente{F1 macro: entrenar en Colab},pendiente
+\nfbFUnoTransformer,\pendiente{F1 macro: entrenar en Colab},pendiente
+\nfbGPU,\pendiente{costo: correr scripts/run\_pipeline.py},pendiente
+\nfbHorasGPU,\pendiente{costo: correr scripts/run\_pipeline.py},pendiente
+\nfbHorasTotales,\pendiente{costo: correr scripts/run\_pipeline.py},pendiente
+\nfbIdfEscenarios,30,v21_validacion_resumen.json
+\nfbIdfMonotonas,"100\,\%",v21_validacion_resumen.json
+\nfbIdfPisoRuido,0.009,v21_validacion_resumen.json
+\nfbIdfRadioLlegada,0.28,v21_validacion_resumen.json
+\nfbIdfSpearman,0.99,v21_validacion_resumen.json
+\nfbMejorClasicoMoviles,"77\,\%",v14_tabla_principal.csv
+\nfbMejorClasicoSinGPS,"17\,\%",v14_tabla_principal.csv
+\nfbMuestrasAbejaTest,"6\,400",v7_datasets.csv
+\nfbMuestrasAbejaTrain,"38\,400",v7_datasets.csv
+\nfbMuestrasAbejaVal,"6\,400",v7_datasets.csv
+\nfbMuestrasMoscaTrain,"76\,077",v7_datasets.csv
+\nfbMuestrasMoscaVal,"10\,593",v7_datasets.csv
+\nfbParamsAbejaCompacta,"24\,725",configs/bee_ablation.yaml
+\nfbParamsAbejaCompleta,"172\,547",configs/bee_ablation.yaml
+\nfbParamsAbejaSinResta,"166\,403",configs/bee_ablation.yaml
+\nfbParamsAbejaVistaUnica,"160\,259",configs/bee_ablation.yaml
+\nfbParamsCNN,"165\,542",v8_parametros.csv
+\nfbParamsGRU,"264\,614",v8_parametros.csv
+\nfbParamsMLP,"306\,118",v8_parametros.csv
+\nfbParamsTransformer,"431\,526",v8_parametros.csv
+\nfbPctAvanzar,"40\,\%",v7_datasets.csv
+\nfbPctMantener,"0.1\,\%",v7_datasets.csv
+\nfbRumboErrorCuatro,2.5\textdegree,v21_validacion_resumen.json
+\nfbRumboErrorDos,0.0\textdegree,v21_validacion_resumen.json
+\nfbSigAbejaAlvCombinadoDif,\pendiente{Abeja (red siamesa) vs A* + ALV (clásico): correr el benchmark},pendiente
+\nfbSigAbejaAlvCombinadoP,\pendiente{significancia},pendiente
+\nfbSigAbejaAlvSinGPSDif,\pendiente{Abeja (red siamesa) vs A* + ALV (clásico): correr el benchmark},pendiente
+\nfbSigAbejaAlvSinGPSP,\pendiente{significancia},pendiente
+\nfbSigAbejaAlvTotalDif,\pendiente{Abeja (red siamesa) vs A* + ALV (clásico): correr el benchmark},pendiente
+\nfbSigAbejaAlvTotalP,\pendiente{significancia},pendiente
+\nfbSigAlvAstarCombinadoDif,"+23\,pp [+10, +40]",v22_significancia.csv
+\nfbSigAlvAstarCombinadoP,$p_{\text{Holm}}=0.062$,v22_significancia.csv
+\nfbSigAlvAstarSinGPSDif,"+13\,pp [+0, +30]",v22_significancia.csv
+\nfbSigAlvAstarSinGPSP,$p_{\text{Holm}}=0.539$,v22_significancia.csv
+\nfbSigAlvAstarTotalDif,"+6\,pp [+3, +10]",v22_significancia.csv
+\nfbSigAlvAstarTotalP,$p_{\text{Holm}}=0.017$,v22_significancia.csv
+\nfbSigComparaciones,5,v22_significancia.csv
+\nfbSigDaggerTotalDif,\pendiente{Imitación + DAgger vs Imitación: correr el benchmark},pendiente
+\nfbSigDaggerTotalP,\pendiente{significancia},pendiente
+\nfbSigGruCnnMovilesDif,\pendiente{CNN + GRU vs CNN: correr el benchmark},pendiente
+\nfbSigGruCnnMovilesP,\pendiente{significancia},pendiente
+\nfbSigGruCnnTotalDif,\pendiente{CNN + GRU vs CNN: correr el benchmark},pendiente
+\nfbSigGruCnnTotalP,\pendiente{significancia},pendiente
+\nfbSigHibridoAlvCombinadoDif,\pendiente{Híbrido abeja+mosca vs A* + ALV (clásico): correr el benchmark},pendiente
+\nfbSigHibridoAlvCombinadoP,\pendiente{significancia},pendiente
+\nfbSigHibridoAlvMovilesDif,\pendiente{Híbrido abeja+mosca vs A* + ALV (clásico): correr el benchmark},pendiente
+\nfbSigHibridoAlvMovilesP,\pendiente{significancia},pendiente
+\nfbSigHibridoAlvSinGPSDif,\pendiente{Híbrido abeja+mosca vs A* + ALV (clásico): correr el benchmark},pendiente
+\nfbSigHibridoAlvSinGPSP,\pendiente{significancia},pendiente
+\nfbSigHibridoAlvTotalDif,\pendiente{Híbrido abeja+mosca vs A* + ALV (clásico): correr el benchmark},pendiente
+\nfbSigHibridoAlvTotalP,\pendiente{significancia},pendiente
+\nfbSigHibridoAstarMovilesDif,\pendiente{Híbrido abeja+mosca vs A* (clásico): correr el benchmark},pendiente
+\nfbSigHibridoAstarMovilesP,\pendiente{significancia},pendiente
+\nfbSigHibridoAstarSinGPSDif,\pendiente{Híbrido abeja+mosca vs A* (clásico): correr el benchmark},pendiente
+\nfbSigHibridoAstarSinGPSP,\pendiente{significancia},pendiente
+\nfbSigHibridoAstarTotalDif,\pendiente{Híbrido abeja+mosca vs A* (clásico): correr el benchmark},pendiente
+\nfbSigHibridoAstarTotalP,\pendiente{significancia},pendiente
+\nfbSigMoscaAstarMovilesDif,\pendiente{Mosca (CNN+GRU) vs A* (clásico): correr el benchmark},pendiente
+\nfbSigMoscaAstarMovilesP,\pendiente{significancia},pendiente
+\nfbSigMoscaAstarTotalDif,\pendiente{Mosca (CNN+GRU) vs A* (clásico): correr el benchmark},pendiente
+\nfbSigMoscaAstarTotalP,\pendiente{significancia},pendiente
+\nfbSigSignificativas,1,v22_significancia.csv
+\nfbSigSupAstarMovilesDif,"+13\,pp [-3, +30]",v22_significancia.csv
+\nfbSigSupAstarMovilesP,$p_{\text{Holm}}=0.539$,v22_significancia.csv
+\nfbSigSupAstarTotalDif,"+3\,pp [-1, +6]",v22_significancia.csv
+\nfbSigSupAstarTotalP,$p_{\text{Holm}}=0.539$,v22_significancia.csv
+\nfbSigSupervisorTotalDif,\pendiente{Abeja + mosca + supervisor vs Abeja + mosca: correr el benchmark},pendiente
+\nfbSigSupervisorTotalP,\pendiente{significancia},pendiente

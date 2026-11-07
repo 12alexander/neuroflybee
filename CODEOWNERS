@@ -1,0 +1,25 @@
+# Dueños de cada carpeta (v18). Reemplace cada «P#» por el usuario de GitHub del integrante
+# (ver docs/PLAN_COMMITS.md y la hoja «Equipo» de Rubrica_NeuroFlyBee.xlsx) y mueva este
+# archivo a .github/CODEOWNERS: GitHub pedirá la revisión del dueño en cada pull request.
+#
+# P1 — integración y app (propone el proyecto)
+#   /src/neuroflybee/sim/  /src/neuroflybee/app/  /src/neuroflybee/viz/  /src/neuroflybee/contracts/
+#   /README.md  /paper/main.tex  /paper/secciones/02_introduccion.tex  /paper/secciones/07_conclusiones.tex
+#   /paper/secciones/09_disponibilidad.tex
+# P2 — estándar internacional, celular, interpretabilidad
+#   /src/neuroflybee/disturbances/international/  /src/neuroflybee/sensors_real/  /src/neuroflybee/interpret/
+#   /web/movil/  /paper/secciones/03_trabajos_relacionados.tex  /paper/secciones/05b_interpretabilidad.tex
+#   v21: /src/neuroflybee/evaluation/sensor_validation.py  /scripts/validate_sensor.py
+# P3 — datos peruanos y edición del artículo
+#   /src/neuroflybee/weather/  /src/neuroflybee/disturbances/peru/  /data/peru/
+#   /paper/secciones/00_autores.tex  /paper/secciones/01_resumen.tex  /paper/secciones/04a_datos.tex
+#   /paper/secciones/06_discusion.tex  /paper/secciones/08_contribuciones.tex  /paper/refs.bib
+# P4 — evaluación, estadística, diapositivas
+#   /src/neuroflybee/robustness/  /src/neuroflybee/evaluation/  /slides/
+#   /paper/secciones/04b_lineas_base.tex  /paper/secciones/05a_resultados.tex
+#   v20/v22: /src/neuroflybee/evaluation/bee_ablation.py  /src/neuroflybee/evaluation/significance.py
+# P5 — modelos, entrenamiento en Colab y despliegue
+#   /src/neuroflybee/models/  /src/neuroflybee/training/  /src/neuroflybee/inference/  /src/neuroflybee/deploy/
+#   /notebooks/  /paper/secciones/04c_arquitectura.tex  /paper/secciones/04d_entrenamiento.tex
+#   /paper/secciones/05c_costo.tex
+#   v23: /scripts/demo_inference.py  /notebooks/02_demo_inferencia.ipynb

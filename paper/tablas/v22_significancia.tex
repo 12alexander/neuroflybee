@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\caption{Comparaciones pareadas sobre los mismos escenarios de prueba: diferencia de éxito $\Delta$ con IC 95\,\% bootstrap, valor $p$ de la permutación pareada corregido por Holm y $h$ de Cohen. En negrita, $p_{\text{Holm}}<0.05$.}
+\label{tab:significancia}
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllrrrrrr}
+\toprule
+Grupo & A & B & Condición & $n$ & Éxito A & Éxito B & $\Delta$ [IC 95\,\%] & $p_{\text{Holm}}$ & $h$ \\
+\midrule
+Principal & A$^*$ + ALV (clásico) & A$^*$ (clásico) & todas & 180 & 62\,\% & 56\,\% & +6 [+3, +10] & \textbf{0.017} & +0.12 \\
+Principal & A$^*$ + ALV (clásico) & A$^*$ (clásico) & sin GPS & 30 & 17\,\% & 3\,\% & +13 [+0, +30] & 0.539 & +0.47 \\
+Principal & A$^*$ + ALV (clásico) & A$^*$ (clásico) & combinada & 30 & 23\,\% & 0\,\% & +23 [+10, +40] & 0.062 & +1.01 \\
+Principal & A$^*$ + supervisor & A$^*$ (clásico) & todas & 180 & 58\,\% & 56\,\% & +3 [-1, +6] & 0.539 & +0.06 \\
+Principal & A$^*$ + supervisor & A$^*$ (clásico) & móviles & 30 & 53\,\% & 40\,\% & +13 [-3, +30] & 0.539 & +0.27 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

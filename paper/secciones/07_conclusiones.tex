@@ -1,0 +1,22 @@
+% Sección del artículo — dueño: P1.
+\section{Conclusiones}
+Presentamos NeuroFly-Bee, un controlador bioinspirado que separa el control local (mosca,
+CNN+GRU) del retorno visual (abeja, red siamesa) y lo protege con un supervisor de seguridad.
+En un simulador reproducible con seis condiciones, las líneas base clásicas completan como
+máximo el \nfbMejorClasicoSinGPS{} de las misiones sin GPS y el \nfbMejorClasicoMoviles{} con
+obstáculos móviles, y el análisis de errores atribuye esos fallos a la deriva y a planificar
+sobre un mapa obsoleto. \pendiente{hallazgo principal del híbrido con los números de v19}
+
+La validación del sensor muestra que la silueta 2.5D conserva las propiedades de los
+panoramas reales que necesita el retorno visual, y la ablación en prueba mide cuánto aporta
+comparar con la vista de casa: \nfbAblAbejaCompleta{} con ella frente a
+\nfbAblAbejaVistaUnica{} sin ella.
+
+Como trabajo futuro: (i) renderizar panoramas en 3D con dinámica de actitud, por ejemplo con
+PyBullet~\cite{panerati2021}, aleatorizando texturas e iluminación~\cite{tobin2017};
+(ii) evaluar la abeja sin reentrenar sobre las imágenes reales de bosque de Firlefyn
+et~al.~\cite{firlefyn2024}, publicadas con licencia CC0, y reentrenar las arquitecturas de
+Bee-Nav~\cite{ou2026} sobre nuestros datos para compararlas en igualdad de condiciones;
+(iii) calibrar el viento con datos meteorológicos de cuencas peruanas y con el modelo de
+turbulencia de Dryden; (iv) cuantizar las redes para un microcontrolador; y (v) validar el
+sistema en un dron físico.

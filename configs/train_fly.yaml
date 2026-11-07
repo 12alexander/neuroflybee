@@ -1,0 +1,12 @@
+# Entrenamiento por imitación de la mosca (v9). Mismos valores para los 4 modelos.
+epochs: 15
+batch_size: 256
+lr: 0.001
+weight_decay: 0.0001
+patience: 4              # se detiene si el F1 macro de validación no mejora en 4 épocas
+grad_clip: 1.0
+class_weight_power: 0.5  # pesos ∝ frecuencia^-0.5 (acciones desbalanceadas)
+max_class_weight: 10.0
+num_workers: 2
+seeds: [0, 1, 2]         # 3 semillas → media ± d.e.
+device: auto

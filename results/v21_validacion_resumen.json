@@ -1,0 +1,14 @@
+{
+  "scenarios": 30,
+  "spearman_mean": 0.9927738927738929,
+  "monotonic_fraction": 1.0,
+  "noise_floor": 0.00922473943748759,
+  "arrival_radius_m": 0.27913641556266944,
+  "heading_error": {
+    "1": 0.0,
+    "2": 0.0,
+    "4": 2.5
+  },
+  "alv_error_median": 53.8327264486297,
+  "alv_catchment_mean": 0.7354174781506462
+}

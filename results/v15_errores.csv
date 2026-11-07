@@ -1,0 +1,721 @@
+controlador,condicion,semilla,categoria,x,y,paso
+potential_field,nominal,20000,éxito,31.46,49.04,205
+potential_field,nominal,20001,éxito,9.36,44.13,592
+potential_field,nominal,20002,éxito,43.65,6.68,232
+potential_field,nominal,20003,no encuentra la base,8.92,35.41,600
+potential_field,nominal,20004,éxito,37.09,37.56,143
+potential_field,nominal,20005,no encuentra la base,28.91,36.73,600
+potential_field,nominal,20006,no encuentra la base,25.04,9.63,600
+potential_field,nominal,20007,atascado (no completa la ruta),23.86,12.04,600
+potential_field,nominal,20008,éxito,50.32,38.19,114
+potential_field,nominal,20009,atascado (no completa la ruta),9.74,13.90,600
+potential_field,nominal,20010,éxito,38.79,10.28,194
+potential_field,nominal,20011,éxito,10.28,19.57,205
+potential_field,nominal,20012,éxito,7.55,21.97,196
+potential_field,nominal,20013,éxito,44.40,44.63,121
+potential_field,nominal,20014,éxito,46.35,25.12,167
+potential_field,nominal,20015,éxito,35.42,45.57,167
+potential_field,nominal,20016,atascado (no completa la ruta),33.69,33.21,600
+potential_field,nominal,20017,éxito,27.94,39.02,189
+potential_field,nominal,20018,éxito,24.73,27.06,114
+potential_field,nominal,20019,éxito,11.25,23.51,167
+potential_field,nominal,20020,éxito,23.76,32.38,185
+potential_field,nominal,20021,éxito,16.24,21.12,171
+potential_field,nominal,20022,éxito,28.26,42.75,169
+potential_field,nominal,20023,éxito,43.50,44.77,192
+potential_field,nominal,20024,éxito,6.18,48.94,189
+potential_field,nominal,20025,éxito,27.95,11.27,193
+potential_field,nominal,20026,éxito,21.16,33.75,181
+potential_field,nominal,20027,éxito,28.22,30.34,159
+potential_field,nominal,20028,atascado (no completa la ruta),25.57,34.85,600
+potential_field,nominal,20029,éxito,13.04,10.77,189
+potential_field,unknown_obstacles,20000,atascado (no completa la ruta),16.36,30.54,600
+potential_field,unknown_obstacles,20001,no encuentra la base,33.31,21.82,600
+potential_field,unknown_obstacles,20002,éxito,26.69,21.06,159
+potential_field,unknown_obstacles,20003,atascado (no completa la ruta),22.65,26.15,600
+potential_field,unknown_obstacles,20004,éxito,19.36,46.75,235
+potential_field,unknown_obstacles,20005,no encuentra la base,44.75,14.09,600
+potential_field,unknown_obstacles,20006,atascado (no completa la ruta),22.79,34.37,600
+potential_field,unknown_obstacles,20007,atascado (no completa la ruta),6.81,35.00,600
+potential_field,unknown_obstacles,20008,atascado (no completa la ruta),39.63,53.79,600
+potential_field,unknown_obstacles,20009,atascado (no completa la ruta),41.83,41.83,600
+potential_field,unknown_obstacles,20010,éxito,23.40,26.02,177
+potential_field,unknown_obstacles,20011,éxito,19.31,21.98,169
+potential_field,unknown_obstacles,20012,éxito,27.67,32.14,355
+potential_field,unknown_obstacles,20013,éxito,42.14,47.39,242
+potential_field,unknown_obstacles,20014,atascado (no completa la ruta),31.57,8.67,600
+potential_field,unknown_obstacles,20015,no encuentra la base,24.20,13.01,600
+potential_field,unknown_obstacles,20016,éxito,31.91,40.62,174
+potential_field,unknown_obstacles,20017,éxito,38.95,52.10,160
+potential_field,unknown_obstacles,20018,éxito,44.69,48.67,206
+potential_field,unknown_obstacles,20019,no encuentra la base,13.63,26.70,600
+potential_field,unknown_obstacles,20020,atascado (no completa la ruta),44.02,17.19,600
+potential_field,unknown_obstacles,20021,éxito,47.96,35.01,260
+potential_field,unknown_obstacles,20022,éxito,51.40,15.45,192
+potential_field,unknown_obstacles,20023,éxito,45.99,53.32,193
+potential_field,unknown_obstacles,20024,éxito,7.70,50.36,219
+potential_field,unknown_obstacles,20025,éxito,46.40,14.36,145
+potential_field,unknown_obstacles,20026,éxito,5.91,52.28,226
+potential_field,unknown_obstacles,20027,no encuentra la base,20.65,19.38,600
+potential_field,unknown_obstacles,20028,éxito,40.38,46.26,260
+potential_field,unknown_obstacles,20029,éxito,48.19,48.29,139
+potential_field,dynamic,20000,no encuentra la base,18.69,49.28,600
+potential_field,dynamic,20001,éxito,29.97,48.49,198
+potential_field,dynamic,20002,éxito,15.22,19.88,170
+potential_field,dynamic,20003,éxito,36.81,31.07,233
+potential_field,dynamic,20004,éxito,25.62,26.00,249
+potential_field,dynamic,20005,éxito,20.48,52.07,120
+potential_field,dynamic,20006,no encuentra la base,32.91,14.20,600
+potential_field,dynamic,20007,éxito,47.42,7.75,210
+potential_field,dynamic,20008,éxito,8.05,45.10,210
+potential_field,dynamic,20009,éxito,48.76,30.61,209
+potential_field,dynamic,20010,éxito,10.57,28.76,184
+potential_field,dynamic,20011,éxito,40.54,26.02,162
+potential_field,dynamic,20012,atascado (no completa la ruta),29.47,25.44,600
+potential_field,dynamic,20013,choque: obstáculo móvil,41.02,41.72,1
+potential_field,dynamic,20014,éxito,39.62,23.86,139
+potential_field,dynamic,20015,atascado (no completa la ruta),47.11,41.44,600
+potential_field,dynamic,20016,éxito,27.91,18.40,239
+potential_field,dynamic,20017,atascado (no completa la ruta),26.39,8.84,600
+potential_field,dynamic,20018,éxito,20.56,40.18,188
+potential_field,dynamic,20019,éxito,25.43,12.03,265
+potential_field,dynamic,20020,éxito,48.31,18.29,209
+potential_field,dynamic,20021,éxito,25.03,28.11,244
+potential_field,dynamic,20022,éxito,16.72,45.48,296
+potential_field,dynamic,20023,éxito,18.36,19.42,157
+potential_field,dynamic,20024,éxito,26.42,13.22,211
+potential_field,dynamic,20025,éxito,43.60,27.02,224
+potential_field,dynamic,20026,éxito,47.08,46.29,184
+potential_field,dynamic,20027,atascado (no completa la ruta),14.15,41.35,600
+potential_field,dynamic,20028,éxito,45.71,23.91,217
+potential_field,dynamic,20029,éxito,19.62,39.94,182
+potential_field,wind,20000,éxito,46.15,47.66,218
+potential_field,wind,20001,atascado (no completa la ruta),20.58,25.55,600
+potential_field,wind,20002,éxito,12.80,11.45,325
+potential_field,wind,20003,éxito,28.47,49.46,133
+potential_field,wind,20004,éxito,49.95,45.62,311
+potential_field,wind,20005,atascado (no completa la ruta),16.23,30.36,600
+potential_field,wind,20006,éxito,27.39,20.56,165
+potential_field,wind,20007,éxito,26.93,31.51,197
+potential_field,wind,20008,éxito,32.91,31.86,256
+potential_field,wind,20009,éxito,40.11,51.99,231
+potential_field,wind,20010,atascado (no completa la ruta),26.25,17.72,600
+potential_field,wind,20011,éxito,53.63,14.57,221
+potential_field,wind,20012,éxito,24.59,25.43,250
+potential_field,wind,20013,éxito,21.15,16.33,127
+potential_field,wind,20014,éxito,51.95,22.27,202
+potential_field,wind,20015,atascado (no completa la ruta),18.43,12.52,600
+potential_field,wind,20016,éxito,10.60,8.70,181
+potential_field,wind,20017,éxito,13.52,15.51,197
+potential_field,wind,20018,éxito,16.12,28.11,122
+potential_field,wind,20019,atascado (no completa la ruta),45.77,32.87,600
+potential_field,wind,20020,éxito,46.84,34.61,151
+potential_field,wind,20021,éxito,11.86,18.74,214
+potential_field,wind,20022,atascado (no completa la ruta),52.56,10.49,600
+potential_field,wind,20023,éxito,51.09,11.23,204
+potential_field,wind,20024,éxito,50.57,41.51,173
+potential_field,wind,20025,éxito,31.15,10.23,111
+potential_field,wind,20026,éxito,12.57,9.28,208
+potential_field,wind,20027,éxito,48.91,10.80,194
+potential_field,wind,20028,éxito,52.89,54.55,203
+potential_field,wind,20029,éxito,33.28,19.71,203
+potential_field,gps_loss,20000,deriva sin GPS (aterriza lejos),5.68,31.68,130
+potential_field,gps_loss,20001,deriva sin GPS (aterriza lejos),11.56,37.62,173
+potential_field,gps_loss,20002,deriva sin GPS (aterriza lejos),41.99,50.01,144
+potential_field,gps_loss,20003,no encuentra la base,1.74,34.59,600
+potential_field,gps_loss,20004,deriva sin GPS (aterriza lejos),36.10,45.30,168
+potential_field,gps_loss,20005,deriva sin GPS (aterriza lejos),37.28,28.16,409
+potential_field,gps_loss,20006,deriva sin GPS (aterriza lejos),45.89,42.38,229
+potential_field,gps_loss,20007,deriva sin GPS (aterriza lejos),35.56,16.39,151
+potential_field,gps_loss,20008,deriva sin GPS (aterriza lejos),52.20,40.75,227
+potential_field,gps_loss,20009,deriva sin GPS (aterriza lejos),45.59,44.00,190
+potential_field,gps_loss,20010,atascado (no completa la ruta),7.89,26.96,600
+potential_field,gps_loss,20011,deriva sin GPS (aterriza lejos),23.66,7.08,160
+potential_field,gps_loss,20012,deriva sin GPS (aterriza lejos),19.55,39.64,220
+potential_field,gps_loss,20013,deriva sin GPS (aterriza lejos),33.87,28.07,165
+potential_field,gps_loss,20014,deriva sin GPS (aterriza lejos),21.14,8.38,145
+potential_field,gps_loss,20015,deriva sin GPS (aterriza lejos),38.49,39.66,204
+potential_field,gps_loss,20016,deriva sin GPS (aterriza lejos),7.96,28.28,165
+potential_field,gps_loss,20017,deriva sin GPS (aterriza lejos),47.23,17.12,218
+potential_field,gps_loss,20018,deriva sin GPS (aterriza lejos),29.71,8.16,125
+potential_field,gps_loss,20019,deriva sin GPS (aterriza lejos),8.34,7.95,229
+potential_field,gps_loss,20020,atascado (no completa la ruta),39.67,14.38,600
+potential_field,gps_loss,20021,deriva sin GPS (aterriza lejos),25.59,9.22,169
+potential_field,gps_loss,20022,deriva sin GPS (aterriza lejos),37.79,17.29,128
+potential_field,gps_loss,20023,atascado (no completa la ruta),24.36,23.05,600
+potential_field,gps_loss,20024,atascado (no completa la ruta),12.11,48.76,600
+potential_field,gps_loss,20025,atascado (no completa la ruta),25.21,18.41,600
+potential_field,gps_loss,20026,deriva sin GPS (aterriza lejos),44.11,11.40,233
+potential_field,gps_loss,20027,deriva sin GPS (aterriza lejos),43.21,24.05,170
+potential_field,gps_loss,20028,choque: obstáculo del mapa previo,18.08,50.11,38
+potential_field,gps_loss,20029,deriva sin GPS (aterriza lejos),32.37,15.21,161
+potential_field,combined,20000,choque: obstáculo móvil,47.02,23.69,131
+potential_field,combined,20001,atascado (no completa la ruta),36.85,32.07,600
+potential_field,combined,20002,deriva sin GPS (aterriza lejos),40.48,13.74,178
+potential_field,combined,20003,deriva sin GPS (aterriza lejos),44.51,47.90,165
+potential_field,combined,20004,deriva sin GPS (aterriza lejos),25.56,1.98,198
+potential_field,combined,20005,choque: obstáculo móvil,45.70,14.30,95
+potential_field,combined,20006,deriva sin GPS (aterriza lejos),17.90,42.10,235
+potential_field,combined,20007,no encuentra la base,1.31,31.13,600
+potential_field,combined,20008,deriva sin GPS (aterriza lejos),13.50,46.29,199
+potential_field,combined,20009,deriva sin GPS (aterriza lejos),19.07,41.94,231
+potential_field,combined,20010,deriva sin GPS (aterriza lejos),15.75,14.42,206
+potential_field,combined,20011,atascado (no completa la ruta),13.48,15.45,600
+potential_field,combined,20012,deriva sin GPS (aterriza lejos),7.67,15.35,246
+potential_field,combined,20013,choque: obstáculo del mapa previo,15.84,21.01,45
+potential_field,combined,20014,deriva sin GPS (aterriza lejos),43.90,32.73,198
+potential_field,combined,20015,deriva sin GPS (aterriza lejos),15.42,36.61,242
+potential_field,combined,20016,choque: obstáculo móvil,14.82,44.43,102
+potential_field,combined,20017,atascado (no completa la ruta),13.53,45.13,600
+potential_field,combined,20018,atascado (no completa la ruta),34.00,15.40,600
+potential_field,combined,20019,deriva sin GPS (aterriza lejos),11.96,36.50,241
+potential_field,combined,20020,deriva sin GPS (aterriza lejos),15.88,18.66,151
+potential_field,combined,20021,atascado (no completa la ruta),21.79,7.77,600
+potential_field,combined,20022,deriva sin GPS (aterriza lejos),35.59,24.24,202
+potential_field,combined,20023,deriva sin GPS (aterriza lejos),47.54,43.84,227
+potential_field,combined,20024,atascado (no completa la ruta),16.57,39.20,600
+potential_field,combined,20025,deriva sin GPS (aterriza lejos),55.07,44.48,309
+potential_field,combined,20026,no encuentra la base,58.52,22.16,600
+potential_field,combined,20027,deriva sin GPS (aterriza lejos),28.03,39.56,214
+potential_field,combined,20028,atascado (no completa la ruta),48.97,20.46,600
+potential_field,combined,20029,no encuentra la base,28.35,8.88,600
+astar,nominal,20000,éxito,31.66,49.06,191
+astar,nominal,20001,éxito,9.03,44.22,223
+astar,nominal,20002,éxito,43.18,7.00,189
+astar,nominal,20003,éxito,23.40,25.58,176
+astar,nominal,20004,éxito,37.68,36.61,151
+astar,nominal,20005,éxito,23.93,19.67,181
+astar,nominal,20006,éxito,14.68,9.63,201
+astar,nominal,20007,éxito,45.31,16.23,169
+astar,nominal,20008,éxito,50.26,38.39,121
+astar,nominal,20009,éxito,23.31,24.20,153
+astar,nominal,20010,éxito,38.94,10.23,177
+astar,nominal,20011,éxito,10.12,20.22,204
+astar,nominal,20012,éxito,7.87,21.95,196
+astar,nominal,20013,éxito,45.14,44.15,131
+astar,nominal,20014,éxito,45.81,25.12,160
+astar,nominal,20015,éxito,34.87,45.57,169
+astar,nominal,20016,éxito,27.03,7.50,229
+astar,nominal,20017,éxito,28.61,38.61,198
+astar,nominal,20018,éxito,24.81,27.29,116
+astar,nominal,20019,éxito,11.03,23.85,170
+astar,nominal,20020,éxito,23.64,32.57,192
+astar,nominal,20021,éxito,16.03,20.48,167
+astar,nominal,20022,éxito,28.25,42.89,170
+astar,nominal,20023,éxito,43.90,44.45,202
+astar,nominal,20024,éxito,6.48,48.61,187
+astar,nominal,20025,éxito,28.31,11.39,197
+astar,nominal,20026,éxito,21.61,34.13,179
+astar,nominal,20027,éxito,28.38,30.84,154
+astar,nominal,20028,éxito,14.68,37.58,161
+astar,nominal,20029,éxito,13.01,11.03,181
+astar,unknown_obstacles,20000,éxito,40.10,50.86,174
+astar,unknown_obstacles,20001,éxito,34.48,40.40,142
+astar,unknown_obstacles,20002,éxito,26.61,21.31,144
+astar,unknown_obstacles,20003,éxito,24.30,33.51,170
+astar,unknown_obstacles,20004,éxito,19.74,46.72,150
+astar,unknown_obstacles,20005,éxito,53.43,14.87,241
+astar,unknown_obstacles,20006,choque: obstáculo del mapa previo,18.06,37.64,80
+astar,unknown_obstacles,20007,éxito,27.26,7.98,198
+astar,unknown_obstacles,20008,éxito,19.98,29.49,181
+astar,unknown_obstacles,20009,éxito,50.07,46.80,152
+astar,unknown_obstacles,20010,éxito,23.65,25.97,156
+astar,unknown_obstacles,20011,éxito,19.27,21.98,165
+astar,unknown_obstacles,20012,éxito,27.54,32.08,204
+astar,unknown_obstacles,20013,éxito,42.25,47.33,178
+astar,unknown_obstacles,20014,éxito,8.31,8.58,184
+astar,unknown_obstacles,20015,éxito,48.77,15.25,201
+astar,unknown_obstacles,20016,éxito,31.32,41.21,138
+astar,unknown_obstacles,20017,éxito,38.70,52.17,131
+astar,unknown_obstacles,20018,éxito,44.46,48.46,185
+astar,unknown_obstacles,20019,éxito,12.23,35.91,188
+astar,unknown_obstacles,20020,éxito,22.04,23.00,171
+astar,unknown_obstacles,20021,éxito,47.78,35.85,206
+astar,unknown_obstacles,20022,éxito,51.34,15.04,162
+astar,unknown_obstacles,20023,éxito,46.39,53.02,181
+astar,unknown_obstacles,20024,éxito,7.70,50.25,201
+astar,unknown_obstacles,20025,éxito,46.35,15.00,136
+astar,unknown_obstacles,20026,éxito,6.05,53.05,195
+astar,unknown_obstacles,20027,éxito,10.06,17.20,219
+astar,unknown_obstacles,20028,éxito,40.50,47.14,235
+astar,unknown_obstacles,20029,éxito,48.23,48.43,163
+astar,dynamic,20000,éxito,11.66,42.03,145
+astar,dynamic,20001,choque: obstáculo móvil,35.85,32.25,100
+astar,dynamic,20002,choque: obstáculo móvil,10.25,12.64,12
+astar,dynamic,20003,choque: obstáculo móvil,47.33,7.46,75
+astar,dynamic,20004,éxito,26.06,25.29,226
+astar,dynamic,20005,choque: obstáculo móvil,34.07,30.90,65
+astar,dynamic,20006,choque: obstáculo móvil,41.20,43.11,69
+astar,dynamic,20007,éxito,47.53,7.74,240
+astar,dynamic,20008,éxito,7.94,45.14,213
+astar,dynamic,20009,éxito,48.31,30.46,202
+astar,dynamic,20010,éxito,10.11,29.01,181
+astar,dynamic,20011,choque: obstáculo móvil,19.32,38.55,96
+astar,dynamic,20012,choque: obstáculo móvil,19.93,20.61,14
+astar,dynamic,20013,choque: obstáculo móvil,40.64,41.12,1
+astar,dynamic,20014,éxito,40.26,23.83,136
+astar,dynamic,20015,choque: obstáculo móvil,44.06,12.41,9
+astar,dynamic,20016,choque: obstáculo móvil,31.81,12.78,9
+astar,dynamic,20017,choque: obstáculo móvil,7.34,11.53,101
+astar,dynamic,20018,choque: obstáculo móvil,37.93,31.06,88
+astar,dynamic,20019,choque: obstáculo móvil,19.00,21.26,17
+astar,dynamic,20020,choque: obstáculo móvil,36.49,18.99,18
+astar,dynamic,20021,choque: obstáculo móvil,30.29,32.67,11
+astar,dynamic,20022,éxito,16.84,45.57,245
+astar,dynamic,20023,éxito,18.48,19.42,161
+astar,dynamic,20024,choque: obstáculo móvil,45.47,6.55,34
+astar,dynamic,20025,éxito,42.76,27.24,215
+astar,dynamic,20026,choque: obstáculo móvil,50.91,38.15,15
+astar,dynamic,20027,éxito,34.47,19.23,206
+astar,dynamic,20028,choque: obstáculo móvil,51.63,37.41,212
+astar,dynamic,20029,éxito,19.17,39.86,186
+astar,wind,20000,éxito,45.56,47.70,217
+astar,wind,20001,éxito,43.61,33.30,238
+astar,wind,20002,éxito,12.88,11.49,201
+astar,wind,20003,éxito,28.53,49.20,130
+astar,wind,20004,aterriza sin inspeccionar todo,49.99,45.60,219
+astar,wind,20005,éxito,34.88,8.95,217
+astar,wind,20006,éxito,27.42,20.21,172
+astar,wind,20007,éxito,26.90,31.34,188
+astar,wind,20008,éxito,33.31,31.50,234
+astar,wind,20009,éxito,40.55,52.88,230
+astar,wind,20010,éxito,18.68,44.38,205
+astar,wind,20011,éxito,53.32,14.24,205
+astar,wind,20012,éxito,24.78,25.85,216
+astar,wind,20013,éxito,20.71,16.55,138
+astar,wind,20014,éxito,51.62,21.68,208
+astar,wind,20015,éxito,10.53,8.25,254
+astar,wind,20016,éxito,11.15,8.86,200
+astar,wind,20017,éxito,13.08,15.51,192
+astar,wind,20018,éxito,15.87,28.11,123
+astar,wind,20019,éxito,44.43,8.56,215
+astar,wind,20020,éxito,46.67,34.78,152
+astar,wind,20021,éxito,13.00,18.54,212
+astar,wind,20022,éxito,33.74,22.70,171
+astar,wind,20023,éxito,51.20,11.39,215
+astar,wind,20024,éxito,50.32,41.97,201
+astar,wind,20025,éxito,30.87,10.28,98
+astar,wind,20026,aterriza sin inspeccionar todo,12.19,9.66,193
+astar,wind,20027,éxito,48.69,11.42,203
+astar,wind,20028,éxito,52.89,54.48,203
+astar,wind,20029,éxito,33.13,19.12,215
+astar,gps_loss,20000,deriva sin GPS (aterriza lejos),4.92,32.20,142
+astar,gps_loss,20001,deriva sin GPS (aterriza lejos),11.69,37.80,169
+astar,gps_loss,20002,deriva sin GPS (aterriza lejos),42.20,50.38,143
+astar,gps_loss,20003,choque: borde del área,0.10,35.02,225
+astar,gps_loss,20004,deriva sin GPS (aterriza lejos),35.71,45.46,164
+astar,gps_loss,20005,éxito,37.77,27.96,206
+astar,gps_loss,20006,deriva sin GPS (aterriza lejos),45.43,40.61,225
+astar,gps_loss,20007,deriva sin GPS (aterriza lejos),36.29,16.53,151
+astar,gps_loss,20008,deriva sin GPS (aterriza lejos),51.38,40.18,233
+astar,gps_loss,20009,choque: obstáculo del mapa previo,45.15,48.64,165
+astar,gps_loss,20010,deriva sin GPS (aterriza lejos),43.13,42.68,182
+astar,gps_loss,20011,deriva sin GPS (aterriza lejos),22.35,7.73,160
+astar,gps_loss,20012,deriva sin GPS (aterriza lejos),21.34,40.04,210
+astar,gps_loss,20013,deriva sin GPS (aterriza lejos),32.93,28.22,173
+astar,gps_loss,20014,deriva sin GPS (aterriza lejos),20.34,8.59,158
+astar,gps_loss,20015,deriva sin GPS (aterriza lejos),39.16,38.97,223
+astar,gps_loss,20016,deriva sin GPS (aterriza lejos),8.66,28.04,178
+astar,gps_loss,20017,deriva sin GPS (aterriza lejos),48.06,17.17,209
+astar,gps_loss,20018,deriva sin GPS (aterriza lejos),29.72,9.35,113
+astar,gps_loss,20019,deriva sin GPS (aterriza lejos),7.79,8.74,222
+astar,gps_loss,20020,deriva sin GPS (aterriza lejos),11.18,42.64,187
+astar,gps_loss,20021,deriva sin GPS (aterriza lejos),25.38,9.68,158
+astar,gps_loss,20022,deriva sin GPS (aterriza lejos),37.31,17.89,139
+astar,gps_loss,20023,deriva sin GPS (aterriza lejos),36.34,15.99,180
+astar,gps_loss,20024,deriva sin GPS (aterriza lejos),52.24,44.50,173
+astar,gps_loss,20025,deriva sin GPS (aterriza lejos),19.86,27.09,154
+astar,gps_loss,20026,deriva sin GPS (aterriza lejos),43.10,12.46,192
+astar,gps_loss,20027,deriva sin GPS (aterriza lejos),43.79,23.85,178
+astar,gps_loss,20028,deriva sin GPS (aterriza lejos),13.44,36.55,171
+astar,gps_loss,20029,deriva sin GPS (aterriza lejos),32.12,15.78,158
+astar,combined,20000,deriva sin GPS (aterriza lejos),34.87,6.84,187
+astar,combined,20001,deriva sin GPS (aterriza lejos),21.02,11.00,232
+astar,combined,20002,deriva sin GPS (aterriza lejos),41.60,13.87,168
+astar,combined,20003,deriva sin GPS (aterriza lejos),44.05,48.58,147
+astar,combined,20004,choque: borde del área,25.61,0.04,197
+astar,combined,20005,choque: obstáculo móvil,9.61,27.24,11
+astar,combined,20006,deriva sin GPS (aterriza lejos),18.43,41.75,215
+astar,combined,20007,choque: obstáculo móvil,22.66,13.35,36
+astar,combined,20008,deriva sin GPS (aterriza lejos),13.02,47.92,171
+astar,combined,20009,deriva sin GPS (aterriza lejos),19.20,40.20,195
+astar,combined,20010,choque: obstáculo móvil,19.97,16.85,16
+astar,combined,20011,deriva sin GPS (aterriza lejos),17.78,18.44,215
+astar,combined,20012,choque: obstáculo móvil,6.11,23.48,18
+astar,combined,20013,deriva sin GPS (aterriza lejos),21.42,32.72,217
+astar,combined,20014,deriva sin GPS (aterriza lejos),43.80,32.89,186
+astar,combined,20015,deriva sin GPS (aterriza lejos),15.69,39.63,215
+astar,combined,20016,deriva sin GPS (aterriza lejos),32.71,41.16,128
+astar,combined,20017,deriva sin GPS (aterriza lejos),39.12,35.03,172
+astar,combined,20018,deriva sin GPS (aterriza lejos),59.48,21.23,200
+astar,combined,20019,deriva sin GPS (aterriza lejos),11.92,37.53,247
+astar,combined,20020,choque: obstáculo móvil,28.89,26.62,19
+astar,combined,20021,choque: obstáculo móvil,16.69,19.98,61
+astar,combined,20022,deriva sin GPS (aterriza lejos),37.91,27.90,167
+astar,combined,20023,deriva sin GPS (aterriza lejos),47.78,44.56,215
+astar,combined,20024,deriva sin GPS (aterriza lejos),35.74,34.45,195
+astar,combined,20025,deriva sin GPS (aterriza lejos),47.99,44.83,224
+astar,combined,20026,choque: borde del área,59.85,29.14,222
+astar,combined,20027,deriva sin GPS (aterriza lejos),28.46,40.13,182
+astar,combined,20028,deriva sin GPS (aterriza lejos),26.97,10.38,232
+astar,combined,20029,deriva sin GPS (aterriza lejos),17.46,16.74,191
+astar_alv,nominal,20000,éxito,31.66,49.06,191
+astar_alv,nominal,20001,éxito,9.03,44.22,223
+astar_alv,nominal,20002,éxito,43.18,7.00,189
+astar_alv,nominal,20003,éxito,23.40,25.58,176
+astar_alv,nominal,20004,éxito,37.68,36.61,151
+astar_alv,nominal,20005,éxito,23.93,19.67,181
+astar_alv,nominal,20006,éxito,14.68,9.63,201
+astar_alv,nominal,20007,éxito,45.31,16.23,169
+astar_alv,nominal,20008,éxito,50.26,38.39,121
+astar_alv,nominal,20009,éxito,23.31,24.20,153
+astar_alv,nominal,20010,éxito,38.94,10.23,177
+astar_alv,nominal,20011,éxito,10.12,20.22,204
+astar_alv,nominal,20012,éxito,7.87,21.95,196
+astar_alv,nominal,20013,éxito,45.14,44.15,131
+astar_alv,nominal,20014,éxito,45.81,25.12,160
+astar_alv,nominal,20015,éxito,34.87,45.57,169
+astar_alv,nominal,20016,éxito,27.03,7.50,229
+astar_alv,nominal,20017,éxito,28.61,38.61,198
+astar_alv,nominal,20018,éxito,24.81,27.29,116
+astar_alv,nominal,20019,éxito,11.03,23.85,170
+astar_alv,nominal,20020,éxito,23.64,32.57,192
+astar_alv,nominal,20021,éxito,16.03,20.48,167
+astar_alv,nominal,20022,éxito,28.25,42.89,170
+astar_alv,nominal,20023,éxito,43.90,44.45,202
+astar_alv,nominal,20024,éxito,6.48,48.61,187
+astar_alv,nominal,20025,éxito,28.31,11.39,197
+astar_alv,nominal,20026,éxito,21.61,34.13,179
+astar_alv,nominal,20027,éxito,28.38,30.84,154
+astar_alv,nominal,20028,éxito,14.68,37.58,161
+astar_alv,nominal,20029,éxito,13.01,11.03,181
+astar_alv,unknown_obstacles,20000,éxito,40.10,50.86,174
+astar_alv,unknown_obstacles,20001,éxito,34.48,40.40,142
+astar_alv,unknown_obstacles,20002,éxito,26.61,21.31,144
+astar_alv,unknown_obstacles,20003,éxito,24.30,33.51,170
+astar_alv,unknown_obstacles,20004,éxito,19.74,46.72,150
+astar_alv,unknown_obstacles,20005,éxito,53.43,14.87,241
+astar_alv,unknown_obstacles,20006,choque: obstáculo del mapa previo,18.06,37.64,80
+astar_alv,unknown_obstacles,20007,éxito,27.26,7.98,198
+astar_alv,unknown_obstacles,20008,éxito,19.98,29.49,181
+astar_alv,unknown_obstacles,20009,éxito,50.07,46.80,152
+astar_alv,unknown_obstacles,20010,éxito,23.65,25.97,156
+astar_alv,unknown_obstacles,20011,éxito,19.27,21.98,165
+astar_alv,unknown_obstacles,20012,éxito,27.54,32.08,204
+astar_alv,unknown_obstacles,20013,éxito,42.25,47.33,178
+astar_alv,unknown_obstacles,20014,éxito,8.31,8.58,184
+astar_alv,unknown_obstacles,20015,éxito,48.77,15.25,201
+astar_alv,unknown_obstacles,20016,éxito,31.32,41.21,138
+astar_alv,unknown_obstacles,20017,éxito,38.70,52.17,131
+astar_alv,unknown_obstacles,20018,éxito,44.46,48.46,185
+astar_alv,unknown_obstacles,20019,éxito,12.23,35.91,188
+astar_alv,unknown_obstacles,20020,éxito,22.04,23.00,171
+astar_alv,unknown_obstacles,20021,éxito,47.78,35.85,206
+astar_alv,unknown_obstacles,20022,éxito,51.34,15.04,162
+astar_alv,unknown_obstacles,20023,éxito,46.39,53.02,181
+astar_alv,unknown_obstacles,20024,éxito,7.70,50.25,201
+astar_alv,unknown_obstacles,20025,éxito,46.35,15.00,136
+astar_alv,unknown_obstacles,20026,éxito,6.05,53.05,195
+astar_alv,unknown_obstacles,20027,éxito,10.06,17.20,219
+astar_alv,unknown_obstacles,20028,éxito,40.50,47.14,235
+astar_alv,unknown_obstacles,20029,éxito,48.23,48.43,163
+astar_alv,dynamic,20000,éxito,11.66,42.03,145
+astar_alv,dynamic,20001,choque: obstáculo móvil,35.85,32.25,100
+astar_alv,dynamic,20002,choque: obstáculo móvil,10.25,12.64,12
+astar_alv,dynamic,20003,choque: obstáculo móvil,47.33,7.46,75
+astar_alv,dynamic,20004,éxito,26.06,25.29,226
+astar_alv,dynamic,20005,choque: obstáculo móvil,34.07,30.90,65
+astar_alv,dynamic,20006,choque: obstáculo móvil,41.20,43.11,69
+astar_alv,dynamic,20007,éxito,47.53,7.74,240
+astar_alv,dynamic,20008,éxito,7.94,45.14,213
+astar_alv,dynamic,20009,éxito,48.31,30.46,202
+astar_alv,dynamic,20010,éxito,10.11,29.01,181
+astar_alv,dynamic,20011,choque: obstáculo móvil,19.32,38.55,96
+astar_alv,dynamic,20012,choque: obstáculo móvil,19.93,20.61,14
+astar_alv,dynamic,20013,choque: obstáculo móvil,40.64,41.12,1
+astar_alv,dynamic,20014,éxito,40.26,23.83,136
+astar_alv,dynamic,20015,choque: obstáculo móvil,44.06,12.41,9
+astar_alv,dynamic,20016,choque: obstáculo móvil,31.81,12.78,9
+astar_alv,dynamic,20017,choque: obstáculo móvil,7.34,11.53,101
+astar_alv,dynamic,20018,choque: obstáculo móvil,37.93,31.06,88
+astar_alv,dynamic,20019,choque: obstáculo móvil,19.00,21.26,17
+astar_alv,dynamic,20020,choque: obstáculo móvil,36.49,18.99,18
+astar_alv,dynamic,20021,choque: obstáculo móvil,30.29,32.67,11
+astar_alv,dynamic,20022,éxito,16.84,45.57,245
+astar_alv,dynamic,20023,éxito,18.48,19.42,161
+astar_alv,dynamic,20024,choque: obstáculo móvil,45.47,6.55,34
+astar_alv,dynamic,20025,éxito,42.76,27.24,215
+astar_alv,dynamic,20026,choque: obstáculo móvil,50.91,38.15,15
+astar_alv,dynamic,20027,éxito,34.47,19.23,206
+astar_alv,dynamic,20028,choque: obstáculo móvil,51.63,37.41,212
+astar_alv,dynamic,20029,éxito,19.17,39.86,186
+astar_alv,wind,20000,éxito,45.56,47.70,217
+astar_alv,wind,20001,éxito,43.61,33.30,238
+astar_alv,wind,20002,éxito,12.88,11.49,201
+astar_alv,wind,20003,éxito,28.53,49.20,130
+astar_alv,wind,20004,aterriza sin inspeccionar todo,49.99,45.60,219
+astar_alv,wind,20005,éxito,34.88,8.95,217
+astar_alv,wind,20006,éxito,27.42,20.21,172
+astar_alv,wind,20007,éxito,26.90,31.34,188
+astar_alv,wind,20008,éxito,33.31,31.50,234
+astar_alv,wind,20009,éxito,40.55,52.88,230
+astar_alv,wind,20010,éxito,18.68,44.38,205
+astar_alv,wind,20011,éxito,53.32,14.24,205
+astar_alv,wind,20012,éxito,24.78,25.85,216
+astar_alv,wind,20013,éxito,20.71,16.55,138
+astar_alv,wind,20014,éxito,51.62,21.68,208
+astar_alv,wind,20015,éxito,10.53,8.25,254
+astar_alv,wind,20016,éxito,11.15,8.86,200
+astar_alv,wind,20017,éxito,13.08,15.51,192
+astar_alv,wind,20018,éxito,15.87,28.11,123
+astar_alv,wind,20019,éxito,44.43,8.56,215
+astar_alv,wind,20020,éxito,46.67,34.78,152
+astar_alv,wind,20021,éxito,13.00,18.54,212
+astar_alv,wind,20022,éxito,33.74,22.70,171
+astar_alv,wind,20023,éxito,51.20,11.39,215
+astar_alv,wind,20024,éxito,50.32,41.97,201
+astar_alv,wind,20025,éxito,30.87,10.28,98
+astar_alv,wind,20026,aterriza sin inspeccionar todo,12.19,9.66,193
+astar_alv,wind,20027,éxito,48.69,11.42,203
+astar_alv,wind,20028,éxito,52.89,54.48,203
+astar_alv,wind,20029,éxito,33.13,19.12,215
+astar_alv,gps_loss,20000,choque: borde del área,0.11,36.22,218
+astar_alv,gps_loss,20001,éxito,8.96,40.15,174
+astar_alv,gps_loss,20002,éxito,43.13,45.47,197
+astar_alv,gps_loss,20003,choque: borde del área,0.35,34.82,368
+astar_alv,gps_loss,20004,deriva sin GPS (aterriza lejos),36.83,39.71,292
+astar_alv,gps_loss,20005,deriva sin GPS (aterriza lejos),27.08,29.37,284
+astar_alv,gps_loss,20006,deriva sin GPS (aterriza lejos),45.11,36.37,323
+astar_alv,gps_loss,20007,deriva sin GPS (aterriza lejos),31.88,23.43,275
+astar_alv,gps_loss,20008,éxito,51.81,46.19,261
+astar_alv,gps_loss,20009,deriva sin GPS (aterriza lejos),46.46,28.97,303
+astar_alv,gps_loss,20010,éxito,45.51,39.86,229
+astar_alv,gps_loss,20011,deriva sin GPS (aterriza lejos),22.53,2.90,226
+astar_alv,gps_loss,20012,deriva sin GPS (aterriza lejos),2.71,33.09,304
+astar_alv,gps_loss,20013,éxito,30.64,29.05,206
+astar_alv,gps_loss,20014,deriva sin GPS (aterriza lejos),22.45,15.05,223
+astar_alv,gps_loss,20015,deriva sin GPS (aterriza lejos),38.32,23.26,372
+astar_alv,gps_loss,20016,deriva sin GPS (aterriza lejos),7.14,26.45,317
+astar_alv,gps_loss,20017,deriva sin GPS (aterriza lejos),46.65,34.39,343
+astar_alv,gps_loss,20018,deriva sin GPS (aterriza lejos),43.16,14.49,256
+astar_alv,gps_loss,20019,deriva sin GPS (aterriza lejos),14.57,2.02,372
+astar_alv,gps_loss,20020,deriva sin GPS (aterriza lejos),10.28,34.26,328
+astar_alv,gps_loss,20021,deriva sin GPS (aterriza lejos),9.23,6.23,275
+astar_alv,gps_loss,20022,deriva sin GPS (aterriza lejos),40.22,26.51,284
+astar_alv,gps_loss,20023,deriva sin GPS (aterriza lejos),33.70,17.36,247
+astar_alv,gps_loss,20024,deriva sin GPS (aterriza lejos),58.75,41.78,260
+astar_alv,gps_loss,20025,deriva sin GPS (aterriza lejos),35.72,7.27,295
+astar_alv,gps_loss,20026,deriva sin GPS (aterriza lejos),40.16,1.38,328
+astar_alv,gps_loss,20027,deriva sin GPS (aterriza lejos),53.13,21.48,244
+astar_alv,gps_loss,20028,deriva sin GPS (aterriza lejos),11.98,33.23,237
+astar_alv,gps_loss,20029,deriva sin GPS (aterriza lejos),32.80,21.74,271
+astar_alv,combined,20000,deriva sin GPS (aterriza lejos),54.71,10.67,324
+astar_alv,combined,20001,éxito,19.92,17.25,227
+astar_alv,combined,20002,deriva sin GPS (aterriza lejos),30.27,6.91,308
+astar_alv,combined,20003,deriva sin GPS (aterriza lejos),54.01,56.40,337
+astar_alv,combined,20004,deriva sin GPS (aterriza lejos),26.01,3.00,284
+astar_alv,combined,20005,choque: obstáculo móvil,9.61,27.24,11
+astar_alv,combined,20006,éxito,18.77,38.36,280
+astar_alv,combined,20007,choque: obstáculo móvil,22.66,13.35,36
+astar_alv,combined,20008,deriva sin GPS (aterriza lejos),17.94,45.82,236
+astar_alv,combined,20009,deriva sin GPS (aterriza lejos),8.57,33.26,307
+astar_alv,combined,20010,choque: obstáculo móvil,19.97,16.85,16
+astar_alv,combined,20011,deriva sin GPS (aterriza lejos),25.63,32.80,317
+astar_alv,combined,20012,choque: obstáculo móvil,6.11,23.48,18
+astar_alv,combined,20013,éxito,25.26,35.06,221
+astar_alv,combined,20014,deriva sin GPS (aterriza lejos),49.49,16.66,335
+astar_alv,combined,20015,deriva sin GPS (aterriza lejos),28.22,28.62,339
+astar_alv,combined,20016,éxito,30.42,41.67,133
+astar_alv,combined,20017,deriva sin GPS (aterriza lejos),34.96,39.40,286
+astar_alv,combined,20018,éxito,50.53,18.81,196
+astar_alv,combined,20019,deriva sin GPS (aterriza lejos),8.77,40.09,366
+astar_alv,combined,20020,choque: obstáculo móvil,28.89,26.62,19
+astar_alv,combined,20021,choque: obstáculo móvil,16.69,19.98,61
+astar_alv,combined,20022,deriva sin GPS (aterriza lejos),28.80,16.86,285
+astar_alv,combined,20023,deriva sin GPS (aterriza lejos),54.15,36.05,302
+astar_alv,combined,20024,éxito,36.12,29.72,197
+astar_alv,combined,20025,choque: obstáculo del mapa previo,42.71,35.71,222
+astar_alv,combined,20026,éxito,53.23,30.03,222
+astar_alv,combined,20027,deriva sin GPS (aterriza lejos),29.21,33.33,301
+astar_alv,combined,20028,choque: obstáculo móvil,27.60,13.38,337
+astar_alv,combined,20029,deriva sin GPS (aterriza lejos),18.72,15.26,282
+astar_supervised,nominal,20000,éxito,31.66,49.06,191
+astar_supervised,nominal,20001,éxito,9.03,44.22,223
+astar_supervised,nominal,20002,éxito,43.18,7.00,189
+astar_supervised,nominal,20003,éxito,22.89,26.16,175
+astar_supervised,nominal,20004,éxito,37.68,36.61,151
+astar_supervised,nominal,20005,éxito,23.93,19.67,181
+astar_supervised,nominal,20006,éxito,14.92,9.56,202
+astar_supervised,nominal,20007,éxito,45.17,15.90,168
+astar_supervised,nominal,20008,éxito,50.26,38.39,121
+astar_supervised,nominal,20009,éxito,23.31,24.20,153
+astar_supervised,nominal,20010,éxito,38.91,10.19,179
+astar_supervised,nominal,20011,éxito,10.09,19.91,214
+astar_supervised,nominal,20012,éxito,7.87,21.95,196
+astar_supervised,nominal,20013,éxito,45.14,44.15,131
+astar_supervised,nominal,20014,éxito,46.03,25.79,161
+astar_supervised,nominal,20015,éxito,34.87,45.57,169
+astar_supervised,nominal,20016,éxito,27.03,7.50,229
+astar_supervised,nominal,20017,éxito,28.61,38.61,198
+astar_supervised,nominal,20018,éxito,24.79,27.27,116
+astar_supervised,nominal,20019,éxito,11.03,23.85,170
+astar_supervised,nominal,20020,éxito,23.64,32.57,192
+astar_supervised,nominal,20021,éxito,15.54,21.06,162
+astar_supervised,nominal,20022,éxito,28.25,42.89,170
+astar_supervised,nominal,20023,éxito,43.90,44.45,202
+astar_supervised,nominal,20024,éxito,6.80,48.78,191
+astar_supervised,nominal,20025,éxito,28.31,11.39,197
+astar_supervised,nominal,20026,éxito,21.61,34.13,179
+astar_supervised,nominal,20027,éxito,28.38,30.84,154
+astar_supervised,nominal,20028,éxito,14.68,37.58,161
+astar_supervised,nominal,20029,éxito,13.01,11.03,181
+astar_supervised,unknown_obstacles,20000,éxito,40.10,50.86,174
+astar_supervised,unknown_obstacles,20001,éxito,34.48,40.40,142
+astar_supervised,unknown_obstacles,20002,éxito,26.61,21.31,144
+astar_supervised,unknown_obstacles,20003,éxito,24.30,33.51,170
+astar_supervised,unknown_obstacles,20004,éxito,19.54,46.55,153
+astar_supervised,unknown_obstacles,20005,éxito,53.85,14.55,240
+astar_supervised,unknown_obstacles,20006,éxito,38.21,15.23,205
+astar_supervised,unknown_obstacles,20007,éxito,27.18,7.67,226
+astar_supervised,unknown_obstacles,20008,éxito,19.98,29.49,181
+astar_supervised,unknown_obstacles,20009,éxito,49.64,46.96,151
+astar_supervised,unknown_obstacles,20010,éxito,23.65,25.97,156
+astar_supervised,unknown_obstacles,20011,éxito,19.26,21.81,162
+astar_supervised,unknown_obstacles,20012,éxito,27.54,32.08,204
+astar_supervised,unknown_obstacles,20013,éxito,42.25,47.33,178
+astar_supervised,unknown_obstacles,20014,éxito,8.31,8.58,184
+astar_supervised,unknown_obstacles,20015,éxito,48.41,15.04,207
+astar_supervised,unknown_obstacles,20016,éxito,31.32,41.21,138
+astar_supervised,unknown_obstacles,20017,éxito,38.90,52.49,130
+astar_supervised,unknown_obstacles,20018,éxito,44.46,48.46,185
+astar_supervised,unknown_obstacles,20019,éxito,11.97,36.46,188
+astar_supervised,unknown_obstacles,20020,éxito,22.43,22.76,170
+astar_supervised,unknown_obstacles,20021,éxito,47.51,35.05,200
+astar_supervised,unknown_obstacles,20022,éxito,51.34,15.04,162
+astar_supervised,unknown_obstacles,20023,éxito,46.39,53.02,181
+astar_supervised,unknown_obstacles,20024,éxito,7.70,50.25,201
+astar_supervised,unknown_obstacles,20025,éxito,46.35,15.00,136
+astar_supervised,unknown_obstacles,20026,éxito,6.05,53.05,195
+astar_supervised,unknown_obstacles,20027,éxito,10.06,17.20,219
+astar_supervised,unknown_obstacles,20028,éxito,40.50,47.14,235
+astar_supervised,unknown_obstacles,20029,éxito,47.97,48.11,166
+astar_supervised,dynamic,20000,éxito,11.49,42.07,144
+astar_supervised,dynamic,20001,éxito,30.04,48.61,187
+astar_supervised,dynamic,20002,choque: obstáculo móvil,10.36,13.43,12
+astar_supervised,dynamic,20003,choque: obstáculo móvil,36.37,1.53,114
+astar_supervised,dynamic,20004,éxito,26.06,25.29,226
+astar_supervised,dynamic,20005,choque: obstáculo móvil,34.07,30.90,65
+astar_supervised,dynamic,20006,choque: obstáculo móvil,32.98,45.01,24
+astar_supervised,dynamic,20007,éxito,47.61,7.55,240
+astar_supervised,dynamic,20008,choque: obstáculo móvil,36.16,31.79,96
+astar_supervised,dynamic,20009,éxito,48.49,30.71,209
+astar_supervised,dynamic,20010,éxito,10.11,29.01,181
+astar_supervised,dynamic,20011,éxito,40.83,26.10,171
+astar_supervised,dynamic,20012,éxito,10.88,19.55,274
+astar_supervised,dynamic,20013,choque: obstáculo móvil,40.81,40.95,1
+astar_supervised,dynamic,20014,éxito,40.26,23.83,136
+astar_supervised,dynamic,20015,choque: obstáculo móvil,44.06,12.41,9
+astar_supervised,dynamic,20016,éxito,27.23,17.80,258
+astar_supervised,dynamic,20017,choque: obstáculo móvil,6.95,10.89,101
+astar_supervised,dynamic,20018,éxito,20.54,40.78,198
+astar_supervised,dynamic,20019,choque: obstáculo móvil,20.73,19.63,15
+astar_supervised,dynamic,20020,éxito,48.11,18.23,213
+astar_supervised,dynamic,20021,choque: obstáculo móvil,24.98,19.78,167
+astar_supervised,dynamic,20022,atascado (no completa la ruta),21.04,39.58,600
+astar_supervised,dynamic,20023,éxito,18.48,19.42,161
+astar_supervised,dynamic,20024,choque: obstáculo móvil,45.15,6.28,34
+astar_supervised,dynamic,20025,éxito,43.35,26.72,222
+astar_supervised,dynamic,20026,choque: obstáculo móvil,36.28,19.43,90
+astar_supervised,dynamic,20027,éxito,34.47,19.23,206
+astar_supervised,dynamic,20028,choque: obstáculo móvil,20.28,46.53,138
+astar_supervised,dynamic,20029,éxito,19.17,39.86,186
+astar_supervised,wind,20000,éxito,45.56,47.70,217
+astar_supervised,wind,20001,éxito,43.82,32.84,239
+astar_supervised,wind,20002,éxito,12.88,11.49,201
+astar_supervised,wind,20003,éxito,28.53,49.20,130
+astar_supervised,wind,20004,aterriza sin inspeccionar todo,49.99,45.60,219
+astar_supervised,wind,20005,éxito,34.88,8.95,217
+astar_supervised,wind,20006,éxito,27.71,20.40,172
+astar_supervised,wind,20007,éxito,26.50,31.53,192
+astar_supervised,wind,20008,éxito,33.31,31.50,234
+astar_supervised,wind,20009,éxito,40.28,52.89,229
+astar_supervised,wind,20010,éxito,18.68,44.38,205
+astar_supervised,wind,20011,éxito,53.32,14.24,205
+astar_supervised,wind,20012,éxito,24.78,25.85,216
+astar_supervised,wind,20013,éxito,20.71,16.55,138
+astar_supervised,wind,20014,éxito,51.38,21.80,208
+astar_supervised,wind,20015,éxito,10.42,8.40,256
+astar_supervised,wind,20016,éxito,11.15,8.86,200
+astar_supervised,wind,20017,éxito,13.08,15.51,192
+astar_supervised,wind,20018,éxito,15.87,28.11,123
+astar_supervised,wind,20019,éxito,44.43,8.56,215
+astar_supervised,wind,20020,éxito,46.32,34.78,154
+astar_supervised,wind,20021,éxito,13.00,18.54,212
+astar_supervised,wind,20022,éxito,33.74,22.70,171
+astar_supervised,wind,20023,éxito,51.20,11.39,215
+astar_supervised,wind,20024,éxito,50.32,41.97,201
+astar_supervised,wind,20025,éxito,30.95,10.34,97
+astar_supervised,wind,20026,aterriza sin inspeccionar todo,12.19,9.66,193
+astar_supervised,wind,20027,éxito,48.69,11.42,203
+astar_supervised,wind,20028,éxito,53.17,54.41,201
+astar_supervised,wind,20029,éxito,33.13,19.12,215
+astar_supervised,gps_loss,20000,deriva sin GPS (aterriza lejos),3.47,31.36,159
+astar_supervised,gps_loss,20001,deriva sin GPS (aterriza lejos),11.69,37.80,169
+astar_supervised,gps_loss,20002,deriva sin GPS (aterriza lejos),42.20,50.38,143
+astar_supervised,gps_loss,20003,choque: borde del área,0.33,35.05,230
+astar_supervised,gps_loss,20004,deriva sin GPS (aterriza lejos),36.19,44.94,161
+astar_supervised,gps_loss,20005,éxito,37.77,27.96,206
+astar_supervised,gps_loss,20006,deriva sin GPS (aterriza lejos),45.43,40.61,225
+astar_supervised,gps_loss,20007,deriva sin GPS (aterriza lejos),36.13,16.56,152
+astar_supervised,gps_loss,20008,deriva sin GPS (aterriza lejos),51.38,40.18,233
+astar_supervised,gps_loss,20009,deriva sin GPS (aterriza lejos),44.82,44.55,214
+astar_supervised,gps_loss,20010,deriva sin GPS (aterriza lejos),43.34,42.74,181
+astar_supervised,gps_loss,20011,deriva sin GPS (aterriza lejos),21.97,7.69,159
+astar_supervised,gps_loss,20012,deriva sin GPS (aterriza lejos),21.18,40.02,212
+astar_supervised,gps_loss,20013,deriva sin GPS (aterriza lejos),32.93,28.22,173
+astar_supervised,gps_loss,20014,deriva sin GPS (aterriza lejos),20.34,8.59,158
+astar_supervised,gps_loss,20015,deriva sin GPS (aterriza lejos),39.16,38.97,223
+astar_supervised,gps_loss,20016,deriva sin GPS (aterriza lejos),8.48,28.12,177
+astar_supervised,gps_loss,20017,deriva sin GPS (aterriza lejos),48.06,17.17,209
+astar_supervised,gps_loss,20018,deriva sin GPS (aterriza lejos),29.73,9.84,115
+astar_supervised,gps_loss,20019,choque: obstáculo del mapa previo,10.54,10.71,224
+astar_supervised,gps_loss,20020,deriva sin GPS (aterriza lejos),11.74,43.08,182
+astar_supervised,gps_loss,20021,deriva sin GPS (aterriza lejos),25.55,9.74,157
+astar_supervised,gps_loss,20022,deriva sin GPS (aterriza lejos),37.31,17.89,139
+astar_supervised,gps_loss,20023,deriva sin GPS (aterriza lejos),36.18,15.98,178
+astar_supervised,gps_loss,20024,deriva sin GPS (aterriza lejos),52.24,44.50,173
+astar_supervised,gps_loss,20025,deriva sin GPS (aterriza lejos),19.76,26.74,154
+astar_supervised,gps_loss,20026,deriva sin GPS (aterriza lejos),43.10,12.46,192
+astar_supervised,gps_loss,20027,deriva sin GPS (aterriza lejos),43.79,23.85,178
+astar_supervised,gps_loss,20028,deriva sin GPS (aterriza lejos),13.44,36.55,171
+astar_supervised,gps_loss,20029,deriva sin GPS (aterriza lejos),32.12,15.78,158
+astar_supervised,combined,20000,choque: obstáculo del mapa previo,39.43,21.48,115
+astar_supervised,combined,20001,deriva sin GPS (aterriza lejos),21.12,10.92,232
+astar_supervised,combined,20002,deriva sin GPS (aterriza lejos),41.33,13.64,168
+astar_supervised,combined,20003,deriva sin GPS (aterriza lejos),45.10,48.72,143
+astar_supervised,combined,20004,deriva sin GPS (aterriza lejos),25.95,0.77,197
+astar_supervised,combined,20005,choque: obstáculo móvil,9.72,27.06,11
+astar_supervised,combined,20006,deriva sin GPS (aterriza lejos),18.43,41.75,215
+astar_supervised,combined,20007,choque: obstáculo no previsto,31.79,20.79,100
+astar_supervised,combined,20008,deriva sin GPS (aterriza lejos),13.04,48.00,167
+astar_supervised,combined,20009,deriva sin GPS (aterriza lejos),19.93,40.90,189
+astar_supervised,combined,20010,deriva sin GPS (aterriza lejos),14.20,14.97,186
+astar_supervised,combined,20011,deriva sin GPS (aterriza lejos),18.25,18.18,215
+astar_supervised,combined,20012,deriva sin GPS (aterriza lejos),8.04,16.26,234
+astar_supervised,combined,20013,choque: obstáculo del mapa previo,19.90,33.55,229
+astar_supervised,combined,20014,deriva sin GPS (aterriza lejos),43.80,32.89,186
+astar_supervised,combined,20015,deriva sin GPS (aterriza lejos),15.69,39.63,215
+astar_supervised,combined,20016,deriva sin GPS (aterriza lejos),33.02,40.83,129
+astar_supervised,combined,20017,deriva sin GPS (aterriza lejos),38.37,34.20,172
+astar_supervised,combined,20018,deriva sin GPS (aterriza lejos),58.84,21.10,200
+astar_supervised,combined,20019,deriva sin GPS (aterriza lejos),12.29,36.63,257
+astar_supervised,combined,20020,choque: obstáculo móvil,29.23,28.04,22
+astar_supervised,combined,20021,choque: obstáculo móvil,16.78,20.17,61
+astar_supervised,combined,20022,deriva sin GPS (aterriza lejos),38.38,27.86,166
+astar_supervised,combined,20023,deriva sin GPS (aterriza lejos),49.69,44.58,220
+astar_supervised,combined,20024,deriva sin GPS (aterriza lejos),35.88,34.52,196
+astar_supervised,combined,20025,deriva sin GPS (aterriza lejos),48.22,44.80,224
+astar_supervised,combined,20026,choque: borde del área,59.64,28.52,231
+astar_supervised,combined,20027,deriva sin GPS (aterriza lejos),28.46,40.13,182
+astar_supervised,combined,20028,deriva sin GPS (aterriza lejos),27.04,10.04,248
+astar_supervised,combined,20029,deriva sin GPS (aterriza lejos),16.89,16.01,191

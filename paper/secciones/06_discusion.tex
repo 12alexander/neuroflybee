@@ -1,0 +1,33 @@
+% Sección del artículo — dueño: P3.
+\section{Discusión}\label{sec:discusion}
+\textbf{Por qué funciona (o no).} Los métodos clásicos fallan por dos razones distintas que
+el análisis de errores separa con claridad: planifican sobre un mapa que deja de ser cierto
+cuando aparecen obstáculos móviles, y sin GPS confían en una posición estimada que deriva con
+el viento. La división del trabajo inspirada en insectos ataca cada causa con un módulo
+distinto: la memoria temporal de la mosca permite anticipar el movimiento a partir de varios
+cuadros, y la abeja no estima \emph{dónde está} el dron sino \emph{hacia dónde está la base},
+una señal que no acumula error. \pendiente{confirmar o refutar con los resultados de v19}
+
+\textbf{Limitaciones.} Los datos son sintéticos: el movimiento es plano (2.5D) y los
+sensores son abstracciones. El ojo de la mosca es un mapa de ocupación, no una imagen, y la
+panorámica ignora iluminación, vegetación, texturas y la inclinación del dron por el viento,
+que Bee-Nav~\cite{ou2026} identifica como la principal causa de fallo en exterior; además, la
+elevación se mide desde el suelo y no desde la altura del dron. La validación del sensor
+(Fig.~\ref{fig:sensor}) muestra que la silueta conserva las propiedades que necesita el
+retorno visual, pero no sustituye una prueba con imágenes reales. Las redes publicadas de
+retorno visual~\cite{firlefyn2024,ou2026} no se reentrenaron sobre nuestros datos, de modo que
+la comparación con ellas es sólo de diseño y de tamaño, no de rendimiento. El experto es un
+planificador con información privilegiada, así que la mosca hereda sus sesgos (por ejemplo,
+su preferencia por ciertas maniobras). Las misiones son cortas (área de 60\,m) y no hay
+modelo aerodinámico; el alcance de los rayos (8\,m) es mayor que el de sensores ToF
+comerciales pequeños. Ninguna de estas conclusiones se ha validado todavía en un dron físico.
+
+\textbf{Sesgos y riesgos de uso.} Los escenarios son procedurales: no representan una
+geografía real ni su distribución de obstáculos. Un controlador que vuela sin GPS reduce la
+supervisión humana; debe usarse con un piloto capaz de tomar el control, dentro de la
+regulación de la autoridad aeronáutica y con respeto a la privacidad de las personas en las
+zonas inspeccionadas. No debe usarse para vigilancia de personas.
+
+\textbf{Impacto.} Si el resultado se sostiene con sensores reales, un dron de bajo costo
+podría inspeccionar quebradas, puentes y canales cubiertos y volver sin GPS, con redes de
+pocos cientos de miles de parámetros que caben en un computador de a bordo.
